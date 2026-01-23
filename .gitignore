@@ -7,3 +7,6 @@ node_modules/
 # Temporary/development files
 *.har
 extracted-data.json
+
+# Development files
+CLAUDE.md
