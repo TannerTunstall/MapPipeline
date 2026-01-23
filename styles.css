@@ -434,6 +434,27 @@ body {
     font-size: 0.8125rem;
 }
 
+.kml-description {
+    color: var(--text-secondary);
+    font-size: 0.8125rem;
+    margin: 0.25rem 0;
+}
+
+.kml-attribution {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    margin-top: 0.375rem;
+}
+
+.kml-attribution a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.kml-attribution a:hover {
+    text-decoration: underline;
+}
+
 .kml-actions {
     display: flex;
     gap: 0.5rem;
@@ -533,6 +554,36 @@ body {
 
 .footer-links a:hover {
     color: var(--text);
+}
+
+.footer-disclaimer {
+    grid-column: 1 / -1;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.footer-disclaimer h4 {
+    color: var(--text-secondary);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.footer-disclaimer p {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.footer-disclaimer a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.footer-disclaimer a:hover {
+    text-decoration: underline;
 }
 
 .footer-bottom {

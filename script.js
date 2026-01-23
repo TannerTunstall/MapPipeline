@@ -3,6 +3,20 @@ const REPO_OWNER = 'TannerTunstall';
 const REPO_NAME = 'MapPipeline';
 const KML_DIRECTORY = 'kmls';
 
+// KML metadata - attribution and data source information
+const KML_METADATA = {
+    'safeairspace-warnings.kml': {
+        displayName: 'SafeAirspace Warnings',
+        description: 'Aviation risk levels and NOTAMs by country',
+        source: 'SafeAirspace.net',
+        sourceUrl: 'https://safeairspace.net',
+        license: 'Fair use - factual data aggregation',
+        boundarySource: 'Natural Earth via datasets/geo-countries',
+        boundaryUrl: 'https://github.com/datasets/geo-countries'
+    }
+    // Add more KML metadata here as new sources are added
+};
+
 // Global state
 let currentMap = null;
 let currentKmlLayer = null;
@@ -68,7 +82,15 @@ function displayKMLFiles(files) {
         return;
     }
 
-    kmlList.innerHTML = files.map(file => `
+    kmlList.innerHTML = files.map(file => {
+        const meta = KML_METADATA[file.name] || {};
+        const displayName = meta.displayName || file.name.replace('.kml', '').replace(/-/g, ' ');
+        const description = meta.description || '';
+        const sourceHtml = meta.source
+            ? `<a href="${meta.sourceUrl}" target="_blank" rel="noopener">${meta.source}</a>`
+            : 'Unknown';
+
+        return `
         <div class="kml-card" data-name="${file.name.toLowerCase()}">
             <div class="kml-card-header">
                 <div class="kml-icon">
@@ -78,9 +100,13 @@ function displayKMLFiles(files) {
                     </svg>
                 </div>
                 <div class="kml-info">
-                    <h3>${file.name}</h3>
+                    <h3>${displayName}</h3>
+                    ${description ? `<p class="kml-description">${description}</p>` : ''}
                     <div class="kml-meta">
                         ${formatFileSize(file.size)} &bull; ${new Date(file.updated).toLocaleDateString()}
+                    </div>
+                    <div class="kml-attribution">
+                        Source: ${sourceHtml}
                     </div>
                 </div>
             </div>
@@ -109,7 +135,7 @@ function displayKMLFiles(files) {
                 </button>
             </div>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // Format file size
