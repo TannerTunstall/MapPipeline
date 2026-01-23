@@ -1,0 +1,12 @@
+# Ignore large KML files (served from GitHub raw URLs)
+kmls/
+
+# Ignore scripts (not needed for frontend)
+scripts/
+
+# Ignore HAR files and temporary data
+*.har
+extracted-data.json
+
+# Ignore git internals
+.git/

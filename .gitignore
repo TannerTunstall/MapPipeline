@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 *.log
 .claude/
+
+# Temporary/development files
+*.har
+extracted-data.json
