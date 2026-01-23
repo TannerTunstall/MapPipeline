@@ -1,1 +1,0 @@
-I want to generate a website that will host a KML repository for automatically updating KML's. I want it to have a sleek UI, while also acting as a KML repository. Further, I also need the website to update these KML's likely scripts. So I would like it to be hosted via pages on cloudflare, but also run jobs every hour or so to update the KML files. Is this possible? 
