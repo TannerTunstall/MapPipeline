@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MapPipeline - Automated KML Repository</title>
+    <title>MapPipeline - KML Repository</title>
+    <meta name="description" content="Auto-updating KML repository for GIS software. Download or import KML files directly via URL.">
     <link rel="stylesheet" href="styles.css">
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 </head>
 <body>
-    <!-- Header/Nav -->
     <header class="navbar">
         <div class="container navbar-content">
             <div class="logo">
@@ -22,24 +21,22 @@
                 <span class="logo-text">MapPipeline</span>
             </div>
             <nav class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#about">How to Use</a>
                 <a href="#files">Files</a>
+                <a href="#about">Usage</a>
+                <a href="https://github.com/TannerTunstall/MapPipeline" target="_blank">GitHub</a>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
-            <h1 class="hero-title">Curated KML Files,<br><span class="gradient-text">Ready to Use</span></h1>
+            <h1 class="hero-title">KML Repository</h1>
             <p class="hero-description">
-                A public collection of useful KML files for Google Earth, GIS software, and mapping applications.
-                Free to download and import via direct URL.
+                Auto-updating KML files for GIS applications. Import directly via URL or download for offline use.
             </p>
             <div class="hero-actions">
                 <a href="#files" class="btn btn-primary btn-lg">Browse Files</a>
-                <a href="#about" class="btn btn-outline btn-lg">About</a>
+                <a href="https://github.com/TannerTunstall/MapPipeline" class="btn btn-outline btn-lg" target="_blank">View Source</a>
             </div>
             <div class="hero-stats">
                 <div class="stat">
@@ -47,78 +44,27 @@
                     <span class="stat-label">KML Files</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value">Free</span>
-                    <span class="stat-label">To Use</span>
+                    <span class="stat-value">Hourly</span>
+                    <span class="stat-label">Updates</span>
                 </div>
                 <div class="stat">
                     <span class="stat-value">Direct</span>
-                    <span class="stat-label">URLs</span>
+                    <span class="stat-label">URL Access</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">What You Get</h2>
-            <p class="section-subtitle">Simple access to useful geographic data</p>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                    </div>
-                    <h3>Curated Collection</h3>
-                    <p>Hand-picked KML files covering useful geographic data, boundaries, and points of interest.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                        </svg>
-                    </div>
-                    <h3>Direct URLs</h3>
-                    <p>Each file has a permanent URL. Import directly into Google Earth, QGIS, or any GIS application.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                            <line x1="8" y1="21" x2="16" y2="21"></line>
-                            <line x1="12" y1="17" x2="12" y2="21"></line>
-                        </svg>
-                    </div>
-                    <h3>Live Preview</h3>
-                    <p>Preview KML files directly in your browser with an interactive map before downloading.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <h3>Always Free</h3>
-                    <p>All files are free to use. No sign-up, no limits, no restrictions.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
     <section id="about" class="how-it-works">
         <div class="container">
             <h2 class="section-title">How to Use</h2>
-            <p class="section-subtitle">Three ways to access the KML files</p>
+            <p class="section-subtitle">Three ways to access KML files</p>
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
                         <h3>Download</h3>
-                        <p>Click the download button to save the KML file to your computer, then open it in your preferred application.</p>
+                        <p>Save the KML file to your computer and open in Google Earth or any GIS application.</p>
                     </div>
                 </div>
                 <div class="step-connector"></div>
@@ -126,37 +72,35 @@
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3>Copy URL</h3>
-                        <p>Copy the direct link and paste it into Google Earth or any GIS app that supports network links.</p>
+                        <p>Use the direct URL in applications that support network KML links for auto-updating data.</p>
                     </div>
                 </div>
                 <div class="step-connector"></div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Preview First</h3>
-                        <p>Use the preview button to see what's in the file before downloading or importing.</p>
+                        <h3>Preview</h3>
+                        <p>View the KML contents on an interactive map before downloading or importing.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- File Browser Section -->
     <section id="files" class="files-section">
         <div class="container">
             <h2 class="section-title">Available Files</h2>
-            <p class="section-subtitle">Browse, preview, and download KML files</p>
+            <p class="section-subtitle">Browse and download KML files</p>
 
             <div class="search-box">
                 <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="M21 21l-4.35-4.35"></path>
                 </svg>
-                <input type="text" id="searchInput" placeholder="Search KML files...">
+                <input type="text" id="searchInput" placeholder="Search files...">
             </div>
 
             <div id="kmlList" class="kml-grid">
-                <!-- KML files will be loaded here -->
                 <div class="loading-state">
                     <div class="spinner"></div>
                     <p>Loading files...</p>
@@ -173,7 +117,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -187,49 +130,44 @@
                         </div>
                         <span class="logo-text">MapPipeline</span>
                     </div>
-                    <p>A public collection of useful KML files, free for everyone to use.</p>
+                    <p>Auto-updating KML repository for GIS applications.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <a href="#features">Features</a>
-                    <a href="#about">How to Use</a>
-                    <a href="#files">Browse Files</a>
+                    <h4>Links</h4>
+                    <a href="#files">Files</a>
+                    <a href="#about">Usage</a>
                 </div>
                 <div class="footer-links">
                     <h4>Resources</h4>
-                    <a href="https://github.com/TannerTunstall/MapPipeline" target="_blank" rel="noopener">GitHub Repository</a>
-                    <a href="https://developers.google.com/kml" target="_blank" rel="noopener">KML Documentation</a>
+                    <a href="https://github.com/TannerTunstall/MapPipeline" target="_blank">GitHub</a>
+                    <a href="https://developers.google.com/kml" target="_blank">KML Docs</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Maintained by Tanner Tunstall. All files are free to use.</p>
+                <p>Data provided for informational purposes. Verify with official sources.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Map Preview Modal -->
     <div id="previewModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 id="modalTitle">KML Preview</h3>
+                <h3 id="modalTitle">Preview</h3>
                 <button class="modal-close" onclick="closePreview()">&times;</button>
             </div>
             <div class="modal-body">
                 <div id="map" class="map-container"></div>
                 <div id="mapLoading" class="map-loading">
                     <div class="spinner"></div>
-                    <p>Loading map data...</p>
+                    <p>Loading map...</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Toast Container -->
     <div id="toastContainer" class="toast-container"></div>
 
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <!-- Leaflet Omnivore for KML parsing -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
     <script src="script.js"></script>
 </body>
