@@ -249,6 +249,36 @@ function escapeXml(text) {
         .replace(/'/g, '&apos;');
 }
 
+// Regions mapped to their constituent countries (ISO3 codes)
+const regionCountries = {
+    'CentralAmerica': ['GTM', 'BLZ', 'HND', 'SLV', 'NIC', 'CRI', 'PAN'],
+    'Central America': ['GTM', 'BLZ', 'HND', 'SLV', 'NIC', 'CRI', 'PAN']
+};
+
+/**
+ * Combine multiple country geometries into a single MultiGeometry
+ */
+function combineGeometries(features) {
+    const allPolygons = [];
+
+    for (const feature of features) {
+        if (!feature || !feature.geometry) continue;
+
+        if (feature.geometry.type === 'Polygon') {
+            allPolygons.push(feature.geometry.coordinates);
+        } else if (feature.geometry.type === 'MultiPolygon') {
+            allPolygons.push(...feature.geometry.coordinates);
+        }
+    }
+
+    if (allPolygons.length === 0) return null;
+
+    return {
+        type: 'MultiPolygon',
+        coordinates: allPolygons
+    };
+}
+
 /**
  * Fetch country boundaries GeoJSON from Natural Earth via GitHub
  */
@@ -513,12 +543,30 @@ async function updateSafeAirspace() {
             for (const country of countries) {
                 const displayName = country.displayName || country.key;
                 const iso3 = countryNameToCode[country.key] || countryNameToCode[displayName];
-                // Try ISO3 first, then display name, then key
-                let feature = iso3 ? countryFeatures[iso3] : null;
-                if (!feature) feature = countryFeatures[displayName];
-                if (!feature) feature = countryFeatures[country.key];
 
-                if (!feature) {
+                // Check if this is a region (e.g., Central America)
+                let feature = null;
+                let geometry = null;
+                const regionIsoCodes = regionCountries[country.key] || regionCountries[displayName];
+
+                if (regionIsoCodes) {
+                    // Combine geometries from all countries in the region
+                    const regionFeatures = regionIsoCodes
+                        .map(code => countryFeatures[code])
+                        .filter(f => f != null);
+                    if (regionFeatures.length > 0) {
+                        geometry = combineGeometries(regionFeatures);
+                        feature = { geometry }; // Create a pseudo-feature with combined geometry
+                    }
+                } else {
+                    // Try ISO3 first, then display name, then key
+                    feature = iso3 ? countryFeatures[iso3] : null;
+                    if (!feature) feature = countryFeatures[displayName];
+                    if (!feature) feature = countryFeatures[country.key];
+                    if (feature) geometry = feature.geometry;
+                }
+
+                if (!feature || !geometry) {
                     unmapped.push(displayName);
                     continue;
                 }
@@ -580,7 +628,7 @@ async function updateSafeAirspace() {
           <Data name="Source"><value>SafeAirspace.net</value></Data>
           <Data name="LastUpdate"><value>${timestamp}</value></Data>
         </ExtendedData>
-${geometryToKml(feature.geometry)}
+${geometryToKml(geometry)}
       </Placemark>
 `;
             }
