@@ -126,6 +126,120 @@ function stripHtml(html) {
         .trim();
 }
 
+// Country name to SafeAirspace URL slug mapping for edge cases
+const countrySlugOverrides = {
+    'CentralAfricanRepublic': 'central-african-republic',
+    'Central African Republic': 'central-african-republic',
+    'UnitedArabEmirates': 'united-arab-emirates',
+    'United Arab Emirates': 'united-arab-emirates',
+    'CongoDRC': 'congo-drc',
+    'Congo DRC': 'congo-drc',
+    'NorthKorea': 'north-korea',
+    'North Korea': 'north-korea',
+    'SouthKorea': 'south-korea',
+    'South Korea': 'south-korea',
+    'SouthSudan': 'south-sudan',
+    'South Sudan': 'south-sudan',
+    'SaudiArabia': 'saudi-arabia',
+    'Saudi Arabia': 'saudi-arabia',
+    'WesternSahara': 'western-sahara',
+    'Western Sahara': 'western-sahara',
+    'PuertoRico': 'puerto-rico',
+    'Puerto Rico': 'puerto-rico',
+    'CentralAmerica': 'central-america',
+    'Central America': 'central-america',
+    'SriLanka': 'sri-lanka',
+    'Sri Lanka': 'sri-lanka',
+    'NewZealand': 'new-zealand',
+    'New Zealand': 'new-zealand',
+    'PapuaNewGuinea': 'papua-new-guinea',
+    'Papua New Guinea': 'papua-new-guinea',
+    'BurkinaFaso': 'burkina-faso',
+    'Burkina Faso': 'burkina-faso',
+    'SierraLeone': 'sierra-leone',
+    'Sierra Leone': 'sierra-leone',
+    'IvoryCoast': 'ivory-coast',
+    'Ivory Coast': 'ivory-coast',
+    'EquatorialGuinea': 'equatorial-guinea',
+    'Equatorial Guinea': 'equatorial-guinea',
+    'TrinidadandTobago': 'trinidad-and-tobago',
+    'Trinidad and Tobago': 'trinidad-and-tobago',
+    'BosniaandHerzegovina': 'bosnia-and-herzegovina',
+    'Bosnia and Herzegovina': 'bosnia-and-herzegovina',
+    'ElSalvador': 'el-salvador',
+    'El Salvador': 'el-salvador',
+    'CostaRica': 'costa-rica',
+    'Costa Rica': 'costa-rica',
+    'DominicanRepublic': 'dominican-republic',
+    'Dominican Republic': 'dominican-republic',
+    'CzechRepublic': 'czech-republic',
+    'Czech Republic': 'czech-republic',
+    'UnitedKingdom': 'united-kingdom',
+    'United Kingdom': 'united-kingdom',
+    'UnitedStates': 'united-states',
+    'United States': 'united-states'
+};
+
+/**
+ * Fetch NOTAMs from a SafeAirspace country page
+ */
+async function fetchCountryNotams(countryName) {
+    // Use override slug if available, otherwise generate from name
+    const slug = countrySlugOverrides[countryName] ||
+                 countryName.toLowerCase().replace(/\s+/g, '-');
+    const url = `https://safeairspace.net/${slug}/`;
+
+    try {
+        const html = await fetchUrl(url);
+        const notams = [];
+
+        // Parse NOTAM entries from page-country-source divs
+        const sourcePattern = /<div class="page-country-source">([\s\S]*?)<\/div><!-- \.page-country-source -->/g;
+        let match;
+
+        while ((match = sourcePattern.exec(html)) !== null) {
+            const sourceHtml = match[1];
+
+            // Extract source country
+            const sourceCountryMatch = sourceHtml.match(/<div class="page-country-source-country">Source:\s*([^<]+)<\/div>/);
+            const source = sourceCountryMatch ? sourceCountryMatch[1].trim() : '';
+
+            // Extract reference
+            const refMatch = sourceHtml.match(/<div class="page-country-source-ref">Reference:\s*<a[^>]*>([^<]+)<\/a>/);
+            const reference = refMatch ? refMatch[1].trim() : '';
+
+            // Extract issued/valid dates
+            const issuedMatch = sourceHtml.match(/Issued:\s*<strong>([^<]+)<\/strong>,\s*valid until:\s*<strong>([^<]+)<\/strong>/);
+            const issued = issuedMatch ? issuedMatch[1].trim() : '';
+            const validTo = issuedMatch ? issuedMatch[2].trim() : '';
+
+            // Extract plain English summary
+            const plainMatch = sourceHtml.match(/<div class="page-country-source-plain"><span class="highlight">Plain English:<\/span>\s*([\s\S]*?)<\/div>/);
+            const plainEnglish = plainMatch ? stripHtml(plainMatch[1]).trim() : '';
+
+            // Extract full NOTAM text
+            const contentMatch = sourceHtml.match(/<div class="page-country-source-content">([\s\S]*?)<\/div>/);
+            const fullText = contentMatch ? stripHtml(contentMatch[1]).trim() : '';
+
+            if (source || reference || plainEnglish) {
+                notams.push({
+                    source,
+                    reference,
+                    issued,
+                    validTo,
+                    plainEnglish,
+                    fullText
+                });
+            }
+        }
+
+        return notams;
+    } catch (error) {
+        console.log(`    Could not fetch NOTAMs for ${countryName}: ${error.message}`);
+        return [];
+    }
+}
+
 function escapeXml(text) {
     return text
         .replace(/&/g, '&amp;')
@@ -360,6 +474,31 @@ async function updateSafeAirspace() {
 
         let totalMapped = 0;
         let unmapped = [];
+        let totalNotams = 0;
+
+        // Fetch NOTAMs for all countries with warnings
+        console.log('  Fetching NOTAMs for countries with warnings...');
+        const countryNotams = {};
+        const notamFetchPromises = [];
+
+        for (const [countryKey, info] of countriesWithData) {
+            const displayName = info.displayName || countryKey;
+            notamFetchPromises.push(
+                fetchCountryNotams(displayName).then(notams => {
+                    if (notams.length > 0) {
+                        countryNotams[countryKey] = notams;
+                        totalNotams += notams.length;
+                    }
+                })
+            );
+        }
+
+        // Fetch NOTAMs in parallel (with some concurrency limit)
+        const BATCH_SIZE = 5;
+        for (let i = 0; i < notamFetchPromises.length; i += BATCH_SIZE) {
+            await Promise.all(notamFetchPromises.slice(i, i + BATCH_SIZE));
+        }
+        console.log(`  Fetched ${totalNotams} NOTAMs from ${Object.keys(countryNotams).length} countries`);
 
         for (const level of [1, 2, 3, 4]) {
             const countries = byLevel[level];
@@ -398,7 +537,32 @@ async function updateSafeAirspace() {
 
                 if (country.warning) {
                     const warningText = stripHtml(country.warning);
-                    description += `<h4>Warning Details / NOTAMs:</h4>\n<p>${escapeXml(warningText)}</p>\n`;
+                    description += `<h4>Warning Summary:</h4>\n<p>${escapeXml(warningText)}</p>\n`;
+                }
+
+                // Add NOTAMs section
+                const notams = countryNotams[country.key] || [];
+                if (notams.length > 0) {
+                    description += `<h4>Active NOTAMs (${notams.length}):</h4>\n`;
+                    description += `<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">\n`;
+                    description += `<tr style="background-color: #333;"><th>Source</th><th>Reference</th><th>Issued</th><th>Valid To</th></tr>\n`;
+
+                    for (const notam of notams) {
+                        description += `<tr>`;
+                        description += `<td>${escapeXml(notam.source)}</td>`;
+                        description += `<td>${escapeXml(notam.reference)}</td>`;
+                        description += `<td>${escapeXml(notam.issued)}</td>`;
+                        description += `<td>${escapeXml(notam.validTo)}</td>`;
+                        description += `</tr>\n`;
+
+                        // Add plain English summary row
+                        if (notam.plainEnglish) {
+                            description += `<tr><td colspan="4" style="font-size: 0.9em; padding: 8px;">`;
+                            description += `<strong>Summary:</strong> ${escapeXml(notam.plainEnglish)}`;
+                            description += `</td></tr>\n`;
+                        }
+                    }
+                    description += `</table>\n`;
                 }
 
                 description += `<p><a href="https://safeairspace.net/${displayName.toLowerCase().replace(/\s+/g, '-')}/">View Full Details on SafeAirspace.net</a></p>\n`;
@@ -434,6 +598,7 @@ ${geometryToKml(feature.geometry)}
 
         console.log(`✓ SafeAirspace KML updated`);
         console.log(`  Countries mapped: ${totalMapped}`);
+        console.log(`  Total NOTAMs: ${totalNotams}`);
         console.log(`  Level 1 (Do Not Fly): ${byLevel[1].length}`);
         console.log(`  Level 2 (High Risk): ${byLevel[2].length}`);
         console.log(`  Level 3 (Caution): ${byLevel[3].length}`);
