@@ -250,9 +250,65 @@ function escapeXml(text) {
 }
 
 // Regions mapped to their constituent countries (ISO3 codes)
+// This allows SafeAirspace regional advisories to render as combined polygons
 const regionCountries = {
+    // Americas
     'CentralAmerica': ['GTM', 'BLZ', 'HND', 'SLV', 'NIC', 'CRI', 'PAN'],
-    'Central America': ['GTM', 'BLZ', 'HND', 'SLV', 'NIC', 'CRI', 'PAN']
+    'Central America': ['GTM', 'BLZ', 'HND', 'SLV', 'NIC', 'CRI', 'PAN'],
+    'Caribbean': ['CUB', 'JAM', 'HTI', 'DOM', 'PRI', 'BHS', 'TTO', 'BRB'],
+    'SouthAmerica': ['BRA', 'ARG', 'COL', 'PER', 'VEN', 'CHL', 'ECU', 'BOL', 'PRY', 'URY', 'GUY', 'SUR'],
+    'South America': ['BRA', 'ARG', 'COL', 'PER', 'VEN', 'CHL', 'ECU', 'BOL', 'PRY', 'URY', 'GUY', 'SUR'],
+
+    // Africa
+    'WestAfrica': ['NGA', 'GHA', 'CIV', 'SEN', 'MLI', 'BFA', 'NER', 'GIN', 'BEN', 'TGO', 'SLE', 'LBR', 'GMB', 'GNB', 'MRT'],
+    'West Africa': ['NGA', 'GHA', 'CIV', 'SEN', 'MLI', 'BFA', 'NER', 'GIN', 'BEN', 'TGO', 'SLE', 'LBR', 'GMB', 'GNB', 'MRT'],
+    'EastAfrica': ['KEN', 'TZA', 'UGA', 'ETH', 'RWA', 'BDI', 'SSD', 'SOM', 'ERI', 'DJI'],
+    'East Africa': ['KEN', 'TZA', 'UGA', 'ETH', 'RWA', 'BDI', 'SSD', 'SOM', 'ERI', 'DJI'],
+    'HornofAfrica': ['ETH', 'SOM', 'ERI', 'DJI'],
+    'Horn of Africa': ['ETH', 'SOM', 'ERI', 'DJI'],
+    'Sahel': ['MLI', 'NER', 'TCD', 'BFA', 'MRT', 'SEN', 'SDN'],
+    'NorthAfrica': ['MAR', 'DZA', 'TUN', 'LBY', 'EGY'],
+    'North Africa': ['MAR', 'DZA', 'TUN', 'LBY', 'EGY'],
+    'SouthernAfrica': ['ZAF', 'NAM', 'BWA', 'ZWE', 'MOZ', 'ZMB', 'MWI', 'LSO', 'SWZ'],
+    'Southern Africa': ['ZAF', 'NAM', 'BWA', 'ZWE', 'MOZ', 'ZMB', 'MWI', 'LSO', 'SWZ'],
+    'CentralAfrica': ['COD', 'CAF', 'CMR', 'GAB', 'COG', 'GNQ', 'TCD'],
+    'Central Africa': ['COD', 'CAF', 'CMR', 'GAB', 'COG', 'GNQ', 'TCD'],
+
+    // Middle East
+    'MiddleEast': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN', 'YEM', 'IRQ', 'SYR', 'JOR', 'LBN', 'ISR', 'PSE'],
+    'Middle East': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN', 'YEM', 'IRQ', 'SYR', 'JOR', 'LBN', 'ISR', 'PSE'],
+    'GulfStates': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN'],
+    'Gulf States': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN'],
+    'Levant': ['SYR', 'LBN', 'JOR', 'ISR', 'PSE'],
+    'PersianGulf': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN', 'IRN', 'IRQ'],
+    'Persian Gulf': ['SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN', 'IRN', 'IRQ'],
+
+    // Europe
+    'Balkans': ['SRB', 'HRV', 'BIH', 'MNE', 'MKD', 'ALB', 'SVN', 'BGR', 'ROU'],
+    'BalticStates': ['EST', 'LVA', 'LTU'],
+    'Baltic States': ['EST', 'LVA', 'LTU'],
+    'Baltics': ['EST', 'LVA', 'LTU'],
+    'Caucasus': ['GEO', 'ARM', 'AZE'],
+    'EasternEurope': ['UKR', 'BLR', 'MDA', 'POL', 'CZE', 'SVK', 'HUN', 'ROU', 'BGR'],
+    'Eastern Europe': ['UKR', 'BLR', 'MDA', 'POL', 'CZE', 'SVK', 'HUN', 'ROU', 'BGR'],
+    'Scandinavia': ['NOR', 'SWE', 'DNK', 'FIN', 'ISL'],
+    'Nordic': ['NOR', 'SWE', 'DNK', 'FIN', 'ISL'],
+
+    // Asia
+    'SoutheastAsia': ['THA', 'VNM', 'MMR', 'KHM', 'LAO', 'MYS', 'SGP', 'IDN', 'PHL', 'BRN'],
+    'Southeast Asia': ['THA', 'VNM', 'MMR', 'KHM', 'LAO', 'MYS', 'SGP', 'IDN', 'PHL', 'BRN'],
+    'SouthAsia': ['IND', 'PAK', 'BGD', 'LKA', 'NPL', 'BTN', 'MDV'],
+    'South Asia': ['IND', 'PAK', 'BGD', 'LKA', 'NPL', 'BTN', 'MDV'],
+    'CentralAsia': ['KAZ', 'UZB', 'TKM', 'TJK', 'KGZ', 'AFG'],
+    'Central Asia': ['KAZ', 'UZB', 'TKM', 'TJK', 'KGZ', 'AFG'],
+    'EastAsia': ['CHN', 'JPN', 'KOR', 'PRK', 'MNG', 'TWN'],
+    'East Asia': ['CHN', 'JPN', 'KOR', 'PRK', 'MNG', 'TWN'],
+
+    // Oceania
+    'Oceania': ['AUS', 'NZL', 'PNG', 'FJI', 'VUT'],
+    'Pacific': ['AUS', 'NZL', 'PNG', 'FJI', 'VUT'],
+    'Melanesia': ['PNG', 'FJI', 'VUT', 'SLB'],
+    'Polynesia': ['NZL', 'WSM', 'TON']
 };
 
 /**
