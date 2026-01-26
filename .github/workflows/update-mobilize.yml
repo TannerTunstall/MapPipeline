@@ -1,4 +1,4 @@
-name: Update Mobilize.us Events (Daily)
+name: Update ICE Protest Monitoring (Daily)
 
 on:
   schedule:
@@ -22,9 +22,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Mobilize.us update script
+      - name: Run ICE Protest Monitoring update script
         env:
-          MOBILIZE_SEARCH_URL: ${{ vars.MOBILIZE_SEARCH_URL || 'https://www.mobilize.us/map/?q=ICE%20out%20for%20good' }}
+          MOBILIZE_SEARCH_URL: ${{ vars.MOBILIZE_SEARCH_URL || 'https://www.mobilize.us/map/?q=ICE' }}
           MOBILIZE_MAX_EVENTS: ${{ vars.MOBILIZE_MAX_EVENTS || '0' }}
         run: node scripts/update-mobilize.js
 
@@ -36,5 +36,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Update Mobilize.us events - $(date -u +"%Y-%m-%d %H:%M UTC")"
+          git diff --staged --quiet || git commit -m "Update ICE Protest Monitoring - $(date -u +"%Y-%m-%d %H:%M UTC")"
           git push
