@@ -6,9 +6,9 @@ const path = require('path');
 // Configuration
 const CONFIG = {
     // Default Mobilize.us search URL - can be overridden via environment variable
-    searchUrl: process.env.MOBILIZE_SEARCH_URL || 'https://www.mobilize.us/map/?q=ICE%20out%20for%20good',
+    searchUrl: process.env.MOBILIZE_SEARCH_URL || 'https://www.mobilize.us/map/?q=ICE',
     // Delay between API requests (ms) to avoid rate limiting
-    requestDelay: 1500,
+    requestDelay: 500,
     // Maximum events to fetch (0 = unlimited)
     maxEvents: parseInt(process.env.MOBILIZE_MAX_EVENTS) || 0,
     // Output file
