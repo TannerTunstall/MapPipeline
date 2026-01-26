@@ -173,15 +173,14 @@ function formatEventTime(times) {
 /**
  * Generate KML from fetched events
  */
-function generateKML(events, searchUrl) {
+function generateKML(events) {
     const timestamp = new Date().toISOString();
-    const searchQuery = decodeURIComponent(searchUrl.match(/[?&]q=([^&]+)/)?.[1] || 'events').replace(/\+/g, ' ');
 
     let kml = `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-    <name>Mobilize.us Events - ${escapeXml(searchQuery)}</name>
-    <description>Events from Mobilize.us search. Updated: ${timestamp}</description>
+    <name>ICE Protest Monitoring</name>
+    <description>Events from Mobilize.us. Updated: ${timestamp}</description>
 
     <!-- Exact location (street address) -->
     <Style id="exact">
@@ -275,7 +274,7 @@ function generateKML(events, searchUrl) {
 <p><strong>Organized by:</strong> ${org}</p>
 ${desc ? `<p><strong>About:</strong></p><p>${desc}</p>` : ''}
 <p><a href="${eventUrl}" target="_blank">View Event on Mobilize.us</a></p>
-<p><i>Data source: Mobilize.us | Updated: ${timestamp}</i></p>
+<p><i>Data source: mobilize.us | Updated: ${timestamp}</i></p>
 ]]>`;
         }
 
@@ -367,7 +366,7 @@ async function updateMobilizeEvents() {
 
         // Generate KML
         console.log('  Generating KML...');
-        const kml = generateKML(fetchedEvents, CONFIG.searchUrl);
+        const kml = generateKML(fetchedEvents);
 
         // Ensure output directory exists
         const outputDir = path.dirname(CONFIG.outputFile);
