@@ -13,8 +13,14 @@ const KML_METADATA = {
         license: 'Fair use - factual data aggregation',
         boundarySource: 'Natural Earth via datasets/geo-countries',
         boundaryUrl: 'https://github.com/datasets/geo-countries'
+    },
+    'mobilize-events.kml': {
+        displayName: 'ICE Protest Monitoring',
+        description: 'Protest and activism events related to ICE',
+        source: 'mobilize.us',
+        sourceUrl: 'https://www.mobilize.us',
+        license: 'Fair use - public event data'
     }
-    // Add more KML metadata here as new sources are added
 };
 
 // Global state
