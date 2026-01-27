@@ -17,6 +17,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Pull latest changes
+        run: git pull origin main
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -35,7 +38,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git pull --rebase origin main
           git add -A
           git diff --staged --quiet || git commit -m "Update ICE Protest Monitoring - $(date -u +"%Y-%m-%d %H:%M UTC")"
           git push
