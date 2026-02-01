@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Safe Airspace - Aviation Risk Map</name>
-    <description>Aviation risk warnings and NOTAMs from SafeAirspace.net. Updated: 2026-02-01T13:54:37.356Z</description>
+    <description>Aviation risk warnings and NOTAMs from SafeAirspace.net. Updated: 2026-02-01T14:46:01.080Z</description>
 
     <!-- Risk Level Styles with Polygon Fill -->
     <Style id="level1">
@@ -113,14 +113,14 @@ Since 2017: Iran has conducted multiple ballistic missile test launches without 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators should not enter the OIIX/Tehran FIR, due to the potential risk from anti-aviation weaponry and military operations.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/iran/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>IRN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -233,14 +233,14 @@ While no intent to target civil aviation has been announced, substantial risks e
 In addition, there has been an increase in GPS interference in the SVZM/Maiquetia FIR with lasting effects on overflights. Jamming and spoofing may extend as far as 250nm from the source.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/venezuela/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>VEN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -432,14 +432,14 @@ Oct 2021: Military coup on Oct 25. HSSK/Khartoum airport closed for two days, wi
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the airspace of Sudan due to risks from anti-aircraft weaponry and military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/sudan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>SDN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -492,14 +492,14 @@ July 2014: Major rocket fire from Gaza against Tel Aviv during the Gaza War. The
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to Canadian operators in the LLLL/Tel Aviv FIR due to potential risk from military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/israel/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>ISR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -547,14 +547,14 @@ Sep 2018: Russian IL-20 shot down in error on FIR boundary with Cyprus (Nicosia 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Exercise caution within 200nm of the Damascus FIR due to military activity. Possibility of GPS interference, communication jamming, and long-range surface to air missiles in the area.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/lebanon/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>LBN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -613,14 +613,14 @@ Sep 2018: Russian IL-20 shot down in error on FIR boundary with Cyprus (Nicosia 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators must not enter the OSTT/Damascus FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/syria/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>SYR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -671,14 +671,14 @@ Read: OPSGROUP article: Ukraine and Russia Update March 2022
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators are prohibited from the URRV/Rostov FIR, and the airspace of Russia within 200nm of the FIR boundaries with Ukraine in the UUWV/Moscow FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/russia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>RUS</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1796,14 +1796,14 @@ Read: Saudi-Yemen Airspace Update, Oct 2020 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should avoid the OYSC/Sanaa FIR except airways N315, UL425 and R401, due to potential risk from anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/yemen/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>YEM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1882,14 +1882,14 @@ Read: Haiti Crisis: Airport Attacked, Aircraft Shot, March 2024 (OPSGROUP articl
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the airspace of Haiti below 10,000ft AGL due to the risk of small arms fire.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/haiti/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>HTI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1961,14 +1961,14 @@ Nov 2019: Militia advancing on the capital, Tripoli, declared a no-fly-zone arou
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators must avoid the HLLL/Tripoli FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/libya/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>LBY</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2019,14 +2019,14 @@ Prior to February 2022, there were two areas of concern in Ukraine - the conflic
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators are prohibited from the airspace of Ukraine, including the contested UKFV/Simferopol FIR over Crimea (claimed by Russia as the URFV FIR).</td></tr>
 </table>
 <p><a href="https://safeairspace.net/ukraine/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>UKR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2099,14 +2099,14 @@ May 2020: An Embraer EMB-120 was shot down while on approach to Bardale airstrip
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should avoid the HCSM/Mogadishu FIR below 25,000ft AGL, due to the potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/somalia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>SOM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2170,14 +2170,14 @@ Oct 2021: US operators can now overfly the ORBB/Baghdad FIR above FL320. KICZ No
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Explosive drone attack by militia on US interests at ORER/Erbil Airport on April 14. It is unique as these kinds of attacks usually use less accurate rockets and mortars. It may signify that militia have increasing access to more sophisticated weapons which may pose a new threat to airports throughout Iraq including ORBI/Baghdad.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/iraq/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>IRQ</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2230,14 +2230,14 @@ Apr-Oct 2022: All parties in the Yemeni conflict agree a ceasefire.
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> ESCAT rules may be activated at any time in the south part of the OEJD/Jeddah FIR, when Saudi air defenses are repelling drone and missile attacks from Yemen. Operators will likely be given a change of route directly out of the airspace, or will be directed to land at the nearest airport.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/saudi-arabia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>SAU</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2334,14 +2334,14 @@ Feb-Aug 2019: Pakistan closed its airspace to overflights, following escalating 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Operators should not enter the Baluchistan province (southwestern part of Pakistan) or the Khyber Pakhtunkhwa province (northwestern part of Pakistan) below FL260.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/pakistan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>PAK</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2398,14 +2398,14 @@ Senegal and Niger control the airspace over Mali, and they have long-standing No
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Operators should avoid the airspace of Mali below FL260, particularly the northeast of the country.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/mali/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>MLI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2453,14 +2453,14 @@ Read: OpsGroup Note - Afghanistan Ops Update and Situation Overview July 2024
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the OAKX/Kabul FIR below 25,000ft AGL except on airways P500/G500, due to potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/afghanistan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>AFG</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2509,14 +2509,14 @@ Sep 2018: Risk due to hidden ATC strike. Ethiopian ATC controllers went on strik
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Ethiopian ATC Controllers went on strike, and ECAA and Ethiopian Airlines used foreign and retired controllers to cover, causing safety concerns.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/ethiopia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>ETH</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2568,14 +2568,14 @@ Read: North Korea Missile Threat, Oct 2022 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Since 2015, North Korea has been test-launching missiles with increasing regularity. The absolute lack of warning, coupled with an emerging picture of a focus area for re-entry, creates a risk to flight operations in the western portion of Japan’s Fukuoka FIR over the Sea of Japan. Consider rerouting to remain over the Japanese landmass or east of it. Check routings carefully for arrivals/departures to Europe from Japan, especially if planning airways which connect with the UHHH/Khabarovsk FIR at waypoints IGROD and AVGOK.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/north-korea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>PRK</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2670,14 +2670,14 @@ Read: OPSGROUP article: Sudan Airspace Update, Apr 2023
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators advised of potential risk below 25,000ft AGL in the airspace over South Sudan due to the potential risk from anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/south-sudan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>SSD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2715,14 +2715,14 @@ Read: OPSGROUP article: Ukraine and Russia Update March 2022
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators are prohibited from the LUUU/Chisinau FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/moldova/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>MDA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2769,14 +2769,14 @@ Prior to Feb 2022, several countries and aviation organisations had urged airlin
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> EU and Third Country Operators should avoid the UMMV/Minsk FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/belarus/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>BLR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2824,14 +2824,14 @@ In their latest Intelligence Brief dated 17 Jan 2026, security intelligence prov
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution for US operators across multiple eastern Pacific and Central America FIRs due to ongoing military activity and intermittent GPS interference.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/central-america/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CENTRAL_AMERICA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3089,14 +3089,14 @@ Nov 2025: FAA issues airspace warning for the TJZS/San Juan FIR, citing increase
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Following US airstrikes in Venezuela on 3 Jan, US operators should exercise caution in the TJZS/San Juan FIR due to military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/puerto-rico/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>PRI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3149,14 +3149,14 @@ Nov 2025: TNCF FIR issues a Notam advising extreme caution when operating to or 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Following US airstrikes in Venezuela on 3 Jan, US operators should exercise caution in the TNCF/Curacao FIR due to military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/curacao/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CUW</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3179,14 +3179,14 @@ No other airspace warnings are active for this region at this time, but keep che
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/cambodia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KHM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3251,14 +3251,14 @@ Oct 2015: A Russian A321 was brought down over the Sinai peninsula by a bomb loa
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to UK operators over the Gulf of Aqaba due to the potential risk from military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/egypt/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>EGY</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3341,14 +3341,14 @@ Read: OPSGROUP article: Has The Yemen Conflict Reached The UAE? Jan 2022 Click f
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Risk from Houthi weapons targeting UAE territory. (This Notam was cancelled in May 2021 and not re-issued, but we are keeping it listed here for reference).</td></tr>
 </table>
 <p><a href="https://safeairspace.net/unitedarabemirates/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ARE</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3421,14 +3421,14 @@ See OPSGROUP Briefing: Middle East airspace situation – June 2025
 
 The primary risk is from short-notice airspace closures due to Iran/Israel airstrikes if the conflict resumes. Jordan also has a high risk of GPS spoofing due to proximity to Israel/Lebanon. RNAV/RNP Approaches may not be available. False GPWS alerts possible. Click for full briefing</p>
 <p><a href="https://safeairspace.net/jordan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>JOR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3451,14 +3451,14 @@ See OPSGROUP Briefing: Middle East airspace situation – June 2025
 
 The primary risk is from short-notice airspace closures due to Iran/Israel airstrikes if the conflict resumes. Click for full briefing</p>
 <p><a href="https://safeairspace.net/kuwait/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KWT</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3498,14 +3498,14 @@ See OPSGROUP Briefing: Middle East airspace situation – June 2025
 
 The primary risk is from short-notice airspace closures due to Iran/Israel airstrikes if the conflict resumes. Click for full briefing</p>
 <p><a href="https://safeairspace.net/bahrain/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>BHR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3560,14 +3560,14 @@ See OPSGROUP Briefing: Middle East airspace situation – June 2025
 
 The primary risk is from short-notice airspace closures due to Iran/Israel airstrikes if the conflict resumes. Click for full briefing</p>
 <p><a href="https://safeairspace.net/qatar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>QAT</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3590,14 +3590,14 @@ See OPSGROUP Briefing: Middle East airspace situation – June 2025
 
 The primary risk is from short-notice airspace closures due to Iran/Israel airstrikes if the conflict resumes. Click for full briefing</p>
 <p><a href="https://safeairspace.net/oman/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>OMN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3655,14 +3655,14 @@ Since the events of May 2025, the only country to have issued a new airspace war
 Major events: 
 May 2025: Ceasefire on May 10 following four days of conflict in Kashmir region. Most operators still avoiding the region and routing via Gulf of Oman and UAE. Click for full briefing</p>
 <p><a href="https://safeairspace.net/india/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>IND</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3868,14 +3868,14 @@ Read: Africa Airspace Risk, Jet Shot in Rwanda, Jan 2023 (OPSGROUP article) Clic
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators should not enter an easterly portion of DROC airspace (the FZZA/Kinshasa FIR) near the Rwanda/Burundi borders below FL260 due to the potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/congo-drc/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>COD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3906,14 +3906,14 @@ Jan 2020: Two US military/govt aircraft (C-146A, DHC-8), and two helicopters, we
 
 Jan 2019: Al-Shabaab militants launched an attack on a hotel complex in central Nairobi on 15 Jan 2019, killing at least 14 people. There were a number of attacks by Al-Shabab in Kenya in preceding years, but none in Nairobi since the attack on the Westgate shopping mall in 2013. Click for full briefing</p>
 <p><a href="https://safeairspace.net/kenya/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KEN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3951,14 +3951,14 @@ Read: Opsgroup article - Western Sahara Airspace Update, May 2021. Click for ful
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Potential new conflict zone in Western Sahara, including anti-aircraft weaponry which may pose an inadvertent risk to civil aircraft up to FL120.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/western-sahara/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ESH</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3988,14 +3988,14 @@ May 2024: Member report of GPS spoofing into RKSS/Seoul on approach to RWY 32R. 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Exercise caution in the Incheon FIR due to interference with or disruption of GPS signals. (Notam expired in May 2019, listing here for reference only).</td></tr>
 </table>
 <p><a href="https://safeairspace.net/south-korea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KOR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4282,14 +4282,14 @@ Jan 2023: The Rwandan military shot at a fighter jet from the Congo DRC which th
 
 Read: Africa Airspace Risk, Jet Shot in Rwanda, Jan 2023 (OPSGROUP article) Click for full briefing</p>
 <p><a href="https://safeairspace.net/rwanda/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>RWA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -4332,14 +4332,14 @@ Read: OPSGROUP Article - Myanmar, Nov 2022 Click for full briefing</p>
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to German operators for flights below FL160 due to a potential risk from military ops, surface-to-air fire and anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/myanmar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>MMR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4559,14 +4559,14 @@ Sep 2023: Niger’s airspace reopened for the first time since a military coup i
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/niger/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>NER</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -4599,14 +4599,14 @@ Jan 2019: Turkish security forces intercepted three weaponised drones during att
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Drone attack in May 2021 on LTCC/Diyabakir airport in South Eastern Turkey. Local militia targeting military interests are thought to be responsible. While no threats have been made against civil aviation, the militia are known to have access to portable anti-aircraft weaponry which may pose a low-level risk through misidentification.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/turkey/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TUR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4672,14 +4672,14 @@ Sep 2018: Russian IL-20 shot down in error on FIR boundary with Cyprus (Nicosia 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> GPS Outages have been reported in the LCEN/Ercan Advisory Airspace.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/cyprus/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CYP</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4731,14 +4731,14 @@ Read: Armenia and Azerbaijan Airspace Risk, September 2023 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Armenia due to potential risk from anti-aviation weaponry and military ops.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/armenia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ARM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4786,14 +4786,14 @@ Read: Armenia and Azerbaijan Airspace Risk, September 2023 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Azerbaijan due to potential risk from anti-aviation weaponry and military ops.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/azerbaijan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>AZE</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4847,14 +4847,14 @@ Jan 2023: An armed group fired at an aircraft landing at WAJO/Oksibil airport. I
 June 2022: An armed group fired at an aircraft landing at Kenyam airfield.
 Apr 2021: An armed group attacked WABL/Ilaga airport and torched a private helicopter. Click for full briefing</p>
 <p><a href="https://safeairspace.net/indonesia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>IDN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6192,14 +6192,14 @@ Major events:
 Nov 2022: An unidentified aircraft dropped bombs targeting a militant group 150nm north of the capital Bangui. The group responded with small arms fire. Low flying aircraft in the area may be at increased risk.
 Feb 2021: Deteriorating security situation. A state of emergency was declared due to post election violence. The government suspended use of all airspace by foreign governments and NGOs. For the second time, armed rebels attempted to enter the capital Bangui to overthrow the newly elected president. They got within six miles of the city before being pushed back by local and UN forces. Click for full briefing</p>
 <p><a href="https://safeairspace.net/centralafricanrepublic/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CAF</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6235,14 +6235,14 @@ Read: North Korea Missile Threat, Oct 2022 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Since 2015, North Korea has been test-launching missiles with increasing regularity. The absolute lack of warning, coupled with an emerging picture of a focus area for re-entry, creates a risk to flight operations in the western portion of Japan’s Fukuoka FIR over the Sea of Japan. Consider rerouting to remain over the Japanese landmass or east of it. Check routings carefully for arrivals/departures to Europe from Japan, especially if planning airways which connect with the UHHH/Khabarovsk FIR at waypoints IGROD and AVGOK.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/japan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>JPN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6805,14 +6805,14 @@ Read more here: Taiwan Airspace Closures, Aug 2022 (OPSGROUP article)
 
 Although no new airspace warnings have been issued, risk to overflying aircraft may be escalating - increased military presence and high political tensions on both sides are cause for concern. It is especially important right now that the proper ADIZ procedures are followed, including constant contact with ATC and a discrete squawk code. If hostilities escalate, flights through Taiwan’s RCAA/Taipei FIR as well as surrounding airspace could be impacted. Click for full briefing</p>
 <p><a href="https://safeairspace.net/taiwan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TWN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6878,14 +6878,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Pilots should exercise extreme caution while operating in Albanian airspace (the LAAA/Tirana FIR) due to a heightened risk of degraded ATC services.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/albania/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ALB</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6904,14 +6904,14 @@ Several international associations have published warnings, including IFALPA and
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/chad/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TCD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6934,14 +6934,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Reports of GPS interference affecting RPLL/Manila Airport.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/philippines/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>PHL</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -7446,14 +7446,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Airspace Risk Warning for Eritrea</td></tr>
 </table>
 <p><a href="https://safeairspace.net/eritrea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ERI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -7482,14 +7482,14 @@ Several international associations have published warnings, including IFALPA and
 <h4>Warning Summary:</h4>
 <p>Click for full briefing</p>
 <p><a href="https://safeairspace.net/madagascar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T13:54:37.356Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-02-01T14:46:01.080Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>MDG</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-02-01T13:54:37.356Z</value></Data>
+          <Data name="LastUpdate"><value>2026-02-01T14:46:01.080Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
