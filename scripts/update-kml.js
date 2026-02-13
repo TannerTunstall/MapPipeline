@@ -126,6 +126,34 @@ function stripHtml(html) {
         .trim();
 }
 
+// Display name overrides for countries without proper names in the feed
+const displayNameOverrides = {
+    'UnitedArabEmirates': 'United Arab Emirates',
+    'CentralAfricanRepublic': 'Central African Republic',
+    'SaudiArabia': 'Saudi Arabia',
+    'SouthKorea': 'South Korea',
+    'NorthKorea': 'North Korea',
+    'SouthSudan': 'South Sudan',
+    'WesternSahara': 'Western Sahara',
+    'PuertoRico': 'Puerto Rico',
+    'CongoDRC': 'Congo DRC',
+    'SriLanka': 'Sri Lanka',
+    'NewZealand': 'New Zealand',
+    'BurkinaFaso': 'Burkina Faso',
+    'SierraLeone': 'Sierra Leone',
+    'IvoryCoast': 'Ivory Coast',
+    'EquatorialGuinea': 'Equatorial Guinea',
+    'BosniaandHerzegovina': 'Bosnia and Herzegovina',
+    'TrinidadandTobago': 'Trinidad and Tobago',
+    'ElSalvador': 'El Salvador',
+    'CostaRica': 'Costa Rica',
+    'DominicanRepublic': 'Dominican Republic',
+    'CzechRepublic': 'Czech Republic',
+    'UnitedKingdom': 'United Kingdom',
+    'UnitedStates': 'United States',
+    'CentralAmerica': 'Central America'
+};
+
 // Country name to SafeAirspace URL slug mapping for edge cases
 const countrySlugOverrides = {
     'CentralAfricanRepublic': 'central-african-republic',
@@ -568,7 +596,7 @@ async function updateSafeAirspace() {
         const notamFetchPromises = [];
 
         for (const [countryKey, info] of countriesWithData) {
-            const displayName = info.displayName || countryKey;
+            const displayName = info.displayName || displayNameOverrides[countryKey] || countryKey;
             notamFetchPromises.push(
                 fetchCountryNotams(displayName).then(notams => {
                     if (notams.length > 0) {
@@ -597,7 +625,7 @@ async function updateSafeAirspace() {
 `;
 
             for (const country of countries) {
-                const displayName = country.displayName || country.key;
+                const displayName = country.displayName || displayNameOverrides[country.key] || country.key;
                 const iso3 = countryNameToCode[country.key] || countryNameToCode[displayName];
 
                 // Check if this is a region (e.g., Central America)
