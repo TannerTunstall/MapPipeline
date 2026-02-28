@@ -165,8 +165,8 @@ function parseAlertTimestamp(timestamp) {
  */
 function getAlertTypeName(alertTypeId) {
     switch (alertTypeId) {
-        case 1: return 'Rocket/Missile';
-        case 2: return 'UAV/Drone Incursion';
+        case 1: return 'Rocket Fire';
+        case 2: return 'Hostile Aircraft Intrusion';
         default: return 'Red Alert';
     }
 }
