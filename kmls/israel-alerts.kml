@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sun, Mar 1, 2026 01:24:09 AM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sun, Mar 1, 2026 01:26:09 AM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -38,7 +38,7 @@
     </Style>
     <Folder>
         <name>Alert Zones (40)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Sun, Mar 1, 2026 01:24:09 AM</description>
+        <description>Polygon boundaries for alerted areas. Last updated: Sun, Mar 1, 2026 01:26:09 AM</description>
 
         <Placemark>
             <name>Ayelet HaShachar</name>
@@ -51,7 +51,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">איילת השחר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -66,7 +66,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -87,7 +87,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">גדות</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -102,7 +102,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -123,7 +123,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">חולתה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -138,7 +138,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -159,7 +159,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">יסוד המעלה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -174,7 +174,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -195,7 +195,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">משמר הירדן</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -210,7 +210,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -231,7 +231,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שדה אליעזר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Upper Galilee</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -246,7 +246,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:48.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -267,7 +267,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">לב החולה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -282,7 +282,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:00.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -303,7 +303,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">רמת טראמפ</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Northern Golan</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -318,7 +318,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:00.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -339,7 +339,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">רמות נפתלי</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -354,7 +354,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:00.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -375,7 +375,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שעל</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Northern Golan</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -390,7 +390,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:20:00.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -411,7 +411,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">יפתח</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -426,7 +426,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:19:54.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -447,7 +447,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מרכז אזורי מבואות חרמון</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -462,7 +462,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:19:54.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -483,7 +483,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">גונן</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -498,7 +498,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:19:51.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -519,7 +519,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">להבות הבשן</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -534,7 +534,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:19:18.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -555,7 +555,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">נאות מרדכי</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>4 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -570,7 +570,7 @@
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
+            <styleUrl>#poly-recent</styleUrl>
             <TimeStamp><when>2026-02-28T23:19:15.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
@@ -591,7 +591,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שמיר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -627,7 +627,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מנרה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -663,7 +663,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">כפר בלום</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -699,7 +699,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מרגליות</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -735,7 +735,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">עמיר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -771,7 +771,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שדה נחמיה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -807,7 +807,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">כפר סאלד</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -843,7 +843,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">קריית שמונה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -879,7 +879,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">בית הלל</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -915,7 +915,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">משגב עם</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -951,7 +951,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">נווה אטי&apos;&apos;ב</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Northern Golan</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -987,7 +987,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">תל חי</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1023,7 +1023,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">הגושרים</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1059,7 +1059,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מג&apos;דל שמס</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Northern Golan</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1095,7 +1095,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">עין קנייא</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Northern Golan</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1131,7 +1131,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">כפר גלעדי</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1167,7 +1167,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שאר ישוב</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1203,7 +1203,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">דפנה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1239,7 +1239,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מעיין ברוך</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1275,7 +1275,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">כפר יובל</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1311,7 +1311,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">קיבוץ דן</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1347,7 +1347,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שניר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>5 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>7 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1383,7 +1383,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">ע&apos;ג&apos;ר</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>8 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1419,7 +1419,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מטולה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>6 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>8 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -1455,7 +1455,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">אילת</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Eilat</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sun, Mar 1, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 13m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 15m ago</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">30 sec</td></tr>
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
