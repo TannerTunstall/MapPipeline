@@ -88,7 +88,7 @@ function saveCachedAlerts(alerts) {
 function filterOldAlerts(alerts) {
     const cutoff = Date.now() - RETENTION_MS;
     return alerts.filter(alert => {
-        const alertTime = new Date(alert.timeStamp).getTime();
+        const alertTime = parseAlertTimestamp(alert.timeStamp).getTime();
         return alertTime > cutoff;
     });
 }
@@ -116,8 +116,8 @@ function mergeAlerts(existing, newAlerts) {
             alertsByLocation.set(key, alert);
         } else {
             // Keep the more recent alert
-            const existingTime = new Date(existing.timeStamp).getTime();
-            const newTime = new Date(alert.timeStamp).getTime();
+            const existingTime = parseAlertTimestamp(existing.timeStamp).getTime();
+            const newTime = parseAlertTimestamp(alert.timeStamp).getTime();
             if (newTime > existingTime) {
                 alertsByLocation.set(key, alert);
             }
@@ -141,10 +141,31 @@ function escapeXml(str) {
 }
 
 /**
+ * Parse timestamp from API (Israel time) to Date object
+ * API returns: "2026-02-28 18:15:34" in Israel timezone
+ */
+function parseAlertTimestamp(timestamp) {
+    if (!timestamp) return new Date();
+
+    // If already an ISO string with timezone, parse directly
+    if (timestamp.includes('T') || timestamp.includes('Z')) {
+        return new Date(timestamp);
+    }
+
+    // API format: "2026-02-28 18:15:34" (Israel time)
+    // Convert to ISO format and append Israel timezone offset
+    // Israel is UTC+2 (winter) or UTC+3 (summer DST)
+    // For simplicity, we'll treat as UTC+2 and let the display handle DST
+    const isoString = timestamp.replace(' ', 'T') + '+02:00';
+    return new Date(isoString);
+}
+
+/**
  * Get style ID based on alert age
  */
 function getAlertStyle(alert) {
-    const ageMs = Date.now() - new Date(alert.timeStamp).getTime();
+    const alertTime = parseAlertTimestamp(alert.timeStamp);
+    const ageMs = Date.now() - alertTime.getTime();
     const ageMinutes = ageMs / 60000;
 
     if (ageMinutes < 5) {
@@ -162,7 +183,8 @@ function getAlertStyle(alert) {
  * Get polygon style based on alert age
  */
 function getPolygonStyle(alert) {
-    const ageMs = Date.now() - new Date(alert.timeStamp).getTime();
+    const alertTime = parseAlertTimestamp(alert.timeStamp);
+    const ageMs = Date.now() - alertTime.getTime();
     const ageMinutes = ageMs / 60000;
 
     if (ageMinutes < 5) {
@@ -180,7 +202,8 @@ function getPolygonStyle(alert) {
  * Format time ago string
  */
 function timeAgo(timestamp) {
-    const ms = Date.now() - new Date(timestamp).getTime();
+    const alertTime = parseAlertTimestamp(timestamp);
+    const ms = Date.now() - alertTime.getTime();
     const minutes = Math.floor(ms / 60000);
     const hours = Math.floor(minutes / 60);
 
@@ -207,7 +230,7 @@ function formatTimeForZone(date, timeZone, label) {
  * Format date/time for multiple timezones
  */
 function formatDateTime(timestamp) {
-    const date = new Date(timestamp);
+    const date = parseAlertTimestamp(timestamp);
 
     // Format date (use Israel timezone as reference)
     const dateStr = date.toLocaleDateString('en-US', {
@@ -379,7 +402,7 @@ Last updated: ${nowFormatted.full} (Israel Time)</description>
                 </div>
             ]]></description>
             <styleUrl>#${style}</styleUrl>
-            <TimeStamp><when>${new Date(alert.timeStamp).toISOString()}</when></TimeStamp>
+            <TimeStamp><when>${parseAlertTimestamp(alert.timeStamp).toISOString()}</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -437,7 +460,7 @@ Last updated: ${nowFormatted.full} (Israel Time)</description>
                 </div>
             ]]></description>
             <styleUrl>#${style}</styleUrl>
-            <TimeStamp><when>${new Date(alert.timeStamp).toISOString()}</when></TimeStamp>
+            <TimeStamp><when>${parseAlertTimestamp(alert.timeStamp).toISOString()}</when></TimeStamp>
             <Point>
                 <coordinates>${alert.lon},${alert.lat},0</coordinates>
             </Point>
