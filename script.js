@@ -23,8 +23,8 @@ const KML_METADATA = {
     },
     'israel-alerts.kml': {
         displayName: 'Israel Rocket Alerts',
-        description: 'Real-time rocket and missile alerts in Israel. Updates every minute. Alerts older than 8 hours are cleared.',
-        source: 'rocketalert.live',
+        description: 'Real-time rocket alerts with polygon zones. Updates every 5 minutes. Alerts older than 4 hours are cleared.',
+        source: 'rocketalert.live + tzevaadom',
         sourceUrl: 'https://rocketalert.live',
         license: 'Public safety data'
     }
