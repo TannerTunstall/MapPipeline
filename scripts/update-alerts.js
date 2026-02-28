@@ -288,44 +288,24 @@ function generateKml(alerts, polygons) {
     <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: ${nowFormatted.full} (Israel Time)</description>
 
     <Style id="alert-critical">
-      <IconStyle>
-        <color>ff0000ff</color>
-        <scale>1.4</scale>
-        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-      </IconStyle>
       <BalloonStyle>
         <bgColor>ff1a1a2e</bgColor>
         <textColor>ffffffff</textColor>
       </BalloonStyle>
     </Style>
     <Style id="alert-recent">
-      <IconStyle>
-        <color>ff0080ff</color>
-        <scale>1.2</scale>
-        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-      </IconStyle>
       <BalloonStyle>
         <bgColor>ff1a1a2e</bgColor>
         <textColor>ffffffff</textColor>
       </BalloonStyle>
     </Style>
     <Style id="alert-moderate">
-      <IconStyle>
-        <color>ff00ffff</color>
-        <scale>1.0</scale>
-        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-      </IconStyle>
       <BalloonStyle>
         <bgColor>ff1a1a2e</bgColor>
         <textColor>ffffffff</textColor>
       </BalloonStyle>
     </Style>
     <Style id="alert-old">
-      <IconStyle>
-        <color>ff808080</color>
-        <scale>0.8</scale>
-        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
-      </IconStyle>
       <BalloonStyle>
         <bgColor>ff1a1a2e</bgColor>
         <textColor>ffffffff</textColor>
