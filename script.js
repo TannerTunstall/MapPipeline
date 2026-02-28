@@ -20,6 +20,13 @@ const KML_METADATA = {
         source: 'mobilize.us',
         sourceUrl: 'https://www.mobilize.us',
         license: 'Fair use - public event data'
+    },
+    'israel-alerts.kml': {
+        displayName: 'Israel Rocket Alerts',
+        description: 'Real-time rocket and missile alerts in Israel. Updates every minute. Alerts older than 8 hours are cleared.',
+        source: 'rocketalert.live',
+        sourceUrl: 'https://rocketalert.live',
+        license: 'Public safety data'
     }
 };
 
