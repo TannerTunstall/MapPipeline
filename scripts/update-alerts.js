@@ -283,65 +283,86 @@ function generateKml(alerts, polygons) {
 
     let kml = `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document>
+  <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Data from rocketalert.live. Updated every 5 minutes. Alerts older than 4 hours are automatically cleared.
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: ${nowFormatted.full} (Israel Time)</description>
 
-Last updated: ${nowFormatted.full} (Israel Time)</description>
-    <open>1</open>
-
-    <!-- Point Styles -->
     <Style id="alert-critical">
-        <IconStyle>
-            <color>ff0000ff</color>
-            <scale>1.4</scale>
-            <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-        </IconStyle>
-        <LabelStyle><color>ff0000ff</color><scale>0.9</scale></LabelStyle>
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.4</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="alert-recent">
-        <IconStyle>
-            <color>ff0080ff</color>
-            <scale>1.2</scale>
-            <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-        </IconStyle>
-        <LabelStyle><color>ff0080ff</color><scale>0.8</scale></LabelStyle>
+      <IconStyle>
+        <color>ff0080ff</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="alert-moderate">
-        <IconStyle>
-            <color>ff00ffff</color>
-            <scale>1.0</scale>
-            <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
-        </IconStyle>
-        <LabelStyle><color>ff00ffff</color><scale>0.7</scale></LabelStyle>
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="alert-old">
-        <IconStyle>
-            <color>ff808080</color>
-            <scale>0.8</scale>
-            <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
-        </IconStyle>
-        <LabelStyle><color>ff808080</color><scale>0.6</scale></LabelStyle>
+      <IconStyle>
+        <color>ff808080</color>
+        <scale>0.8</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
-
-    <!-- Polygon Styles -->
     <Style id="poly-critical">
-        <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
-        <PolyStyle><color>600000ff</color></PolyStyle>
+      <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+      <PolyStyle><color>600000ff</color><outline>1</outline></PolyStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="poly-recent">
-        <LineStyle><color>ff0080ff</color><width>2</width></LineStyle>
-        <PolyStyle><color>400080ff</color></PolyStyle>
+      <LineStyle><color>ff0080ff</color><width>2</width></LineStyle>
+      <PolyStyle><color>400080ff</color><outline>1</outline></PolyStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="poly-moderate">
-        <LineStyle><color>ff00ffff</color><width>1</width></LineStyle>
-        <PolyStyle><color>3000ffff</color></PolyStyle>
+      <LineStyle><color>ff00ffff</color><width>1</width></LineStyle>
+      <PolyStyle><color>3000ffff</color><outline>1</outline></PolyStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
     </Style>
     <Style id="poly-old">
-        <LineStyle><color>ff808080</color><width>1</width></LineStyle>
-        <PolyStyle><color>20808080</color></PolyStyle>
-    </Style>
-`;
+      <LineStyle><color>ff808080</color><width>1</width></LineStyle>
+      <PolyStyle><color>20808080</color><outline>1</outline></PolyStyle>
+      <BalloonStyle>
+        <bgColor>ff1a1a2e</bgColor>
+        <textColor>ffffffff</textColor>
+      </BalloonStyle>
+    </Style>`;
 
     // Sort alerts by timestamp (newest first)
     const sortedAlerts = [...alerts].sort((a, b) =>
@@ -464,15 +485,6 @@ Last updated: ${nowFormatted.full} (Israel Time)</description>
             <Point>
                 <coordinates>${alert.lon},${alert.lat},0</coordinates>
             </Point>
-            <ExtendedData>
-                <Data name="location"><value>${escapeXml(name)}</value></Data>
-                <Data name="hebrewName"><value>${escapeXml(hebrewName)}</value></Data>
-                <Data name="area"><value>${escapeXml(area)}</value></Data>
-                <Data name="date"><value>${dt.date}</value></Data>
-                <Data name="time"><value>${dt.time}</value></Data>
-                <Data name="timestamp"><value>${alert.timeStamp}</value></Data>
-                <Data name="countdown"><value>${countdown}</value></Data>
-            </ExtendedData>
         </Placemark>`;
     }
 
