@@ -94,38 +94,37 @@ function filterOldAlerts(alerts) {
 }
 
 /**
- * Merge new alerts with existing, avoiding duplicates
+ * Merge new alerts with existing - newer alerts replace older ones for same location
  */
 function mergeAlerts(existing, newAlerts) {
-    const seen = new Set();
-    const merged = [];
+    // Map to store latest alert per location
+    const alertsByLocation = new Map();
 
-    // Create unique key for each alert (location + timestamp rounded to minute)
-    function alertKey(alert) {
-        const time = new Date(alert.timeStamp);
-        const roundedTime = new Date(Math.floor(time.getTime() / 60000) * 60000);
-        return `${alert.name || alert.englishName}_${roundedTime.toISOString()}`;
+    // Key by location name (taCityId if available, otherwise name)
+    function locationKey(alert) {
+        return alert.taCityId || alert.name || alert.englishName || 'unknown';
     }
 
-    // Add existing alerts first
-    for (const alert of existing) {
-        const key = alertKey(alert);
-        if (!seen.has(key)) {
-            seen.add(key);
-            merged.push(alert);
+    // Process all alerts, keeping only the most recent per location
+    const allAlerts = [...existing, ...newAlerts];
+
+    for (const alert of allAlerts) {
+        const key = locationKey(alert);
+        const existing = alertsByLocation.get(key);
+
+        if (!existing) {
+            alertsByLocation.set(key, alert);
+        } else {
+            // Keep the more recent alert
+            const existingTime = new Date(existing.timeStamp).getTime();
+            const newTime = new Date(alert.timeStamp).getTime();
+            if (newTime > existingTime) {
+                alertsByLocation.set(key, alert);
+            }
         }
     }
 
-    // Add new alerts
-    for (const alert of newAlerts) {
-        const key = alertKey(alert);
-        if (!seen.has(key)) {
-            seen.add(key);
-            merged.push(alert);
-        }
-    }
-
-    return merged;
+    return Array.from(alertsByLocation.values());
 }
 
 /**
