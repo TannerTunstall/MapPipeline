@@ -161,21 +161,13 @@ function parseAlertTimestamp(timestamp) {
 }
 
 /**
- * Get style ID based on alert age
+ * Get alert type name from alertTypeId
  */
-function getAlertStyle(alert) {
-    const alertTime = parseAlertTimestamp(alert.timeStamp);
-    const ageMs = Date.now() - alertTime.getTime();
-    const ageMinutes = ageMs / 60000;
-
-    if (ageMinutes < 5) {
-        return 'alert-critical';  // Red - very recent
-    } else if (ageMinutes < 30) {
-        return 'alert-recent';    // Orange - recent
-    } else if (ageMinutes < 120) {
-        return 'alert-moderate';  // Yellow - within 2 hours
-    } else {
-        return 'alert-old';       // Gray - older
+function getAlertTypeName(alertTypeId) {
+    switch (alertTypeId) {
+        case 1: return 'Rocket/Missile';
+        case 2: return 'UAV/Drone Incursion';
+        default: return 'Red Alert';
     }
 }
 
@@ -287,30 +279,6 @@ function generateKml(alerts, polygons) {
     <name>Israel Rocket Alerts</name>
     <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: ${nowFormatted.full} (Israel Time)</description>
 
-    <Style id="alert-critical">
-      <BalloonStyle>
-        <bgColor>ff1a1a2e</bgColor>
-        <textColor>ffffffff</textColor>
-      </BalloonStyle>
-    </Style>
-    <Style id="alert-recent">
-      <BalloonStyle>
-        <bgColor>ff1a1a2e</bgColor>
-        <textColor>ffffffff</textColor>
-      </BalloonStyle>
-    </Style>
-    <Style id="alert-moderate">
-      <BalloonStyle>
-        <bgColor>ff1a1a2e</bgColor>
-        <textColor>ffffffff</textColor>
-      </BalloonStyle>
-    </Style>
-    <Style id="alert-old">
-      <BalloonStyle>
-        <bgColor>ff1a1a2e</bgColor>
-        <textColor>ffffffff</textColor>
-      </BalloonStyle>
-    </Style>
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
       <PolyStyle><color>600000ff</color><outline>1</outline></PolyStyle>
@@ -372,6 +340,7 @@ function generateKml(alerts, polygons) {
         const hebrewName = alert.name || '';
         const area = alert.areaNameEn || alert.areaNameHe || '';
         const countdown = alert.countdownSec || 0;
+        const alertType = getAlertTypeName(alert.alertTypeId);
         const style = getPolygonStyle(alert);
         const ago = timeAgo(alert.timeStamp);
         const dt = formatDateTime(alert.timeStamp);
@@ -381,8 +350,9 @@ function generateKml(alerts, polygons) {
             <name>${escapeXml(name)}</name>
             <description><![CDATA[
                 <div style="font-family: Arial, sans-serif; min-width: 280px;">
-                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Alert Zone</h3>
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 ${alertType}</h3>
                     <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>${alertType}</strong></td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>${escapeXml(name)}</strong></td></tr>
                         ${hebrewName && hebrewName !== name ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">${escapeXml(hebrewName)}</td></tr>` : ''}
                         ${area ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">${escapeXml(area)}</td></tr>` : ''}
@@ -411,60 +381,6 @@ function generateKml(alerts, polygons) {
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
-        </Placemark>`;
-    }
-
-    kml += `
-    </Folder>
-
-    <Folder>
-        <name>Alert Points (${alerts.length})</name>
-        <description>Individual alert markers with timestamps. Last updated: ${nowFormatted.full}</description>
-`;
-
-    for (const alert of sortedAlerts) {
-        // Skip alerts without coordinates
-        if (!alert.lat || !alert.lon) continue;
-
-        const name = alert.englishName || alert.name || 'Unknown';
-        const hebrewName = alert.name || '';
-        const area = alert.areaNameEn || alert.areaNameHe || '';
-        const countdown = alert.countdownSec || 0;
-        const style = getAlertStyle(alert);
-        const ago = timeAgo(alert.timeStamp);
-        const dt = formatDateTime(alert.timeStamp);
-
-        kml += `
-        <Placemark>
-            <name>${escapeXml(name)}</name>
-            <description><![CDATA[
-                <div style="font-family: Arial, sans-serif; min-width: 280px;">
-                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Alert</h3>
-                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>${escapeXml(name)}</strong></td></tr>
-                        ${hebrewName && hebrewName !== name ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">${escapeXml(hebrewName)}</td></tr>` : ''}
-                        ${area ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">${escapeXml(area)}</td></tr>` : ''}
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">${dt.date}</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>${ago}</strong></td></tr>
-                        ${countdown ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">${countdown} sec</td></tr>` : ''}
-                    </table>
-                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
-                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
-                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>${dt.timezones.israel.time}</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">${dt.timezones.central.time}</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">${dt.timezones.london.time}</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">${dt.timezones.singapore.time}</td></tr>
-                        </table>
-                    </div>
-                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
-                </div>
-            ]]></description>
-            <styleUrl>#${style}</styleUrl>
-            <TimeStamp><when>${parseAlertTimestamp(alert.timeStamp).toISOString()}</when></TimeStamp>
-            <Point>
-                <coordinates>${alert.lon},${alert.lat},0</coordinates>
-            </Point>
         </Placemark>`;
     }
 
