@@ -191,12 +191,25 @@ function timeAgo(timestamp) {
 }
 
 /**
- * Format date/time for Israel timezone
+ * Format time for a specific timezone
+ */
+function formatTimeForZone(date, timeZone, label) {
+    const timeStr = date.toLocaleTimeString('en-US', {
+        timeZone,
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true
+    });
+    return { time: timeStr, label };
+}
+
+/**
+ * Format date/time for multiple timezones
  */
 function formatDateTime(timestamp) {
     const date = new Date(timestamp);
 
-    // Format date
+    // Format date (use Israel timezone as reference)
     const dateStr = date.toLocaleDateString('en-US', {
         timeZone: 'Asia/Jerusalem',
         weekday: 'short',
@@ -205,8 +218,8 @@ function formatDateTime(timestamp) {
         year: 'numeric'
     });
 
-    // Format time
-    const timeStr = date.toLocaleTimeString('en-US', {
+    // Format time for Israel (primary)
+    const israelTime = date.toLocaleTimeString('en-US', {
         timeZone: 'Asia/Jerusalem',
         hour: '2-digit',
         minute: '2-digit',
@@ -214,7 +227,20 @@ function formatDateTime(timestamp) {
         hour12: true
     });
 
-    return { date: dateStr, time: timeStr, full: `${dateStr} ${timeStr}` };
+    // Format times for other timezones
+    const timezones = {
+        israel: formatTimeForZone(date, 'Asia/Jerusalem', 'Israel'),
+        central: formatTimeForZone(date, 'America/Chicago', 'Central'),
+        london: formatTimeForZone(date, 'Europe/London', 'London'),
+        singapore: formatTimeForZone(date, 'Asia/Singapore', 'Singapore')
+    };
+
+    return {
+        date: dateStr,
+        time: israelTime,
+        full: `${dateStr} ${israelTime}`,
+        timezones
+    };
 }
 
 /**
@@ -330,17 +356,25 @@ Last updated: ${nowFormatted.full} (Israel Time)</description>
         <Placemark>
             <name>${escapeXml(name)}</name>
             <description><![CDATA[
-                <div style="font-family: Arial, sans-serif; min-width: 220px;">
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
                     <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Alert Zone</h3>
                     <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
                         <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>${escapeXml(name)}</strong></td></tr>
                         ${hebrewName && hebrewName !== name ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">${escapeXml(hebrewName)}</td></tr>` : ''}
                         ${area ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">${escapeXml(area)}</td></tr>` : ''}
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">${dt.date}</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Time:</td><td style="padding: 4px 0;"><strong>${dt.time}</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;">${ago}</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>${ago}</strong></td></tr>
                         ${countdown ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">${countdown} sec</td></tr>` : ''}
                     </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>${dt.timezones.israel.time}</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">${dt.timezones.central.time}</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">${dt.timezones.london.time}</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">${dt.timezones.singapore.time}</td></tr>
+                        </table>
+                    </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
@@ -380,17 +414,25 @@ Last updated: ${nowFormatted.full} (Israel Time)</description>
         <Placemark>
             <name>${escapeXml(name)}</name>
             <description><![CDATA[
-                <div style="font-family: Arial, sans-serif; min-width: 220px;">
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
                     <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Alert</h3>
                     <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
                         <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>${escapeXml(name)}</strong></td></tr>
                         ${hebrewName && hebrewName !== name ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">${escapeXml(hebrewName)}</td></tr>` : ''}
                         ${area ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">${escapeXml(area)}</td></tr>` : ''}
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">${dt.date}</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Time:</td><td style="padding: 4px 0;"><strong>${dt.time}</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;">${ago}</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>${ago}</strong></td></tr>
                         ${countdown ? `<tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">${countdown} sec</td></tr>` : ''}
                     </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>${dt.timezones.israel.time}</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">${dt.timezones.central.time}</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">${dt.timezones.london.time}</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">${dt.timezones.singapore.time}</td></tr>
+                        </table>
+                    </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
