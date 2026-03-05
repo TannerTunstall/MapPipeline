@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Safe Airspace - Aviation Risk Map</name>
-    <description>Aviation risk warnings and NOTAMs from SafeAirspace.net. Updated: 2026-03-05T10:02:54.124Z</description>
+    <description>Aviation risk warnings and NOTAMs from SafeAirspace.net. Updated: 2026-03-05T11:48:55.278Z</description>
 
     <!-- Risk Level Styles with Polygon Fill -->
     <Style id="level1">
@@ -112,14 +112,14 @@ Sep 2018: Russian IL-20 shot down in error near the Syria - Cyprus FIR boundary.
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators must not enter the OSTT/Damascus FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/syria/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>SYR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -172,14 +172,14 @@ Nov 2023 - ongoing: GNSS spoofing reported in the OLBB/Beirut FIR. Click for ful
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Exercise caution within 200nm of the Damascus FIR due to military activity. Possibility of GPS interference, communication jamming, and long-range surface to air missiles in the area.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/lebanon/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>LBN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -220,14 +220,14 @@ Oct 2023: Hamas and Hezbollah launched major attacks against Israel, triggering 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to Canadian operators in the LLLL/Tel Aviv FIR due to potential risk from military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/israel/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>ISR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -284,14 +284,14 @@ Jan 2020: Iran shot down Ukraine International Airlines flight 752 over Tehran a
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators should not enter the OIIX/Tehran FIR, due to the potential risk from anti-aviation weaponry and military operations.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/iran/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>IRN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -398,14 +398,14 @@ Oct 2021: Military coup on Oct 25. HSSK/Khartoum airport closed for two days, wi
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the airspace of Sudan due to risks from anti-aircraft weaponry and military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/sudan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>SDN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -463,14 +463,14 @@ Read: OPSGROUP article: Ukraine and Russia Update March 2022
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators are prohibited from the URRV/Rostov FIR, and the airspace of Russia within 200nm of the FIR boundaries with Ukraine in the UUWV/Moscow FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/russia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>RUS</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1588,14 +1588,14 @@ Read: Saudi-Yemen Airspace Update, Oct 2020 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should avoid the OYSC/Sanaa FIR except airways N315, UL425 and R401, due to potential risk from anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/yemen/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>YEM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1674,14 +1674,14 @@ Read: Haiti Crisis: Airport Attacked, Aircraft Shot, March 2024 (OPSGROUP articl
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the airspace of Haiti below 10,000ft AGL due to the risk of small arms fire.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/haiti/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>HTI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1755,14 +1755,14 @@ Nov 2019: Militia advancing on the capital, Tripoli, declared a no-fly-zone arou
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators must avoid the HLLL/Tripoli FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/libya/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>LBY</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -1813,14 +1813,14 @@ Prior to February 2022, there were two areas of concern in Ukraine - the conflic
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators are prohibited from the airspace of Ukraine, including the contested UKFV/Simferopol FIR over Crimea (claimed by Russia as the URFV FIR).</td></tr>
 </table>
 <p><a href="https://safeairspace.net/ukraine/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level1</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>1</value></Data>
           <Data name="RiskLabel"><value>Do Not Fly</value></Data>
           <Data name="ISO3"><value>UKR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -1906,14 +1906,14 @@ Oct 2021: US operators permitted to overfly the ORBB/Baghdad FIR above FL320 und
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Explosive drone attack by militia on US interests at ORER/Erbil Airport on April 14. It is unique as these kinds of attacks usually use less accurate rockets and mortars. It may signify that militia have increasing access to more sophisticated weapons which may pose a new threat to airports throughout Iraq including ORBI/Baghdad.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/iraq/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>IRQ</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -1965,14 +1965,14 @@ Aug 2021: US and allied forces withdrew from Afghanistan; the OAKX/Kabul FIR bec
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should not enter the OAKX/Kabul FIR below 25,000ft AGL except on airways P500/G500, due to potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/afghanistan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>AFG</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2014,14 +2014,14 @@ Feb-Aug 2019: Pakistan closed its airspace to overflights following major clashe
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Operators should not enter the Baluchistan province (southwestern part of Pakistan) or the Khyber Pakhtunkhwa province (northwestern part of Pakistan) below FL260.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/pakistan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>PAK</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2068,14 +2068,14 @@ While no intent to target civil aviation has been announced, substantial risks e
 In addition, there has been an increase in GPS interference in the SVZM/Maiquetia FIR with lasting effects on overflights. Jamming and spoofing may extend as far as 250nm from the source.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/venezuela/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>VEN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2253,14 +2253,14 @@ Read: Africa Airspace Risk, Jet Shot in Rwanda, Jan 2023 (OPSGROUP article) Clic
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators should not enter an easterly portion of DROC airspace (the FZZA/Kinshasa FIR) near the Rwanda/Burundi borders below FL260 due to the potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/congo-drc/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>COD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2318,14 +2318,14 @@ May 2020: An Embraer EMB-120 was shot down while on approach to Bardale airstrip
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators should avoid the HCSM/Mogadishu FIR below 25,000ft AGL, due to the potential risk from anti-aircraft weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/somalia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>SOM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2377,14 +2377,14 @@ Jan 2017 and Nov 2016: Vehicle bomb and rocket attacks targeted GAGO/Gao and GAT
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Operators should avoid the airspace of Mali below FL260, particularly the northeast of the country.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/mali/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>MLI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2433,14 +2433,14 @@ Sep 2018: Risk due to hidden ATC strike. Ethiopian ATC controllers went on strik
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Ethiopian ATC Controllers went on strike, and ECAA and Ethiopian Airlines used foreign and retired controllers to cover, causing safety concerns.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/ethiopia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>ETH</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2492,14 +2492,14 @@ Read: North Korea Missile Threat, Oct 2022 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Since 2015, North Korea has been test-launching missiles with increasing regularity. The absolute lack of warning, coupled with an emerging picture of a focus area for re-entry, creates a risk to flight operations in the western portion of Japan’s Fukuoka FIR over the Sea of Japan. Consider rerouting to remain over the Japanese landmass or east of it. Check routings carefully for arrivals/departures to Europe from Japan, especially if planning airways which connect with the UHHH/Khabarovsk FIR at waypoints IGROD and AVGOK.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/north-korea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>PRK</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2594,14 +2594,14 @@ Read: OPSGROUP article: Sudan Airspace Update, Apr 2023
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> UK operators advised of potential risk below 25,000ft AGL in the airspace over South Sudan due to the potential risk from anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/south-sudan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>SSD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2639,14 +2639,14 @@ Read: OPSGROUP article: Ukraine and Russia Update March 2022
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Canadian operators are prohibited from the LUUU/Chisinau FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/moldova/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>MDA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2693,14 +2693,14 @@ Prior to Feb 2022, several countries and aviation organisations had urged airlin
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> EU and Third Country Operators should avoid the UMMV/Minsk FIR.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/belarus/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level2</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>2</value></Data>
           <Data name="RiskLabel"><value>High Risk</value></Data>
           <Data name="ISO3"><value>BLR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2714,6 +2714,145 @@ Prior to Feb 2022, several countries and aviation organisations had urged airlin
     <Folder>
       <name>Level 3 - Caution (32)</name>
       <open>0</open>
+
+      <Placemark>
+        <name>Armenia</name>
+        <description><![CDATA[<h2>Armenia</h2>
+<h3 style="color: #ffff00">Risk Level 3: Caution</h3>
+<h4>Warning Summary:</h4>
+<p>March 2026: Armenian airspace (UDDD/Yerevan FIR) remains open and is currently seeing increased traffic as flights reroute north around the closed Middle East corridor following US and Israeli strikes on Iran beginning Feb 28. The Armenia-Azerbaijan corridor has become one of the main bypass routes linking Europe with Asia. 
+
+See OPSGROUP Briefing: Middle East airspace situation - March 2026
+
+
+
+On March 5, Iranian drones crossed into Azerbaijan and one struck the terminal building at UBBN/Nakhchivan airport. A Notam temporarily closed the southern sector of the UBBA/Baku FIR around Nakhchivan, but the overflight routes through the main parts of the UDDD and UBBA FIRs remain available.
+
+
+
+Following the ceasefire between Armenia and Azerbaijan in Sep 2023, cross-border waypoints reopened after military conflict in the border region. Although tensions remain between the two countries, the airspace has generally remained open since then and is now being used heavily by international traffic avoiding closures further south.
+
+The primary risk is potential spillover from the current Iran conflict into the southern Caucasus region, including missile or drone activity crossing the Iran-Azerbaijan border. There also remains a background risk from renewed military tensions between Armenia and Azerbaijan near the border region.
+
+Major events:
+March 2026: Iranian drones crossed into Azerbaijan and struck the terminal building at UBBN/Nakhchivan airport; the southern sector of the UBBA/Baku FIR temporarily closed.
+Sep 2023: Ceasefire agreed between Armenia and Azerbaijan following fighting in the border region; cross-border waypoints reopened.
+Sep 2022: Clashes between Armenia and Azerbaijan temporarily closed border waypoints.
+Sep-Oct 2020: War between Armenia and Azerbaijan led to large areas of closed airspace and warnings of missile threats. Click for full briefing</p>
+<h4>Active NOTAMs (1):</h4>
+<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #333;"><th>Source</th><th>Reference</th><th>Issued</th><th>Valid To</th></tr>
+<tr><td>Canada</td><td>AIC 21/25</td><td>15-Sep-22</td><td>Ongoing</td></tr>
+<tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Armenia due to potential risk from anti-aviation weaponry and military ops.</td></tr>
+</table>
+<p><a href="https://safeairspace.net/armenia/">View Full Details on SafeAirspace.net</a></p>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
+        <styleUrl>#level3</styleUrl>
+        <ExtendedData>
+          <Data name="RiskLevel"><value>3</value></Data>
+          <Data name="RiskLabel"><value>Caution</value></Data>
+          <Data name="ISO3"><value>ARM</value></Data>
+          <Data name="Source"><value>SafeAirspace.net</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              45.0024,41.290452,0 45.0394,41.23118,0 45.029323,41.210096,0 45.034853,41.197693,0 45.052009,41.192112,0 45.117328,41.19206,0 45.134433,41.187875,0 45.186781,41.156869,0 45.199752,41.142658,0 45.201044,41.126741,0 45.166731,41.107776,0 45.067822,41.110928,0 45.057177,41.078786,0 45.070044,41.062094,0 45.091697,41.051035,0 45.111024,41.049537,0 45.117122,41.061422,0 45.120016,41.079613,0 45.136552,41.072895,0 45.169211,41.04716,0 45.189675,41.037548,0 45.205178,41.024887,0 45.221611,41.014449,0 45.26874,41.010263,0 45.312562,40.99662,0 45.335351,40.99383,0 45.381948,41.011448,0 45.391523,41.015069,0 45.419119,41.017342,0 45.425217,40.993675,0 45.416432,40.961325,0 45.428731,40.951197,0 45.442843,40.94838,0 45.452812,40.946391,0 45.47927,40.929906,0 45.522058,40.888151,0 45.537871,40.875904,0 45.558232,40.870943,0 45.581796,40.869651,0 45.599159,40.862675,0 45.600968,40.840557,0 45.58221,40.799371,0 45.555855,40.776582,0 45.478335,40.748183,0 45.437929,40.73338,0 45.39881,40.708937,0 45.373643,40.675296,0 45.373585,40.651298,0 45.37354,40.632715,0 45.387803,40.609512,0 45.407026,40.595094,0 45.427232,40.58295,0 45.444647,40.566362,0 45.448574,40.556492,0 45.450848,40.534374,0 45.455447,40.523626,0 45.464697,40.515719,0 45.48542,40.505281,0 45.493843,40.493653,0 45.526192,40.441047,0 45.585413,40.398724,0 45.818371,40.2978,0 45.819152,40.297141,0 45.861676,40.261265,0 45.881726,40.260438,0 45.888504,40.261957,0 45.902707,40.26514,0 45.924618,40.266174,0 45.93919,40.260283,0 45.953556,40.249586,0 45.97924,40.223592,0 45.9811,40.217805,0 45.981772,40.211914,0 45.9811,40.205971,0 45.962961,40.141685,0 45.950766,40.117191,0 45.931697,40.097554,0 45.909528,40.082671,0 45.905807,40.075074,0 45.894025,40.029082,0 45.887204,40.018437,0 45.873768,40.009755,0 45.803901,40.004484,0 45.63957,40.025413,0 45.576267,39.993891,0 45.577583,39.983983,0 45.579419,39.970171,0 45.611148,39.959164,0 45.715431,39.950896,0 45.742768,39.940509,0 45.764421,39.92206,0 45.809177,39.851262,0 45.816821,39.839171,0 45.861882,39.804548,0 45.883188,39.796148,0 45.916143,39.783154,0 45.97924,39.768478,0 46.006576,39.747911,0 46.045127,39.687553,0 46.076546,39.668122,0 46.114477,39.659648,0 46.131685,39.652154,0 46.146103,39.63846,0 46.169564,39.604095,0 46.18424,39.593243,0 46.206461,39.587921,0 46.241187,39.593502,0 46.309504,39.620528,0 46.343713,39.618616,0 46.357873,39.609676,0 46.381437,39.585027,0 46.396423,39.576655,0 46.416164,39.57402,0 46.479312,39.578671,0 46.495435,39.575932,0 46.512024,39.56756,0 46.524271,39.554641,0 46.527268,39.538156,0 46.518276,39.525444,0 46.503704,39.518468,0 46.492025,39.510199,0 46.491715,39.493663,0 46.498588,39.483121,0 46.498226,39.473767,0 46.491405,39.466429,0 46.479312,39.461882,0 46.478952,39.461829,0 46.405725,39.451185,0 46.373996,39.435992,0 46.36087,39.410257,0 46.374616,39.378838,0 46.407379,39.359149,0 46.479312,39.334241,0 46.49528,39.324009,0 46.50267,39.309488,0 46.507941,39.293572,0 46.517656,39.278844,0 46.541841,39.259052,0 46.584526,39.235772,0 46.59114,39.231069,0 46.597858,39.225075,0 46.599141,39.222487,0 46.602612,39.215489,0 46.593827,39.21213,0 46.572795,39.21151,0 46.526441,39.185826,0 46.514142,39.184431,0 46.453371,39.208409,0 46.418334,39.211923,0 46.395286,39.19518,0 46.396268,39.164432,0 46.421848,39.14464,0 46.455128,39.129938,0 46.479312,39.114771,0 46.491921,39.081905,0 46.497502,39.053535,0 46.494609,39.025526,0 46.481483,38.993771,0 46.480759,38.990619,0 46.479312,38.987751,0 46.475798,38.975607,0 46.474093,38.96323,0 46.475075,38.95106,0 46.479312,38.939381,0 46.514039,38.882176,0 46.496056,38.886077,0 46.391876,38.922354,0 46.378233,38.924705,0 46.367588,38.92362,0 46.343352,38.917471,0 46.304543,38.916256,0 46.291314,38.913931,0 46.271935,38.906567,0 46.219948,38.877163,0 46.202482,38.870548,0 46.135871,38.863701,0 46.07758,38.950492,0 46.02549,39.063767,0 46.005233,39.095444,0 45.97924,39.124435,0 45.958104,39.151513,0 45.949009,39.177791,0 45.955107,39.203241,0 45.97924,39.227943,0 45.986009,39.234686,0 45.988076,39.241895,0 45.985802,39.24944,0 45.97924,39.257295,0 45.958827,39.272436,0 45.901788,39.294124,0 45.887204,39.299669,0 45.863329,39.314036,0 45.844312,39.330055,0 45.823745,39.343078,0 45.767004,39.354395,0 45.764371,39.359142,0 45.758633,39.369484,0 45.764989,39.389483,0 45.79863,39.432426,0 45.803075,39.448188,0 45.794031,39.49387,0 45.794031,39.493973,0 45.797287,39.519398,0 45.79708,39.536348,0 45.788088,39.548957,0 45.765454,39.561566,0 45.737859,39.569782,0 45.714656,39.569472,0 45.709066,39.568422,0 45.586447,39.545391,0 45.559679,39.536813,0 45.47927,39.497177,0 45.468625,39.493663,0 45.457463,39.48927,0 45.446094,39.487513,0 45.434828,39.488857,0 45.42408,39.493714,0 45.423937,39.493827,0 45.39235,39.518778,0 45.374884,39.525857,0 45.327548,39.529268,0 45.312975,39.533815,0 45.302898,39.545081,0 45.291064,39.565855,0 45.266191,39.592918,0 45.259955,39.599703,0 45.233187,39.592727,0 45.204765,39.572314,0 45.16792,39.565545,0 45.148334,39.57526,0 45.144407,39.589833,0 45.154225,39.625851,0 45.155879,39.649209,0 45.151538,39.667709,0 45.141255,39.684401,0 45.074999,39.74982,0 45.067512,39.757213,0 45.033509,39.77039,0 44.995992,39.760468,0 44.959095,39.738506,0 44.953215,39.735965,0 44.927159,39.724708,0 44.893053,39.718404,0 44.849334,39.71892,0 44.802929,39.712409,0 44.774559,39.702797,0 44.759107,39.723106,0 44.697767,39.785273,0 44.692031,39.793024,0 44.687174,39.796383,0 44.682419,39.79721,0 44.671257,39.795867,0 44.666193,39.796383,0 44.647693,39.805117,0 44.611519,39.837311,0 44.598187,39.831007,0 44.594466,39.836794,0 44.594156,39.84806,0 44.591056,39.857827,0 44.575966,39.866353,0 44.567491,39.87302,0 44.56377,39.881701,0 44.55912,39.896894,0 44.547854,39.911467,0 44.522171,39.933533,0 44.464345,39.97229,0 44.380926,40.009804,0 44.325645,40.034663,0 44.289058,40.043397,0 44.255262,40.043397,0 44.195007,40.030788,0 44.166379,40.028049,0 44.145915,40.023398,0 44.135476,40.022313,0 44.127001,40.024483,0 44.114289,40.03394,0 44.10447,40.035955,0 44.083128,40.031614,0 44.04835,40.012856,0 44.032433,40.008618,0 43.912131,40.024328,0 43.802783,40.070734,0 43.711213,40.090732,0 43.665427,40.110163,0 43.652508,40.138998,0 43.666357,40.14892,0 43.711626,40.156465,0 43.721393,40.169384,0 43.714933,40.180649,0 43.683721,40.210105,0 43.673075,40.227727,0 43.691369,40.23863,0 43.690348,40.240443,0 43.675969,40.265967,0 43.631476,40.310305,0 43.604449,40.329787,0 43.594217,40.345445,0 43.601038,40.361827,0 43.609565,40.372989,0 43.624463,40.411137,0 43.625326,40.413348,0 43.625326,40.42017,0 43.584864,40.446576,0 43.563625,40.464715,0 43.559491,40.477892,0 43.5937,40.509001,0 43.615301,40.520422,0 43.638969,40.522592,0 43.636282,40.529775,0 43.634628,40.532773,0 43.631476,40.536855,0 43.637574,40.53515,0 43.642018,40.534374,0 43.646462,40.533031,0 43.652508,40.529414,0 43.651475,40.553391,0 43.664807,40.574062,0 43.707182,40.611941,0 43.699534,40.634575,0 43.705632,40.640776,0 43.726405,40.668992,0 43.729351,40.677105,0 43.724132,40.746351,0 43.720618,40.762888,0 43.711316,40.781646,0 43.669768,40.832134,0 43.659536,40.851978,0 43.654162,40.874715,0 43.65194,40.894766,0 43.647651,40.913886,0 43.636178,40.933523,0 43.604863,40.963341,0 43.565433,40.988145,0 43.522387,41.004475,0 43.479599,41.009126,0 43.460479,41.022872,0 43.444562,41.051449,0 43.436294,41.08323,0 43.440428,41.106588,0 43.450453,41.104676,0 43.460324,41.104521,0 43.470142,41.106174,0 43.524144,41.122814,0 43.566622,41.124054,0 43.729713,41.106691,0 43.754156,41.108241,0 43.773741,41.114494,0 43.820353,41.1455,0 43.863245,41.158988,0 43.955849,41.160486,0 43.977755,41.164537,0 43.978186,41.164617,0 44.001117,41.168858,0 44.041322,41.182552,0 44.061269,41.184154,0 44.103643,41.175162,0 44.124727,41.178056,0 44.144364,41.186066,0 44.160074,41.1979,0 44.16519,41.207667,0 44.165862,41.216142,0 44.168446,41.223583,0 44.180331,41.229939,0 44.190977,41.230043,0 44.218107,41.221568,0 44.266476,41.196195,0 44.284976,41.190872,0 44.308489,41.193817,0 44.317739,41.198572,0 44.324922,41.204825,0 44.333087,41.210354,0 44.344921,41.213248,0 44.357271,41.212163,0 44.410601,41.18772,0 44.432461,41.181673,0 44.45494,41.180485,0 44.479228,41.185808,0 44.499382,41.202809,0 44.505893,41.206582,0 44.516641,41.20684,0 44.521912,41.199295,0 44.52553,41.189063,0 44.531008,41.181467,0 44.551523,41.177023,0 44.566251,41.186944,0 44.578446,41.202809,0 44.591366,41.21578,0 44.612863,41.223118,0 44.63312,41.221051,0 44.674926,41.208494,0 44.821532,41.20622,0 44.847784,41.208907,0 44.857706,41.219346,0 44.85382,41.223514,0 44.847061,41.230766,0 44.809543,41.244409,0 44.801275,41.258516,0 44.820706,41.273347,0 44.917237,41.261772,0 44.955168,41.262702,0 44.967363,41.269007,0 44.989998,41.284458,0 45.0024,41.290452,0
+            </coordinates></LinearRing></outerBoundaryIs>
+            <innerBoundaryIs><LinearRing><coordinates>
+              44.979456,41.082041,0 44.963953,41.073773,0 44.960697,41.059924,0 44.96695,41.044834,0 44.979456,41.032639,0 45.015732,41.023234,0 45.029995,41.046281,0 45.018885,41.07491,0 44.979456,41.082041,0
+            </coordinates></LinearRing></innerBoundaryIs>
+            <innerBoundaryIs><LinearRing><coordinates>
+              45.209932,40.967991,0 45.220474,40.97905,0 45.191846,40.997809,0 45.187712,40.998377,0 45.183784,40.997912,0 45.18027,40.996413,0 45.17717,40.99383,0 45.186781,40.970834,0 45.209932,40.967991,0
+            </coordinates></LinearRing></innerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              45.513687,40.601967,0 45.47927,40.609822,0 45.473276,40.619434,0 45.471312,40.629873,0 45.473379,40.640311,0 45.47927,40.650233,0 45.491776,40.657106,0 45.505573,40.660207,0 45.520198,40.660413,0 45.534667,40.658915,0 45.560712,40.647649,0 45.547173,40.621553,0 45.513687,40.601967,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+
+      </Placemark>
+
+      <Placemark>
+        <name>Azerbaijan</name>
+        <description><![CDATA[<h2>Azerbaijan</h2>
+<h3 style="color: #ffff00">Risk Level 3: Caution</h3>
+<h4>Warning Summary:</h4>
+<p>March 2026: Azerbaijani airspace (UBBA/Baku FIR) remains open and is currently seeing increased traffic as flights reroute north around the closed Middle East corridor following US and Israeli strikes on Iran beginning Feb 28. The Armenia-Azerbaijan corridor has become one of the main bypass routes linking Europe with Asia. 
+
+See OPSGROUP Briefing: Middle East airspace situation - March 2026
+
+
+
+On March 5, Iranian drones crossed into Azerbaijan and one struck the terminal building at UBBN/Nakhchivan airport. A Notam temporarily closed the southern sector of the UBBA/Baku FIR around Nakhchivan, but the main overflight routes through the FIR remain available.
+
+
+
+Following the ceasefire between Armenia and Azerbaijan in Sep 2023, cross-border waypoints reopened after military conflict in the border region. Although tensions remain between the two countries, the airspace has generally remained open since then and is now being used heavily by international traffic avoiding closures further south.
+
+The primary risk is potential spillover from the current Iran conflict into the southern Caucasus region, including missile or drone activity crossing the Iran-Azerbaijan border. There also remains a background risk from renewed military tensions between Armenia and Azerbaijan near the border region.
+
+Major events:
+March 2026: Iranian drones crossed into Azerbaijan and struck the terminal building at UBBN/Nakhchivan airport; the southern sector of the UBBA/Baku FIR temporarily closed.
+Sep 2023: Ceasefire agreed between Armenia and Azerbaijan following fighting in the border region; cross-border waypoints reopened.
+Sep 2022: Clashes between Armenia and Azerbaijan temporarily closed border waypoints.
+Sep-Oct 2020: War between Armenia and Azerbaijan led to large areas of closed airspace and warnings of missile threats. Click for full briefing</p>
+<h4>Active NOTAMs (1):</h4>
+<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #333;"><th>Source</th><th>Reference</th><th>Issued</th><th>Valid To</th></tr>
+<tr><td>Canada</td><td>AIC 21/25</td><td>15-Sep-22</td><td>Ongoing</td></tr>
+<tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Azerbaijan due to potential risk from anti-aviation weaponry and military ops.</td></tr>
+</table>
+<p><a href="https://safeairspace.net/azerbaijan/">View Full Details on SafeAirspace.net</a></p>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
+        <styleUrl>#level3</styleUrl>
+        <ExtendedData>
+          <Data name="RiskLevel"><value>3</value></Data>
+          <Data name="RiskLabel"><value>Caution</value></Data>
+          <Data name="ISO3"><value>AZE</value></Data>
+          <Data name="Source"><value>SafeAirspace.net</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              44.979456,41.082041,0 45.018885,41.07491,0 45.029995,41.046281,0 45.015732,41.023234,0 44.979456,41.032639,0 44.96695,41.044834,0 44.960697,41.059924,0 44.963953,41.073773,0 44.979456,41.082041,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              45.0024,41.290452,0 45.097834,41.349919,0 45.24962,41.4445,0 45.281711,41.452923,0 45.314422,41.451631,0 45.333096,41.444352,0 45.38124,41.425586,0 45.396794,41.423261,0 45.416948,41.424604,0 45.450021,41.432201,0 45.464801,41.430185,0 45.47927,41.41768,0 45.511826,41.39458,0 45.65559,41.352361,0 45.720702,41.342387,0 45.74406,41.335359,0 45.7453,41.329158,0 45.731038,41.323267,0 45.708093,41.317117,0 45.685872,41.29624,0 45.709747,41.267715,0 45.751088,41.240998,0 45.770337,41.232102,0 45.820748,41.208804,0 45.969163,41.168289,0 46.017428,41.163793,0 46.041613,41.165447,0 46.061353,41.170925,0 46.087608,41.183659,0 46.113133,41.19604,0 46.135406,41.199915,0 46.210595,41.200174,0 46.228578,41.195419,0 46.244391,41.183741,0 46.273433,41.1563,0 46.332345,41.115889,0 46.353119,41.106536,0 46.41265,41.09186,0 46.429031,41.080956,0 46.456988,41.052431,0 46.47492,41.044111,0 46.496779,41.044834,0 46.505564,41.055273,0 46.511145,41.070983,0 46.522411,41.087002,0 46.543546,41.097027,0 46.563132,41.095581,0 46.582148,41.091653,0 46.601786,41.09403,0 46.615539,41.108666,0 46.621113,41.114597,0 46.629484,41.14674,0 46.634755,41.181053,0 46.64447,41.207977,0 46.650361,41.214178,0 46.663591,41.223531,0 46.669482,41.229888,0 46.6716,41.236451,0 46.672686,41.253969,0 46.674649,41.261669,0 46.683434,41.269472,0 46.691703,41.268542,0 46.694803,41.269782,0 46.688499,41.284355,0 46.657079,41.320631,0 46.637752,41.336961,0 46.631034,41.345539,0 46.629841,41.346136,0 46.62287,41.349622,0 46.607367,41.345023,0 46.591554,41.372928,0 46.542461,41.394994,0 46.445103,41.425948,0 46.398284,41.458711,0 46.377923,41.462483,0 46.366244,41.466566,0 46.313948,41.493747,0 46.29674,41.510387,0 46.287851,41.532143,0 46.279871,41.571172,0 46.278394,41.578393,0 46.256174,41.610329,0 46.2539,41.615911,0 46.24005,41.615497,0 46.233436,41.607952,0 46.228475,41.598728,0 46.21969,41.593302,0 46.192767,41.610174,0 46.180002,41.655159,0 46.179537,41.705879,0 46.188994,41.740141,0 46.208321,41.755514,0 46.230129,41.757323,0 46.276947,41.749313,0 46.297773,41.750812,0 46.313741,41.756651,0 46.328314,41.766418,0 46.371309,41.805692,0 46.392754,41.831685,0 46.430892,41.890442,0 46.452337,41.886178,0 46.479312,41.887005,0 46.525511,41.882303,0 46.543546,41.874293,0 46.549127,41.855379,0 46.544321,41.814761,0 46.549851,41.79776,0 46.567576,41.786675,0 46.586593,41.786779,0 46.603956,41.795176,0 46.636512,41.816518,0 46.657079,41.821996,0 46.69749,41.828223,0 46.709555,41.835066,0 46.715577,41.838481,0 46.732424,41.8514,0 46.740795,41.851245,0 46.745033,41.840135,0 46.754024,41.800886,0 46.759399,41.787295,0 46.769114,41.77572,0 46.834795,41.730245,0 46.851899,41.722338,0 46.864509,41.719677,0 46.890553,41.717093,0 46.902232,41.712752,0 46.906883,41.706939,0 46.912258,41.688619,0 46.915978,41.680945,0 46.929517,41.667225,0 46.97923,41.635496,0 47.003932,41.60542,0 47.012613,41.5755,0 47.027031,41.556948,0 47.028262,41.557075,0 47.069147,41.561289,0 47.088267,41.566973,0 47.107491,41.569919,0 47.125578,41.566301,0 47.141391,41.5524,0 47.148729,41.535089,0 47.152243,41.518139,0 47.159323,41.503514,0 47.176996,41.493489,0 47.17925,41.491732,0 47.187073,41.485634,0 47.191827,41.476694,0 47.195134,41.466979,0 47.200509,41.45685,0 47.231463,41.42755,0 47.239059,41.415716,0 47.24278,41.391273,0 47.24092,41.338925,0 47.250842,41.316032,0 47.268411,41.302803,0 47.344479,41.268232,0 47.367292,41.261789,0 47.375588,41.259447,0 47.479148,41.251953,0 47.500955,41.246321,0 47.529171,41.216555,0 47.547309,41.205651,0 47.567773,41.205496,0 47.603171,41.223273,0 47.622498,41.229061,0 47.642549,41.227252,0 47.694889,41.207134,0 47.724559,41.195729,0 47.743731,41.192681,0 47.813491,41.197388,0 47.828739,41.198417,0 47.871114,41.208183,0 47.894627,41.219294,0 47.898864,41.229061,0 47.8938,41.241877,0 47.889252,41.262444,0 47.892146,41.283269,0 47.901448,41.292985,0 47.91478,41.300219,0 47.929456,41.313552,0 47.937931,41.331742,0 47.942686,41.3474,0 47.953228,41.355771,0 47.979169,41.352412,0 48.001648,41.362076,0 48.034566,41.433648,0 48.053532,41.461295,0 48.086553,41.476643,0 48.201843,41.493489,0 48.23135,41.505478,0 48.283698,41.539533,0 48.370153,41.58015,0 48.393046,41.598883,0 48.413251,41.627615,0 48.455419,41.714406,0 48.462211,41.720992,0 48.53066,41.787373,0 48.578949,41.845282,0 48.589366,41.838365,0 48.620128,41.824408,0 48.655447,41.800605,0 48.743663,41.70893,0 48.777843,41.68301,0 48.79184,41.667426,0 48.797618,41.643134,0 48.865896,41.585395,0 48.904063,41.523383,0 48.924327,41.517808,0 48.941173,41.504625,0 48.953868,41.489081,0 48.962169,41.476142,0 48.985362,41.450507,0 48.989431,41.444525,0 48.994477,41.440416,0 49.019216,41.43476,0 49.027599,41.43122,0 49.042491,41.414374,0 49.078624,41.35753,0 49.108897,41.30976,0 49.123383,41.293687,0 49.135916,41.27497,0 49.141938,41.25316,0 49.154307,41.166449,0 49.160655,41.148098,0 49.171641,41.140367,0 49.178477,41.128852,0 49.195486,41.057278,0 49.243175,40.997219,0 49.363129,40.894232,0 49.373057,40.882799,0 49.382009,40.866645,0 49.403168,40.852729,0 49.448741,40.831285,0 49.471039,40.835761,0 49.489919,40.823147,0 49.507823,40.80622,0 49.527843,40.797797,0 49.538829,40.788072,0 49.534353,40.766181,0 49.516938,40.728909,0 49.510997,40.70954,0 49.509532,40.699042,0 49.510753,40.687934,0 49.514903,40.681586,0 49.528331,40.66885,0 49.531261,40.663723,0 49.531912,40.662869,0 49.53891,40.653998,0 49.556651,40.641181,0 49.576182,40.62995,0 49.58961,40.62519,0 49.633067,40.623196,0 49.652599,40.619208,0 49.668468,40.612209,0 49.704112,40.58808,0 49.723806,40.580756,0 49.773936,40.575629,0 49.816742,40.565375,0 49.840343,40.563788,0 49.858653,40.566636,0 49.914236,40.584296,0 49.938162,40.58747,0 50.052013,40.584296,0 50.060395,40.577948,0 50.064789,40.57095,0 50.068044,40.563707,0 50.07252,40.556952,0 50.090343,40.540229,0 50.109386,40.527086,0 50.129649,40.518459,0 50.220063,40.503648,0 50.237559,40.496161,0 50.248546,40.481187,0 50.260753,40.458075,0 50.27589,40.436591,0 50.295665,40.427232,0 50.317393,40.42121,0 50.335948,40.405951,0 50.350597,40.385891,0 50.360525,40.36518,0 50.370779,40.28262,0 50.377696,40.2744,0 50.385997,40.255683,0 50.391124,40.235012,0 50.387869,40.221137,0 50.368663,40.249701,0 50.347911,40.2744,0 50.32309,40.296576,0 50.273692,40.327338,0 50.252615,40.33633,0 50.229991,40.34276,0 50.185313,40.34748,0 50.147716,40.35692,0 50.127696,40.358954,0 50.116466,40.357978,0 50.102875,40.35342,0 50.093598,40.351508,0 50.055186,40.351508,0 50.037608,40.345771,0 50.003754,40.324205,0 49.983735,40.324205,0 49.976573,40.329047,0 49.963715,40.344794,0 49.955821,40.351508,0 49.945323,40.354722,0 49.919607,40.35814,0 49.893403,40.369045,0 49.873546,40.360582,0 49.840343,40.337836,0 49.847179,40.314154,0 49.819021,40.29206,0 49.778331,40.275824,0 49.711925,40.26435,0 49.653656,40.23843,0 49.577159,40.216742,0 49.559255,40.206692,0 49.520844,40.174221,0 49.503591,40.164944,0 49.492524,40.153998,0 49.490408,40.132392,0 49.49586,40.105211,0 49.496593,40.09455,0 49.442638,40.078437,0 49.432628,40.062974,0 49.435069,40.042792,0 49.448741,40.022528,0 49.457693,40.015041,0 49.471934,40.006496,0 49.479747,39.998969,0 49.483897,39.988674,0 49.478282,39.982327,0 49.468272,39.977362,0 49.450694,39.96483,0 49.442882,39.961859,0 49.435395,39.957668,0 49.428233,39.947455,0 49.423676,39.935492,0 49.423106,39.9265,0 49.428233,39.90644,0 49.439708,39.884996,0 49.443126,39.873358,0 49.438487,39.861762,0 49.429698,39.854315,0 49.422048,39.849433,0 49.416515,39.843736,0 49.414561,39.834174,0 49.416352,39.828599,0 49.419688,39.82331,0 49.422374,39.817328,0 49.421397,39.810248,0 49.417166,39.805854,0 49.40089,39.796617,0 49.394786,39.782457,0 49.395193,39.77619,0 49.40089,39.769273,0 49.396332,39.756171,0 49.402029,39.742499,0 49.424815,39.718085,0 49.423595,39.70954,0 49.409841,39.701361,0 49.383962,39.690131,0 49.358735,39.666571,0 49.33725,39.64643,0 49.318044,39.621405,0 49.319021,39.604193,0 49.307384,39.587592,0 49.29713,39.565579,0 49.289236,39.542385,0 49.284923,39.522203,0 49.285818,39.495185,0 49.295746,39.476711,0 49.388845,39.410793,0 49.40089,39.399359,0 49.408946,39.38642,0 49.408051,39.382025,0 49.403575,39.378485,0 49.397309,39.34516,0 49.398692,39.33515,0 49.407074,39.323676,0 49.394786,39.328681,0 49.38559,39.334947,0 49.378673,39.342475,0 49.373057,39.350979,0 49.366873,39.350979,0 49.370616,39.336168,0 49.37908,39.31981,0 49.391368,39.305487,0 49.407074,39.296942,0 49.407074,39.289496,0 49.384532,39.293687,0 49.370372,39.305854,0 49.357677,39.320136,0 49.306407,39.346503,0 49.273123,39.336575,0 49.247325,39.310696,0 49.237071,39.278957,0 49.237804,39.169501,0 49.234304,39.156358,0 49.229666,39.138658,0 49.215587,39.10635,0 49.210785,39.090766,0 49.207856,39.055406,0 49.203298,39.034125,0 49.193858,39.016343,0 49.118826,38.975328,0 49.079275,38.963324,0 49.051524,38.981024,0 49.054698,38.992743,0 49.054373,39.0008,0 49.055837,39.007514,0 49.065196,39.015123,0 49.110118,39.021959,0 49.125499,39.028144,0 49.138682,39.043443,0 49.146821,39.063422,0 49.147716,39.083441,0 49.136404,39.102281,0 49.116384,39.110297,0 49.068614,39.111396,0 49.068614,39.120307,0 49.062755,39.161322,0 49.05893,39.172797,0 49.041189,39.184394,0 49.022227,39.188218,0 48.979503,39.187079,0 48.967621,39.183824,0 48.961762,39.175849,0 48.957856,39.165676,0 48.949555,39.151272,0 48.948741,39.146186,0 48.949067,39.135321,0 48.946951,39.127509,0 48.942149,39.125393,0 48.937266,39.125434,0 48.934825,39.124416,0 48.932953,39.077704,0 48.936371,39.053127,0 48.952647,39.031643,0 48.948578,39.007229,0 48.921723,38.935452,0 48.918224,38.928941,0 48.898692,38.893052,0 48.896251,38.890733,0 48.867931,38.863837,0 48.831798,38.871161,0 48.83253,38.835639,0 48.834727,38.819281,0 48.839203,38.803534,0 48.863129,38.756659,0 48.8685,38.602484,0 48.874278,38.434231,0 48.874278,38.434068,0 48.809713,38.444631,0 48.777725,38.444812,0 48.755349,38.435226,0 48.735609,38.419568,0 48.710287,38.407114,0 48.683209,38.398019,0 48.659128,38.392645,0 48.612962,38.395646,0 48.607865,38.395978,0 48.575929,38.420369,0 48.548643,38.456258,0 48.535641,38.469154,0 48.510816,38.493776,0 48.495933,38.510312,0 48.479087,38.524756,0 48.462654,38.544935,0 48.446634,38.556407,0 48.433715,38.569972,0 48.426739,38.596457,0 48.415267,38.618109,0 48.391754,38.618109,0 48.341059,38.599583,0 48.310312,38.600151,0 48.292225,38.613562,0 48.276515,38.631777,0 48.228043,38.662189,0 48.226182,38.679087,0 48.230317,38.698621,0 48.225635,38.713193,0 48.222979,38.721462,0 48.21037,38.729756,0 48.077974,38.780941,0 48.012966,38.821559,0 47.993122,38.850085,0 47.990745,38.891219,0 48.000046,38.902588,0 48.052446,38.927909,0 48.05534,38.934369,0 48.055134,38.941914,0 48.058544,38.948373,0 48.243184,38.973875,0 48.28437,38.993797,0 48.284474,38.994003,0 48.284629,38.994003,0 48.293672,39.004597,0 48.301423,39.017464,0 48.30159,39.017946,0 48.306281,39.031469,0 48.306798,39.045396,0 48.301475,39.05803,0 48.271296,39.108312,0 48.256258,39.119784,0 48.199104,39.138232,0 48.142157,39.181201,0 48.117765,39.208047,0 48.104329,39.234841,0 48.10619,39.26918,0 48.124587,39.297602,0 48.153525,39.319048,0 48.187218,39.332587,0 48.24985,39.342354,0 48.302457,39.369898,0 48.328405,39.37633,0 48.33894,39.378941,0 48.31672,39.415166,0 48.288608,39.445035,0 48.220085,39.494025,0 48.052033,39.650087,0 47.990745,39.694271,0 47.971418,39.704554,0 47.957708,39.707256,0 47.957258,39.707345,0 47.945683,39.693961,0 47.935244,39.686519,0 47.922945,39.684142,0 47.846877,39.685279,0 47.823106,39.680318,0 47.803779,39.669931,0 47.788212,39.657651,0 47.745282,39.623784,0 47.62498,39.571411,0 47.606995,39.563581,0 47.554079,39.521982,0 47.54116,39.51516,0 47.518732,39.513197,0 47.448762,39.494696,0 47.406904,39.476816,0 47.374245,39.455577,0 47.324532,39.405968,0 47.324417,39.405877,0 47.291356,39.379613,0 47.26132,39.366384,0 47.249705,39.361268,0 47.150072,39.33114,0 47.10222,39.308403,0 47.092505,39.299825,0 47.089094,39.289851,0 47.052921,39.244944,0 47.036074,39.207014,0 47.030907,39.199598,0 47.020468,39.18996,0 47.013628,39.186956,0 46.953754,39.16066,0 46.94161,39.158903,0 46.926624,39.162055,0 46.898718,39.171744,0 46.883009,39.171409,0 46.866391,39.165445,0 46.866162,39.165362,0 46.850969,39.155492,0 46.837378,39.143245,0 46.811695,39.108518,0 46.806011,39.102395,0 46.798053,39.097382,0 46.781516,39.09038,0 46.773765,39.085367,0 46.761621,39.070588,0 46.744826,39.040254,0 46.728393,39.027955,0 46.670412,39.004907,0 46.65217,38.992944,0 46.638838,38.979482,0 46.610674,38.934007,0 46.599202,38.919693,0 46.585352,38.907704,0 46.569849,38.89773,0 46.553726,38.889824,0 46.532074,38.883002,0 46.514039,38.882176,0 46.479312,38.939381,0 46.475075,38.95106,0 46.474093,38.96323,0 46.475798,38.975607,0 46.479312,38.987751,0 46.480759,38.990619,0 46.481483,38.993771,0 46.494609,39.025526,0 46.497502,39.053535,0 46.491921,39.081905,0 46.479312,39.114771,0 46.455128,39.129938,0 46.421848,39.14464,0 46.396268,39.164432,0 46.395286,39.19518,0 46.418334,39.211923,0 46.453371,39.208409,0 46.514142,39.184431,0 46.526441,39.185826,0 46.572795,39.21151,0 46.593827,39.21213,0 46.602612,39.215489,0 46.599141,39.222487,0 46.597858,39.225075,0 46.59114,39.231069,0 46.584526,39.235772,0 46.541841,39.259052,0 46.517656,39.278844,0 46.507941,39.293572,0 46.50267,39.309488,0 46.49528,39.324009,0 46.479312,39.334241,0 46.407379,39.359149,0 46.374616,39.378838,0 46.36087,39.410257,0 46.373996,39.435992,0 46.405725,39.451185,0 46.478952,39.461829,0 46.479312,39.461882,0 46.491405,39.466429,0 46.498226,39.473767,0 46.498588,39.483121,0 46.491715,39.493663,0 46.492025,39.510199,0 46.503704,39.518468,0 46.518276,39.525444,0 46.527268,39.538156,0 46.524271,39.554641,0 46.512024,39.56756,0 46.495435,39.575932,0 46.479312,39.578671,0 46.416164,39.57402,0 46.396423,39.576655,0 46.381437,39.585027,0 46.357873,39.609676,0 46.343713,39.618616,0 46.309504,39.620528,0 46.241187,39.593502,0 46.206461,39.587921,0 46.18424,39.593243,0 46.169564,39.604095,0 46.146103,39.63846,0 46.131685,39.652154,0 46.114477,39.659648,0 46.076546,39.668122,0 46.045127,39.687553,0 46.006576,39.747911,0 45.97924,39.768478,0 45.916143,39.783154,0 45.883188,39.796148,0 45.861882,39.804548,0 45.816821,39.839171,0 45.809177,39.851262,0 45.764421,39.92206,0 45.742768,39.940509,0 45.715431,39.950896,0 45.611148,39.959164,0 45.579419,39.970171,0 45.577583,39.983983,0 45.576267,39.993891,0 45.63957,40.025413,0 45.803901,40.004484,0 45.873768,40.009755,0 45.887204,40.018437,0 45.894025,40.029082,0 45.905807,40.075074,0 45.909528,40.082671,0 45.931697,40.097554,0 45.950766,40.117191,0 45.962961,40.141685,0 45.9811,40.205971,0 45.981772,40.211914,0 45.9811,40.217805,0 45.97924,40.223592,0 45.953556,40.249586,0 45.93919,40.260283,0 45.924618,40.266174,0 45.902707,40.26514,0 45.888504,40.261957,0 45.881726,40.260438,0 45.861676,40.261265,0 45.819152,40.297141,0 45.818371,40.2978,0 45.585413,40.398724,0 45.526192,40.441047,0 45.493843,40.493653,0 45.48542,40.505281,0 45.464697,40.515719,0 45.455447,40.523626,0 45.450848,40.534374,0 45.448574,40.556492,0 45.444647,40.566362,0 45.427232,40.58295,0 45.407026,40.595094,0 45.387803,40.609512,0 45.37354,40.632715,0 45.373585,40.651298,0 45.373643,40.675296,0 45.39881,40.708937,0 45.437929,40.73338,0 45.478335,40.748183,0 45.555855,40.776582,0 45.58221,40.799371,0 45.600968,40.840557,0 45.599159,40.862675,0 45.581796,40.869651,0 45.558232,40.870943,0 45.537871,40.875904,0 45.522058,40.888151,0 45.47927,40.929906,0 45.452812,40.946391,0 45.442843,40.94838,0 45.428731,40.951197,0 45.416432,40.961325,0 45.425217,40.993675,0 45.419119,41.017342,0 45.391523,41.015069,0 45.381948,41.011448,0 45.335351,40.99383,0 45.312562,40.99662,0 45.26874,41.010263,0 45.221611,41.014449,0 45.205178,41.024887,0 45.189675,41.037548,0 45.169211,41.04716,0 45.136552,41.072895,0 45.120016,41.079613,0 45.117122,41.061422,0 45.111024,41.049537,0 45.091697,41.051035,0 45.070044,41.062094,0 45.057177,41.078786,0 45.067822,41.110928,0 45.166731,41.107776,0 45.201044,41.126741,0 45.199752,41.142658,0 45.186781,41.156869,0 45.134433,41.187875,0 45.117328,41.19206,0 45.052009,41.192112,0 45.034853,41.197693,0 45.029323,41.210096,0 45.0394,41.23118,0 45.0024,41.290452,0
+            </coordinates></LinearRing></outerBoundaryIs>
+            <innerBoundaryIs><LinearRing><coordinates>
+              45.513687,40.601967,0 45.547173,40.621553,0 45.560712,40.647649,0 45.534667,40.658915,0 45.520198,40.660413,0 45.505573,40.660207,0 45.491776,40.657106,0 45.47927,40.650233,0 45.473379,40.640311,0 45.471312,40.629873,0 45.473276,40.619434,0 45.47927,40.609822,0 45.513687,40.601967,0
+            </coordinates></LinearRing></innerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              46.135871,38.863701,0 46.126052,38.862668,0 46.067968,38.874114,0 46.001822,38.897472,0 45.791086,38.932095,0 45.768074,38.93913,0 45.716878,38.954781,0 45.627788,38.955504,0 45.570841,38.966382,0 45.543142,38.967132,0 45.535565,38.968453,0 45.530843,38.969276,0 45.510276,38.978655,0 45.494529,38.981917,0 45.482577,38.984392,0 45.45984,38.993125,0 45.438601,39.004235,0 45.427077,39.014881,0 45.425268,39.025629,0 45.428214,39.034104,0 45.432296,39.042476,0 45.434518,39.052785,0 45.429712,39.059477,0 45.405838,39.067875,0 45.396381,39.073327,0 45.391317,39.08175,0 45.383462,39.103247,0 45.379328,39.111154,0 45.369923,39.118957,0 45.360621,39.12322,0 45.351939,39.12831,0 45.345273,39.138439,0 45.353903,39.153193,0 45.348219,39.163916,0 45.334886,39.170427,0 45.320933,39.172597,0 45.311115,39.176292,0 45.311322,39.184844,0 45.313905,39.19425,0 45.311115,39.200528,0 45.30171,39.201381,0 45.292615,39.198616,0 45.28569,39.194921,0 45.283106,39.193061,0 45.178927,39.219829,0 45.152727,39.213525,0 45.146267,39.228666,0 45.135828,39.278482,0 45.128904,39.289283,0 45.120377,39.298894,0 45.11435,39.30935,0 45.096038,39.341114,0 45.087976,39.350726,0 45.078726,39.354757,0 45.068649,39.364213,0 45.060484,39.3746,0 45.057177,39.381732,0 45.051699,39.386848,0 45.015629,39.405968,0 45.012115,39.409482,0 45.009945,39.414029,0 45.006379,39.417957,0 44.998576,39.41961,0 44.987724,39.419352,0 44.982505,39.420179,0 44.957028,39.434493,0 44.953307,39.441625,0 44.961627,39.453769,0 44.940698,39.468083,0 44.928399,39.488237,0 44.898427,39.584355,0 44.886438,39.605956,0 44.865354,39.617583,0 44.869281,39.620528,0 44.872279,39.625076,0 44.849231,39.625593,0 44.827837,39.628797,0 44.823953,39.63054,0 44.809647,39.636962,0 44.806993,39.639902,0 44.795746,39.652361,0 44.784325,39.69024,0 44.774559,39.702797,0 44.802929,39.712409,0 44.849334,39.71892,0 44.893053,39.718404,0 44.927159,39.724708,0 44.953215,39.735965,0 44.959095,39.738506,0 44.995992,39.760468,0 45.033509,39.77039,0 45.067512,39.757213,0 45.074999,39.74982,0 45.141255,39.684401,0 45.151538,39.667709,0 45.155879,39.649209,0 45.154225,39.625851,0 45.144407,39.589833,0 45.148334,39.57526,0 45.16792,39.565545,0 45.204765,39.572314,0 45.233187,39.592727,0 45.259955,39.599703,0 45.266191,39.592918,0 45.291064,39.565855,0 45.302898,39.545081,0 45.312975,39.533815,0 45.327548,39.529268,0 45.374884,39.525857,0 45.39235,39.518778,0 45.423937,39.493827,0 45.42408,39.493714,0 45.434828,39.488857,0 45.446094,39.487513,0 45.457463,39.48927,0 45.468625,39.493663,0 45.47927,39.497177,0 45.559679,39.536813,0 45.586447,39.545391,0 45.709066,39.568422,0 45.714656,39.569472,0 45.737859,39.569782,0 45.765454,39.561566,0 45.788088,39.548957,0 45.79708,39.536348,0 45.797287,39.519398,0 45.794031,39.493973,0 45.794031,39.49387,0 45.803075,39.448188,0 45.79863,39.432426,0 45.764989,39.389483,0 45.758633,39.369484,0 45.764371,39.359142,0 45.767004,39.354395,0 45.823745,39.343078,0 45.844312,39.330055,0 45.863329,39.314036,0 45.887204,39.299669,0 45.901788,39.294124,0 45.958827,39.272436,0 45.97924,39.257295,0 45.985802,39.24944,0 45.988076,39.241895,0 45.986009,39.234686,0 45.97924,39.227943,0 45.955107,39.203241,0 45.949009,39.177791,0 45.958104,39.151513,0 45.97924,39.124435,0 46.005233,39.095444,0 46.02549,39.063767,0 46.07758,38.950492,0 46.135871,38.863701,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              45.209932,40.967991,0 45.186781,40.970834,0 45.17717,40.99383,0 45.18027,40.996413,0 45.183784,40.997912,0 45.187712,40.998377,0 45.191846,40.997809,0 45.220474,40.97905,0 45.209932,40.967991,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              50.618907,40.299994,0 50.600108,40.303697,0 50.587576,40.300605,0 50.572765,40.310045,0 50.562999,40.324856,0 50.565278,40.337836,0 50.578298,40.330024,0 50.587901,40.332343,0 50.59669,40.33747,0 50.606944,40.337836,0 50.621267,40.326077,0 50.625743,40.31037,0 50.618907,40.299994,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs><LinearRing><coordinates>
+              50.388438,40.401679,0 50.373546,40.399075,0 50.353689,40.399888,0 50.358653,40.424221,0 50.32602,40.458075,0 50.326427,40.481879,0 50.338634,40.476874,0 50.353689,40.480658,0 50.360525,40.474433,0 50.362804,40.453559,0 50.372569,40.442572,0 50.38502,40.433987,0 50.395274,40.420396,0 50.396251,40.408515,0 50.388438,40.401679,0
+            </coordinates></LinearRing></outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+
+      </Placemark>
 
       <Placemark>
         <name>Qatar</name>
@@ -2739,14 +2878,14 @@ June 2025: Israel and Iran exchanged missile strikes, prompting renewed airspace
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of Qatar.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/qatar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>QAT</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2780,14 +2919,14 @@ June 2025: Israel and Iran exchanged missile strikes, prompting renewed airspace
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of Bahrain.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/bahrain/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>BHR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2853,14 +2992,14 @@ June 2025: Israel and Iran exchanged missile strikes, prompting renewed airspace
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of Kuwait.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/kuwait/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KWT</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -2911,14 +3050,14 @@ Oct 2023: Jordan intercepted drones and missiles transiting its airspace during 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of Jordan.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/jordan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>JOR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -2952,14 +3091,14 @@ Feb 2022: Multiple Houthi drone and missile attacks targeting Abu Dhabi. Click f
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of UAE.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/united-arab-emirates/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ARE</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3058,14 +3197,14 @@ Nov 2024: Missile intercept observed near Jeddah in close proximity to civil tra
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> ESCAT rules may be activated at any time in the south part of the OEJD/Jeddah FIR, when Saudi air defenses are repelling drone and missile attacks from Yemen. Operators will likely be given a change of route directly out of the airspace, or will be directed to land at the nearest airport.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/saudi-arabia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>SAU</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3153,14 +3292,14 @@ Oct 2024: Israel and Iran carried out missile attacks against each other, leadin
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> French operators should not enter the airspace of Oman.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/oman/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>OMN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3214,14 +3353,14 @@ Nov 2025: FAA issues airspace warning for the TJZS/San Juan FIR, citing increase
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/puerto-rico/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>PRI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3262,14 +3401,14 @@ Nov 2025: TNCF FIR issues a Notam advising extreme caution when operating to or 
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/curacao/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CUW</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3312,14 +3451,14 @@ In their latest Intelligence Brief dated 17 Jan 2026, security intelligence prov
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution for US operators across multiple eastern Pacific and Central America FIRs due to ongoing military activity and intermittent GPS interference.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/central-america/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CENTRAL_AMERICA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3568,14 +3707,14 @@ Jan 2023: The Rwandan military shot at a fighter jet from the Congo DRC which th
 
 Read: Africa Airspace Risk, Jet Shot in Rwanda, Jan 2023 (OPSGROUP article) Click for full briefing</p>
 <p><a href="https://safeairspace.net/rwanda/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>RWA</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -3598,14 +3737,14 @@ No other airspace warnings are active for this region at this time, but keep che
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/cambodia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KHM</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3670,14 +3809,14 @@ Oct 2015: A Russian A321 was brought down over the Sinai peninsula by a bomb loa
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to UK operators over the Gulf of Aqaba due to the potential risk from military activity.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/egypt/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>EGY</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3751,14 +3890,14 @@ Since the events of May 2025, the only country to have issued a new airspace war
 Major events: 
 May 2025: Ceasefire on May 10 following four days of conflict in Kashmir region. Most operators still avoiding the region and routing via Gulf of Oman and UAE. Click for full briefing</p>
 <p><a href="https://safeairspace.net/india/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>IND</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3954,14 +4093,14 @@ Jan 2020: Two US military/govt aircraft (C-146A, DHC-8), and two helicopters, we
 
 Jan 2019: Al-Shabaab militants launched an attack on a hotel complex in central Nairobi on 15 Jan 2019, killing at least 14 people. There were a number of attacks by Al-Shabab in Kenya in preceding years, but none in Nairobi since the attack on the Westgate shopping mall in 2013. Click for full briefing</p>
 <p><a href="https://safeairspace.net/kenya/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KEN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -3999,14 +4138,14 @@ Read: Opsgroup article - Western Sahara Airspace Update, May 2021. Click for ful
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Potential new conflict zone in Western Sahara, including anti-aircraft weaponry which may pose an inadvertent risk to civil aircraft up to FL120.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/western-sahara/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ESH</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -4036,14 +4175,14 @@ May 2024: Member report of GPS spoofing into RKSS/Seoul on approach to RWY 32R. 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Exercise caution in the Incheon FIR due to interference with or disruption of GPS signals. (Notam expired in May 2019, listing here for reference only).</td></tr>
 </table>
 <p><a href="https://safeairspace.net/south-korea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>KOR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4348,14 +4487,14 @@ Read: OPSGROUP Article - Myanmar, Nov 2022 Click for full briefing</p>
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution to German operators for flights below FL160 due to a potential risk from military ops, surface-to-air fire and anti-aviation weaponry.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/myanmar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>MMR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4575,14 +4714,14 @@ Sep 2023: Niger’s airspace reopened for the first time since a military coup i
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/niger/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>NER</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -4615,14 +4754,14 @@ Jan 2019: Turkish security forces intercepted three weaponised drones during att
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Drone attack in May 2021 on LTCC/Diyabakir airport in South Eastern Turkey. Local militia targeting military interests are thought to be responsible. While no threats have been made against civil aviation, the militia are known to have access to portable anti-aircraft weaponry which may pose a low-level risk through misidentification.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/turkey/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TUR</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4688,14 +4827,14 @@ Sep 2018: Russian IL-20 shot down in error on FIR boundary with Cyprus (Nicosia 
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> GPS Outages have been reported in the LCEN/Ercan Advisory Airspace.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/cyprus/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CYP</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -4723,133 +4862,6 @@ Sep 2018: Russian IL-20 shot down in error on FIR boundary with Cyprus (Nicosia 
       </Placemark>
 
       <Placemark>
-        <name>Armenia</name>
-        <description><![CDATA[<h2>Armenia</h2>
-<h3 style="color: #ffff00">Risk Level 3: Caution</h3>
-<h4>Warning Summary:</h4>
-<p>20 Sep 2023: A ceasefire has been agreed between Armenia and Azerbaijan, following military conflict in the border zone. Cross-border waypoints have reopened, but most operators are still actively avoiding this region, and routing north via Georgian airspace (UGGG/Tbilisi FIR) instead.
-
-No new foreign airspace warnings were issued for Armenia or Azerbaijan as a result of this recent flare-up in hostilities. Several foreign airspace warnings for Armenia or Azerbaijan were withdrawn at the end of the war in 2020. Following brief clashes in Sep 2022, only Canada issued a new airspace warning (for both countries) advising caution due to potential risk from anti-aviation weaponry and military ops.
-
-The primary risk is from any further large-scale ceasefire violations involving missiles or anti-aircraft weaponry, which may present a risk to overflights in the border region.
-
-Major events:
-Sep 2022: Clashes between Azerbaijan and Armenia temporarily closed all border waypoints.
-Sep/Oct 2020: Conflict between Armenia and Azerbaijan led to large sections of closed airspace along the northern border. Azerbaijan warned of threat posed by long-range missiles which they claimed Armenia had been using to target locations throughout Azerbaijan. Germany and France issued airspace warnings of a potential risk to aviation from military operations including anti aviation weaponry.
-
-Read: Armenia and Azerbaijan Airspace Risk, September 2023 (OPSGROUP article) 
-
- Click for full briefing</p>
-<h4>Active NOTAMs (1):</h4>
-<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
-<tr style="background-color: #333;"><th>Source</th><th>Reference</th><th>Issued</th><th>Valid To</th></tr>
-<tr><td>Canada</td><td>AIC 21/25</td><td>15-Sep-22</td><td>Ongoing</td></tr>
-<tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Armenia due to potential risk from anti-aviation weaponry and military ops.</td></tr>
-</table>
-<p><a href="https://safeairspace.net/armenia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
-        <styleUrl>#level3</styleUrl>
-        <ExtendedData>
-          <Data name="RiskLevel"><value>3</value></Data>
-          <Data name="RiskLabel"><value>Caution</value></Data>
-          <Data name="ISO3"><value>ARM</value></Data>
-          <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
-        </ExtendedData>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              45.0024,41.290452,0 45.0394,41.23118,0 45.029323,41.210096,0 45.034853,41.197693,0 45.052009,41.192112,0 45.117328,41.19206,0 45.134433,41.187875,0 45.186781,41.156869,0 45.199752,41.142658,0 45.201044,41.126741,0 45.166731,41.107776,0 45.067822,41.110928,0 45.057177,41.078786,0 45.070044,41.062094,0 45.091697,41.051035,0 45.111024,41.049537,0 45.117122,41.061422,0 45.120016,41.079613,0 45.136552,41.072895,0 45.169211,41.04716,0 45.189675,41.037548,0 45.205178,41.024887,0 45.221611,41.014449,0 45.26874,41.010263,0 45.312562,40.99662,0 45.335351,40.99383,0 45.381948,41.011448,0 45.391523,41.015069,0 45.419119,41.017342,0 45.425217,40.993675,0 45.416432,40.961325,0 45.428731,40.951197,0 45.442843,40.94838,0 45.452812,40.946391,0 45.47927,40.929906,0 45.522058,40.888151,0 45.537871,40.875904,0 45.558232,40.870943,0 45.581796,40.869651,0 45.599159,40.862675,0 45.600968,40.840557,0 45.58221,40.799371,0 45.555855,40.776582,0 45.478335,40.748183,0 45.437929,40.73338,0 45.39881,40.708937,0 45.373643,40.675296,0 45.373585,40.651298,0 45.37354,40.632715,0 45.387803,40.609512,0 45.407026,40.595094,0 45.427232,40.58295,0 45.444647,40.566362,0 45.448574,40.556492,0 45.450848,40.534374,0 45.455447,40.523626,0 45.464697,40.515719,0 45.48542,40.505281,0 45.493843,40.493653,0 45.526192,40.441047,0 45.585413,40.398724,0 45.818371,40.2978,0 45.819152,40.297141,0 45.861676,40.261265,0 45.881726,40.260438,0 45.888504,40.261957,0 45.902707,40.26514,0 45.924618,40.266174,0 45.93919,40.260283,0 45.953556,40.249586,0 45.97924,40.223592,0 45.9811,40.217805,0 45.981772,40.211914,0 45.9811,40.205971,0 45.962961,40.141685,0 45.950766,40.117191,0 45.931697,40.097554,0 45.909528,40.082671,0 45.905807,40.075074,0 45.894025,40.029082,0 45.887204,40.018437,0 45.873768,40.009755,0 45.803901,40.004484,0 45.63957,40.025413,0 45.576267,39.993891,0 45.577583,39.983983,0 45.579419,39.970171,0 45.611148,39.959164,0 45.715431,39.950896,0 45.742768,39.940509,0 45.764421,39.92206,0 45.809177,39.851262,0 45.816821,39.839171,0 45.861882,39.804548,0 45.883188,39.796148,0 45.916143,39.783154,0 45.97924,39.768478,0 46.006576,39.747911,0 46.045127,39.687553,0 46.076546,39.668122,0 46.114477,39.659648,0 46.131685,39.652154,0 46.146103,39.63846,0 46.169564,39.604095,0 46.18424,39.593243,0 46.206461,39.587921,0 46.241187,39.593502,0 46.309504,39.620528,0 46.343713,39.618616,0 46.357873,39.609676,0 46.381437,39.585027,0 46.396423,39.576655,0 46.416164,39.57402,0 46.479312,39.578671,0 46.495435,39.575932,0 46.512024,39.56756,0 46.524271,39.554641,0 46.527268,39.538156,0 46.518276,39.525444,0 46.503704,39.518468,0 46.492025,39.510199,0 46.491715,39.493663,0 46.498588,39.483121,0 46.498226,39.473767,0 46.491405,39.466429,0 46.479312,39.461882,0 46.478952,39.461829,0 46.405725,39.451185,0 46.373996,39.435992,0 46.36087,39.410257,0 46.374616,39.378838,0 46.407379,39.359149,0 46.479312,39.334241,0 46.49528,39.324009,0 46.50267,39.309488,0 46.507941,39.293572,0 46.517656,39.278844,0 46.541841,39.259052,0 46.584526,39.235772,0 46.59114,39.231069,0 46.597858,39.225075,0 46.599141,39.222487,0 46.602612,39.215489,0 46.593827,39.21213,0 46.572795,39.21151,0 46.526441,39.185826,0 46.514142,39.184431,0 46.453371,39.208409,0 46.418334,39.211923,0 46.395286,39.19518,0 46.396268,39.164432,0 46.421848,39.14464,0 46.455128,39.129938,0 46.479312,39.114771,0 46.491921,39.081905,0 46.497502,39.053535,0 46.494609,39.025526,0 46.481483,38.993771,0 46.480759,38.990619,0 46.479312,38.987751,0 46.475798,38.975607,0 46.474093,38.96323,0 46.475075,38.95106,0 46.479312,38.939381,0 46.514039,38.882176,0 46.496056,38.886077,0 46.391876,38.922354,0 46.378233,38.924705,0 46.367588,38.92362,0 46.343352,38.917471,0 46.304543,38.916256,0 46.291314,38.913931,0 46.271935,38.906567,0 46.219948,38.877163,0 46.202482,38.870548,0 46.135871,38.863701,0 46.07758,38.950492,0 46.02549,39.063767,0 46.005233,39.095444,0 45.97924,39.124435,0 45.958104,39.151513,0 45.949009,39.177791,0 45.955107,39.203241,0 45.97924,39.227943,0 45.986009,39.234686,0 45.988076,39.241895,0 45.985802,39.24944,0 45.97924,39.257295,0 45.958827,39.272436,0 45.901788,39.294124,0 45.887204,39.299669,0 45.863329,39.314036,0 45.844312,39.330055,0 45.823745,39.343078,0 45.767004,39.354395,0 45.764371,39.359142,0 45.758633,39.369484,0 45.764989,39.389483,0 45.79863,39.432426,0 45.803075,39.448188,0 45.794031,39.49387,0 45.794031,39.493973,0 45.797287,39.519398,0 45.79708,39.536348,0 45.788088,39.548957,0 45.765454,39.561566,0 45.737859,39.569782,0 45.714656,39.569472,0 45.709066,39.568422,0 45.586447,39.545391,0 45.559679,39.536813,0 45.47927,39.497177,0 45.468625,39.493663,0 45.457463,39.48927,0 45.446094,39.487513,0 45.434828,39.488857,0 45.42408,39.493714,0 45.423937,39.493827,0 45.39235,39.518778,0 45.374884,39.525857,0 45.327548,39.529268,0 45.312975,39.533815,0 45.302898,39.545081,0 45.291064,39.565855,0 45.266191,39.592918,0 45.259955,39.599703,0 45.233187,39.592727,0 45.204765,39.572314,0 45.16792,39.565545,0 45.148334,39.57526,0 45.144407,39.589833,0 45.154225,39.625851,0 45.155879,39.649209,0 45.151538,39.667709,0 45.141255,39.684401,0 45.074999,39.74982,0 45.067512,39.757213,0 45.033509,39.77039,0 44.995992,39.760468,0 44.959095,39.738506,0 44.953215,39.735965,0 44.927159,39.724708,0 44.893053,39.718404,0 44.849334,39.71892,0 44.802929,39.712409,0 44.774559,39.702797,0 44.759107,39.723106,0 44.697767,39.785273,0 44.692031,39.793024,0 44.687174,39.796383,0 44.682419,39.79721,0 44.671257,39.795867,0 44.666193,39.796383,0 44.647693,39.805117,0 44.611519,39.837311,0 44.598187,39.831007,0 44.594466,39.836794,0 44.594156,39.84806,0 44.591056,39.857827,0 44.575966,39.866353,0 44.567491,39.87302,0 44.56377,39.881701,0 44.55912,39.896894,0 44.547854,39.911467,0 44.522171,39.933533,0 44.464345,39.97229,0 44.380926,40.009804,0 44.325645,40.034663,0 44.289058,40.043397,0 44.255262,40.043397,0 44.195007,40.030788,0 44.166379,40.028049,0 44.145915,40.023398,0 44.135476,40.022313,0 44.127001,40.024483,0 44.114289,40.03394,0 44.10447,40.035955,0 44.083128,40.031614,0 44.04835,40.012856,0 44.032433,40.008618,0 43.912131,40.024328,0 43.802783,40.070734,0 43.711213,40.090732,0 43.665427,40.110163,0 43.652508,40.138998,0 43.666357,40.14892,0 43.711626,40.156465,0 43.721393,40.169384,0 43.714933,40.180649,0 43.683721,40.210105,0 43.673075,40.227727,0 43.691369,40.23863,0 43.690348,40.240443,0 43.675969,40.265967,0 43.631476,40.310305,0 43.604449,40.329787,0 43.594217,40.345445,0 43.601038,40.361827,0 43.609565,40.372989,0 43.624463,40.411137,0 43.625326,40.413348,0 43.625326,40.42017,0 43.584864,40.446576,0 43.563625,40.464715,0 43.559491,40.477892,0 43.5937,40.509001,0 43.615301,40.520422,0 43.638969,40.522592,0 43.636282,40.529775,0 43.634628,40.532773,0 43.631476,40.536855,0 43.637574,40.53515,0 43.642018,40.534374,0 43.646462,40.533031,0 43.652508,40.529414,0 43.651475,40.553391,0 43.664807,40.574062,0 43.707182,40.611941,0 43.699534,40.634575,0 43.705632,40.640776,0 43.726405,40.668992,0 43.729351,40.677105,0 43.724132,40.746351,0 43.720618,40.762888,0 43.711316,40.781646,0 43.669768,40.832134,0 43.659536,40.851978,0 43.654162,40.874715,0 43.65194,40.894766,0 43.647651,40.913886,0 43.636178,40.933523,0 43.604863,40.963341,0 43.565433,40.988145,0 43.522387,41.004475,0 43.479599,41.009126,0 43.460479,41.022872,0 43.444562,41.051449,0 43.436294,41.08323,0 43.440428,41.106588,0 43.450453,41.104676,0 43.460324,41.104521,0 43.470142,41.106174,0 43.524144,41.122814,0 43.566622,41.124054,0 43.729713,41.106691,0 43.754156,41.108241,0 43.773741,41.114494,0 43.820353,41.1455,0 43.863245,41.158988,0 43.955849,41.160486,0 43.977755,41.164537,0 43.978186,41.164617,0 44.001117,41.168858,0 44.041322,41.182552,0 44.061269,41.184154,0 44.103643,41.175162,0 44.124727,41.178056,0 44.144364,41.186066,0 44.160074,41.1979,0 44.16519,41.207667,0 44.165862,41.216142,0 44.168446,41.223583,0 44.180331,41.229939,0 44.190977,41.230043,0 44.218107,41.221568,0 44.266476,41.196195,0 44.284976,41.190872,0 44.308489,41.193817,0 44.317739,41.198572,0 44.324922,41.204825,0 44.333087,41.210354,0 44.344921,41.213248,0 44.357271,41.212163,0 44.410601,41.18772,0 44.432461,41.181673,0 44.45494,41.180485,0 44.479228,41.185808,0 44.499382,41.202809,0 44.505893,41.206582,0 44.516641,41.20684,0 44.521912,41.199295,0 44.52553,41.189063,0 44.531008,41.181467,0 44.551523,41.177023,0 44.566251,41.186944,0 44.578446,41.202809,0 44.591366,41.21578,0 44.612863,41.223118,0 44.63312,41.221051,0 44.674926,41.208494,0 44.821532,41.20622,0 44.847784,41.208907,0 44.857706,41.219346,0 44.85382,41.223514,0 44.847061,41.230766,0 44.809543,41.244409,0 44.801275,41.258516,0 44.820706,41.273347,0 44.917237,41.261772,0 44.955168,41.262702,0 44.967363,41.269007,0 44.989998,41.284458,0 45.0024,41.290452,0
-            </coordinates></LinearRing></outerBoundaryIs>
-            <innerBoundaryIs><LinearRing><coordinates>
-              44.979456,41.082041,0 44.963953,41.073773,0 44.960697,41.059924,0 44.96695,41.044834,0 44.979456,41.032639,0 45.015732,41.023234,0 45.029995,41.046281,0 45.018885,41.07491,0 44.979456,41.082041,0
-            </coordinates></LinearRing></innerBoundaryIs>
-            <innerBoundaryIs><LinearRing><coordinates>
-              45.209932,40.967991,0 45.220474,40.97905,0 45.191846,40.997809,0 45.187712,40.998377,0 45.183784,40.997912,0 45.18027,40.996413,0 45.17717,40.99383,0 45.186781,40.970834,0 45.209932,40.967991,0
-            </coordinates></LinearRing></innerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              45.513687,40.601967,0 45.47927,40.609822,0 45.473276,40.619434,0 45.471312,40.629873,0 45.473379,40.640311,0 45.47927,40.650233,0 45.491776,40.657106,0 45.505573,40.660207,0 45.520198,40.660413,0 45.534667,40.658915,0 45.560712,40.647649,0 45.547173,40.621553,0 45.513687,40.601967,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
-
-      </Placemark>
-
-      <Placemark>
-        <name>Azerbaijan</name>
-        <description><![CDATA[<h2>Azerbaijan</h2>
-<h3 style="color: #ffff00">Risk Level 3: Caution</h3>
-<h4>Warning Summary:</h4>
-<p>20 Sep 2023: A ceasefire has been agreed between Armenia and Azerbaijan, following military conflict in the border zone. Cross-border waypoints have reopened, but most operators are still actively avoiding this region, and routing north via Georgian airspace (UGGG/Tbilisi FIR) instead.
-
-No new foreign airspace warnings were issued for Armenia or Azerbaijan as a result of this recent flare-up in hostilities. Several foreign airspace warnings for Armenia or Azerbaijan were withdrawn at the end of the war in 2020. Following brief clashes in Sep 2022, only Canada issued a new airspace warning (for both countries) advising caution due to potential risk from anti-aviation weaponry and military ops.
-
-The primary risk is from any further large-scale ceasefire violations involving missiles or anti-aircraft weaponry, which may present a risk to overflights in the border region.
-
-Major events:
-Sep 2022: Clashes between Azerbaijan and Armenia temporarily closed all border waypoints.
-Sep/Oct 2020: Conflict between Armenia and Azerbaijan led to large sections of closed airspace along the northern border. Azerbaijan warned of threat posed by long-range missiles which they claimed Armenia had been using to target locations throughout Azerbaijan. Germany and France issued airspace warnings of a potential risk to aviation from military operations including anti aviation weaponry.
-
-Read: Armenia and Azerbaijan Airspace Risk, September 2023 (OPSGROUP article) 
-
- Click for full briefing</p>
-<h4>Active NOTAMs (1):</h4>
-<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
-<tr style="background-color: #333;"><th>Source</th><th>Reference</th><th>Issued</th><th>Valid To</th></tr>
-<tr><td>Canada</td><td>AIC 21/25</td><td>15-Sep-22</td><td>Ongoing</td></tr>
-<tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Caution advised to Canadian operators in the airspace of Azerbaijan due to potential risk from anti-aviation weaponry and military ops.</td></tr>
-</table>
-<p><a href="https://safeairspace.net/azerbaijan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
-        <styleUrl>#level3</styleUrl>
-        <ExtendedData>
-          <Data name="RiskLevel"><value>3</value></Data>
-          <Data name="RiskLabel"><value>Caution</value></Data>
-          <Data name="ISO3"><value>AZE</value></Data>
-          <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
-        </ExtendedData>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              44.979456,41.082041,0 45.018885,41.07491,0 45.029995,41.046281,0 45.015732,41.023234,0 44.979456,41.032639,0 44.96695,41.044834,0 44.960697,41.059924,0 44.963953,41.073773,0 44.979456,41.082041,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              45.0024,41.290452,0 45.097834,41.349919,0 45.24962,41.4445,0 45.281711,41.452923,0 45.314422,41.451631,0 45.333096,41.444352,0 45.38124,41.425586,0 45.396794,41.423261,0 45.416948,41.424604,0 45.450021,41.432201,0 45.464801,41.430185,0 45.47927,41.41768,0 45.511826,41.39458,0 45.65559,41.352361,0 45.720702,41.342387,0 45.74406,41.335359,0 45.7453,41.329158,0 45.731038,41.323267,0 45.708093,41.317117,0 45.685872,41.29624,0 45.709747,41.267715,0 45.751088,41.240998,0 45.770337,41.232102,0 45.820748,41.208804,0 45.969163,41.168289,0 46.017428,41.163793,0 46.041613,41.165447,0 46.061353,41.170925,0 46.087608,41.183659,0 46.113133,41.19604,0 46.135406,41.199915,0 46.210595,41.200174,0 46.228578,41.195419,0 46.244391,41.183741,0 46.273433,41.1563,0 46.332345,41.115889,0 46.353119,41.106536,0 46.41265,41.09186,0 46.429031,41.080956,0 46.456988,41.052431,0 46.47492,41.044111,0 46.496779,41.044834,0 46.505564,41.055273,0 46.511145,41.070983,0 46.522411,41.087002,0 46.543546,41.097027,0 46.563132,41.095581,0 46.582148,41.091653,0 46.601786,41.09403,0 46.615539,41.108666,0 46.621113,41.114597,0 46.629484,41.14674,0 46.634755,41.181053,0 46.64447,41.207977,0 46.650361,41.214178,0 46.663591,41.223531,0 46.669482,41.229888,0 46.6716,41.236451,0 46.672686,41.253969,0 46.674649,41.261669,0 46.683434,41.269472,0 46.691703,41.268542,0 46.694803,41.269782,0 46.688499,41.284355,0 46.657079,41.320631,0 46.637752,41.336961,0 46.631034,41.345539,0 46.629841,41.346136,0 46.62287,41.349622,0 46.607367,41.345023,0 46.591554,41.372928,0 46.542461,41.394994,0 46.445103,41.425948,0 46.398284,41.458711,0 46.377923,41.462483,0 46.366244,41.466566,0 46.313948,41.493747,0 46.29674,41.510387,0 46.287851,41.532143,0 46.279871,41.571172,0 46.278394,41.578393,0 46.256174,41.610329,0 46.2539,41.615911,0 46.24005,41.615497,0 46.233436,41.607952,0 46.228475,41.598728,0 46.21969,41.593302,0 46.192767,41.610174,0 46.180002,41.655159,0 46.179537,41.705879,0 46.188994,41.740141,0 46.208321,41.755514,0 46.230129,41.757323,0 46.276947,41.749313,0 46.297773,41.750812,0 46.313741,41.756651,0 46.328314,41.766418,0 46.371309,41.805692,0 46.392754,41.831685,0 46.430892,41.890442,0 46.452337,41.886178,0 46.479312,41.887005,0 46.525511,41.882303,0 46.543546,41.874293,0 46.549127,41.855379,0 46.544321,41.814761,0 46.549851,41.79776,0 46.567576,41.786675,0 46.586593,41.786779,0 46.603956,41.795176,0 46.636512,41.816518,0 46.657079,41.821996,0 46.69749,41.828223,0 46.709555,41.835066,0 46.715577,41.838481,0 46.732424,41.8514,0 46.740795,41.851245,0 46.745033,41.840135,0 46.754024,41.800886,0 46.759399,41.787295,0 46.769114,41.77572,0 46.834795,41.730245,0 46.851899,41.722338,0 46.864509,41.719677,0 46.890553,41.717093,0 46.902232,41.712752,0 46.906883,41.706939,0 46.912258,41.688619,0 46.915978,41.680945,0 46.929517,41.667225,0 46.97923,41.635496,0 47.003932,41.60542,0 47.012613,41.5755,0 47.027031,41.556948,0 47.028262,41.557075,0 47.069147,41.561289,0 47.088267,41.566973,0 47.107491,41.569919,0 47.125578,41.566301,0 47.141391,41.5524,0 47.148729,41.535089,0 47.152243,41.518139,0 47.159323,41.503514,0 47.176996,41.493489,0 47.17925,41.491732,0 47.187073,41.485634,0 47.191827,41.476694,0 47.195134,41.466979,0 47.200509,41.45685,0 47.231463,41.42755,0 47.239059,41.415716,0 47.24278,41.391273,0 47.24092,41.338925,0 47.250842,41.316032,0 47.268411,41.302803,0 47.344479,41.268232,0 47.367292,41.261789,0 47.375588,41.259447,0 47.479148,41.251953,0 47.500955,41.246321,0 47.529171,41.216555,0 47.547309,41.205651,0 47.567773,41.205496,0 47.603171,41.223273,0 47.622498,41.229061,0 47.642549,41.227252,0 47.694889,41.207134,0 47.724559,41.195729,0 47.743731,41.192681,0 47.813491,41.197388,0 47.828739,41.198417,0 47.871114,41.208183,0 47.894627,41.219294,0 47.898864,41.229061,0 47.8938,41.241877,0 47.889252,41.262444,0 47.892146,41.283269,0 47.901448,41.292985,0 47.91478,41.300219,0 47.929456,41.313552,0 47.937931,41.331742,0 47.942686,41.3474,0 47.953228,41.355771,0 47.979169,41.352412,0 48.001648,41.362076,0 48.034566,41.433648,0 48.053532,41.461295,0 48.086553,41.476643,0 48.201843,41.493489,0 48.23135,41.505478,0 48.283698,41.539533,0 48.370153,41.58015,0 48.393046,41.598883,0 48.413251,41.627615,0 48.455419,41.714406,0 48.462211,41.720992,0 48.53066,41.787373,0 48.578949,41.845282,0 48.589366,41.838365,0 48.620128,41.824408,0 48.655447,41.800605,0 48.743663,41.70893,0 48.777843,41.68301,0 48.79184,41.667426,0 48.797618,41.643134,0 48.865896,41.585395,0 48.904063,41.523383,0 48.924327,41.517808,0 48.941173,41.504625,0 48.953868,41.489081,0 48.962169,41.476142,0 48.985362,41.450507,0 48.989431,41.444525,0 48.994477,41.440416,0 49.019216,41.43476,0 49.027599,41.43122,0 49.042491,41.414374,0 49.078624,41.35753,0 49.108897,41.30976,0 49.123383,41.293687,0 49.135916,41.27497,0 49.141938,41.25316,0 49.154307,41.166449,0 49.160655,41.148098,0 49.171641,41.140367,0 49.178477,41.128852,0 49.195486,41.057278,0 49.243175,40.997219,0 49.363129,40.894232,0 49.373057,40.882799,0 49.382009,40.866645,0 49.403168,40.852729,0 49.448741,40.831285,0 49.471039,40.835761,0 49.489919,40.823147,0 49.507823,40.80622,0 49.527843,40.797797,0 49.538829,40.788072,0 49.534353,40.766181,0 49.516938,40.728909,0 49.510997,40.70954,0 49.509532,40.699042,0 49.510753,40.687934,0 49.514903,40.681586,0 49.528331,40.66885,0 49.531261,40.663723,0 49.531912,40.662869,0 49.53891,40.653998,0 49.556651,40.641181,0 49.576182,40.62995,0 49.58961,40.62519,0 49.633067,40.623196,0 49.652599,40.619208,0 49.668468,40.612209,0 49.704112,40.58808,0 49.723806,40.580756,0 49.773936,40.575629,0 49.816742,40.565375,0 49.840343,40.563788,0 49.858653,40.566636,0 49.914236,40.584296,0 49.938162,40.58747,0 50.052013,40.584296,0 50.060395,40.577948,0 50.064789,40.57095,0 50.068044,40.563707,0 50.07252,40.556952,0 50.090343,40.540229,0 50.109386,40.527086,0 50.129649,40.518459,0 50.220063,40.503648,0 50.237559,40.496161,0 50.248546,40.481187,0 50.260753,40.458075,0 50.27589,40.436591,0 50.295665,40.427232,0 50.317393,40.42121,0 50.335948,40.405951,0 50.350597,40.385891,0 50.360525,40.36518,0 50.370779,40.28262,0 50.377696,40.2744,0 50.385997,40.255683,0 50.391124,40.235012,0 50.387869,40.221137,0 50.368663,40.249701,0 50.347911,40.2744,0 50.32309,40.296576,0 50.273692,40.327338,0 50.252615,40.33633,0 50.229991,40.34276,0 50.185313,40.34748,0 50.147716,40.35692,0 50.127696,40.358954,0 50.116466,40.357978,0 50.102875,40.35342,0 50.093598,40.351508,0 50.055186,40.351508,0 50.037608,40.345771,0 50.003754,40.324205,0 49.983735,40.324205,0 49.976573,40.329047,0 49.963715,40.344794,0 49.955821,40.351508,0 49.945323,40.354722,0 49.919607,40.35814,0 49.893403,40.369045,0 49.873546,40.360582,0 49.840343,40.337836,0 49.847179,40.314154,0 49.819021,40.29206,0 49.778331,40.275824,0 49.711925,40.26435,0 49.653656,40.23843,0 49.577159,40.216742,0 49.559255,40.206692,0 49.520844,40.174221,0 49.503591,40.164944,0 49.492524,40.153998,0 49.490408,40.132392,0 49.49586,40.105211,0 49.496593,40.09455,0 49.442638,40.078437,0 49.432628,40.062974,0 49.435069,40.042792,0 49.448741,40.022528,0 49.457693,40.015041,0 49.471934,40.006496,0 49.479747,39.998969,0 49.483897,39.988674,0 49.478282,39.982327,0 49.468272,39.977362,0 49.450694,39.96483,0 49.442882,39.961859,0 49.435395,39.957668,0 49.428233,39.947455,0 49.423676,39.935492,0 49.423106,39.9265,0 49.428233,39.90644,0 49.439708,39.884996,0 49.443126,39.873358,0 49.438487,39.861762,0 49.429698,39.854315,0 49.422048,39.849433,0 49.416515,39.843736,0 49.414561,39.834174,0 49.416352,39.828599,0 49.419688,39.82331,0 49.422374,39.817328,0 49.421397,39.810248,0 49.417166,39.805854,0 49.40089,39.796617,0 49.394786,39.782457,0 49.395193,39.77619,0 49.40089,39.769273,0 49.396332,39.756171,0 49.402029,39.742499,0 49.424815,39.718085,0 49.423595,39.70954,0 49.409841,39.701361,0 49.383962,39.690131,0 49.358735,39.666571,0 49.33725,39.64643,0 49.318044,39.621405,0 49.319021,39.604193,0 49.307384,39.587592,0 49.29713,39.565579,0 49.289236,39.542385,0 49.284923,39.522203,0 49.285818,39.495185,0 49.295746,39.476711,0 49.388845,39.410793,0 49.40089,39.399359,0 49.408946,39.38642,0 49.408051,39.382025,0 49.403575,39.378485,0 49.397309,39.34516,0 49.398692,39.33515,0 49.407074,39.323676,0 49.394786,39.328681,0 49.38559,39.334947,0 49.378673,39.342475,0 49.373057,39.350979,0 49.366873,39.350979,0 49.370616,39.336168,0 49.37908,39.31981,0 49.391368,39.305487,0 49.407074,39.296942,0 49.407074,39.289496,0 49.384532,39.293687,0 49.370372,39.305854,0 49.357677,39.320136,0 49.306407,39.346503,0 49.273123,39.336575,0 49.247325,39.310696,0 49.237071,39.278957,0 49.237804,39.169501,0 49.234304,39.156358,0 49.229666,39.138658,0 49.215587,39.10635,0 49.210785,39.090766,0 49.207856,39.055406,0 49.203298,39.034125,0 49.193858,39.016343,0 49.118826,38.975328,0 49.079275,38.963324,0 49.051524,38.981024,0 49.054698,38.992743,0 49.054373,39.0008,0 49.055837,39.007514,0 49.065196,39.015123,0 49.110118,39.021959,0 49.125499,39.028144,0 49.138682,39.043443,0 49.146821,39.063422,0 49.147716,39.083441,0 49.136404,39.102281,0 49.116384,39.110297,0 49.068614,39.111396,0 49.068614,39.120307,0 49.062755,39.161322,0 49.05893,39.172797,0 49.041189,39.184394,0 49.022227,39.188218,0 48.979503,39.187079,0 48.967621,39.183824,0 48.961762,39.175849,0 48.957856,39.165676,0 48.949555,39.151272,0 48.948741,39.146186,0 48.949067,39.135321,0 48.946951,39.127509,0 48.942149,39.125393,0 48.937266,39.125434,0 48.934825,39.124416,0 48.932953,39.077704,0 48.936371,39.053127,0 48.952647,39.031643,0 48.948578,39.007229,0 48.921723,38.935452,0 48.918224,38.928941,0 48.898692,38.893052,0 48.896251,38.890733,0 48.867931,38.863837,0 48.831798,38.871161,0 48.83253,38.835639,0 48.834727,38.819281,0 48.839203,38.803534,0 48.863129,38.756659,0 48.8685,38.602484,0 48.874278,38.434231,0 48.874278,38.434068,0 48.809713,38.444631,0 48.777725,38.444812,0 48.755349,38.435226,0 48.735609,38.419568,0 48.710287,38.407114,0 48.683209,38.398019,0 48.659128,38.392645,0 48.612962,38.395646,0 48.607865,38.395978,0 48.575929,38.420369,0 48.548643,38.456258,0 48.535641,38.469154,0 48.510816,38.493776,0 48.495933,38.510312,0 48.479087,38.524756,0 48.462654,38.544935,0 48.446634,38.556407,0 48.433715,38.569972,0 48.426739,38.596457,0 48.415267,38.618109,0 48.391754,38.618109,0 48.341059,38.599583,0 48.310312,38.600151,0 48.292225,38.613562,0 48.276515,38.631777,0 48.228043,38.662189,0 48.226182,38.679087,0 48.230317,38.698621,0 48.225635,38.713193,0 48.222979,38.721462,0 48.21037,38.729756,0 48.077974,38.780941,0 48.012966,38.821559,0 47.993122,38.850085,0 47.990745,38.891219,0 48.000046,38.902588,0 48.052446,38.927909,0 48.05534,38.934369,0 48.055134,38.941914,0 48.058544,38.948373,0 48.243184,38.973875,0 48.28437,38.993797,0 48.284474,38.994003,0 48.284629,38.994003,0 48.293672,39.004597,0 48.301423,39.017464,0 48.30159,39.017946,0 48.306281,39.031469,0 48.306798,39.045396,0 48.301475,39.05803,0 48.271296,39.108312,0 48.256258,39.119784,0 48.199104,39.138232,0 48.142157,39.181201,0 48.117765,39.208047,0 48.104329,39.234841,0 48.10619,39.26918,0 48.124587,39.297602,0 48.153525,39.319048,0 48.187218,39.332587,0 48.24985,39.342354,0 48.302457,39.369898,0 48.328405,39.37633,0 48.33894,39.378941,0 48.31672,39.415166,0 48.288608,39.445035,0 48.220085,39.494025,0 48.052033,39.650087,0 47.990745,39.694271,0 47.971418,39.704554,0 47.957708,39.707256,0 47.957258,39.707345,0 47.945683,39.693961,0 47.935244,39.686519,0 47.922945,39.684142,0 47.846877,39.685279,0 47.823106,39.680318,0 47.803779,39.669931,0 47.788212,39.657651,0 47.745282,39.623784,0 47.62498,39.571411,0 47.606995,39.563581,0 47.554079,39.521982,0 47.54116,39.51516,0 47.518732,39.513197,0 47.448762,39.494696,0 47.406904,39.476816,0 47.374245,39.455577,0 47.324532,39.405968,0 47.324417,39.405877,0 47.291356,39.379613,0 47.26132,39.366384,0 47.249705,39.361268,0 47.150072,39.33114,0 47.10222,39.308403,0 47.092505,39.299825,0 47.089094,39.289851,0 47.052921,39.244944,0 47.036074,39.207014,0 47.030907,39.199598,0 47.020468,39.18996,0 47.013628,39.186956,0 46.953754,39.16066,0 46.94161,39.158903,0 46.926624,39.162055,0 46.898718,39.171744,0 46.883009,39.171409,0 46.866391,39.165445,0 46.866162,39.165362,0 46.850969,39.155492,0 46.837378,39.143245,0 46.811695,39.108518,0 46.806011,39.102395,0 46.798053,39.097382,0 46.781516,39.09038,0 46.773765,39.085367,0 46.761621,39.070588,0 46.744826,39.040254,0 46.728393,39.027955,0 46.670412,39.004907,0 46.65217,38.992944,0 46.638838,38.979482,0 46.610674,38.934007,0 46.599202,38.919693,0 46.585352,38.907704,0 46.569849,38.89773,0 46.553726,38.889824,0 46.532074,38.883002,0 46.514039,38.882176,0 46.479312,38.939381,0 46.475075,38.95106,0 46.474093,38.96323,0 46.475798,38.975607,0 46.479312,38.987751,0 46.480759,38.990619,0 46.481483,38.993771,0 46.494609,39.025526,0 46.497502,39.053535,0 46.491921,39.081905,0 46.479312,39.114771,0 46.455128,39.129938,0 46.421848,39.14464,0 46.396268,39.164432,0 46.395286,39.19518,0 46.418334,39.211923,0 46.453371,39.208409,0 46.514142,39.184431,0 46.526441,39.185826,0 46.572795,39.21151,0 46.593827,39.21213,0 46.602612,39.215489,0 46.599141,39.222487,0 46.597858,39.225075,0 46.59114,39.231069,0 46.584526,39.235772,0 46.541841,39.259052,0 46.517656,39.278844,0 46.507941,39.293572,0 46.50267,39.309488,0 46.49528,39.324009,0 46.479312,39.334241,0 46.407379,39.359149,0 46.374616,39.378838,0 46.36087,39.410257,0 46.373996,39.435992,0 46.405725,39.451185,0 46.478952,39.461829,0 46.479312,39.461882,0 46.491405,39.466429,0 46.498226,39.473767,0 46.498588,39.483121,0 46.491715,39.493663,0 46.492025,39.510199,0 46.503704,39.518468,0 46.518276,39.525444,0 46.527268,39.538156,0 46.524271,39.554641,0 46.512024,39.56756,0 46.495435,39.575932,0 46.479312,39.578671,0 46.416164,39.57402,0 46.396423,39.576655,0 46.381437,39.585027,0 46.357873,39.609676,0 46.343713,39.618616,0 46.309504,39.620528,0 46.241187,39.593502,0 46.206461,39.587921,0 46.18424,39.593243,0 46.169564,39.604095,0 46.146103,39.63846,0 46.131685,39.652154,0 46.114477,39.659648,0 46.076546,39.668122,0 46.045127,39.687553,0 46.006576,39.747911,0 45.97924,39.768478,0 45.916143,39.783154,0 45.883188,39.796148,0 45.861882,39.804548,0 45.816821,39.839171,0 45.809177,39.851262,0 45.764421,39.92206,0 45.742768,39.940509,0 45.715431,39.950896,0 45.611148,39.959164,0 45.579419,39.970171,0 45.577583,39.983983,0 45.576267,39.993891,0 45.63957,40.025413,0 45.803901,40.004484,0 45.873768,40.009755,0 45.887204,40.018437,0 45.894025,40.029082,0 45.905807,40.075074,0 45.909528,40.082671,0 45.931697,40.097554,0 45.950766,40.117191,0 45.962961,40.141685,0 45.9811,40.205971,0 45.981772,40.211914,0 45.9811,40.217805,0 45.97924,40.223592,0 45.953556,40.249586,0 45.93919,40.260283,0 45.924618,40.266174,0 45.902707,40.26514,0 45.888504,40.261957,0 45.881726,40.260438,0 45.861676,40.261265,0 45.819152,40.297141,0 45.818371,40.2978,0 45.585413,40.398724,0 45.526192,40.441047,0 45.493843,40.493653,0 45.48542,40.505281,0 45.464697,40.515719,0 45.455447,40.523626,0 45.450848,40.534374,0 45.448574,40.556492,0 45.444647,40.566362,0 45.427232,40.58295,0 45.407026,40.595094,0 45.387803,40.609512,0 45.37354,40.632715,0 45.373585,40.651298,0 45.373643,40.675296,0 45.39881,40.708937,0 45.437929,40.73338,0 45.478335,40.748183,0 45.555855,40.776582,0 45.58221,40.799371,0 45.600968,40.840557,0 45.599159,40.862675,0 45.581796,40.869651,0 45.558232,40.870943,0 45.537871,40.875904,0 45.522058,40.888151,0 45.47927,40.929906,0 45.452812,40.946391,0 45.442843,40.94838,0 45.428731,40.951197,0 45.416432,40.961325,0 45.425217,40.993675,0 45.419119,41.017342,0 45.391523,41.015069,0 45.381948,41.011448,0 45.335351,40.99383,0 45.312562,40.99662,0 45.26874,41.010263,0 45.221611,41.014449,0 45.205178,41.024887,0 45.189675,41.037548,0 45.169211,41.04716,0 45.136552,41.072895,0 45.120016,41.079613,0 45.117122,41.061422,0 45.111024,41.049537,0 45.091697,41.051035,0 45.070044,41.062094,0 45.057177,41.078786,0 45.067822,41.110928,0 45.166731,41.107776,0 45.201044,41.126741,0 45.199752,41.142658,0 45.186781,41.156869,0 45.134433,41.187875,0 45.117328,41.19206,0 45.052009,41.192112,0 45.034853,41.197693,0 45.029323,41.210096,0 45.0394,41.23118,0 45.0024,41.290452,0
-            </coordinates></LinearRing></outerBoundaryIs>
-            <innerBoundaryIs><LinearRing><coordinates>
-              45.513687,40.601967,0 45.547173,40.621553,0 45.560712,40.647649,0 45.534667,40.658915,0 45.520198,40.660413,0 45.505573,40.660207,0 45.491776,40.657106,0 45.47927,40.650233,0 45.473379,40.640311,0 45.471312,40.629873,0 45.473276,40.619434,0 45.47927,40.609822,0 45.513687,40.601967,0
-            </coordinates></LinearRing></innerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              46.135871,38.863701,0 46.126052,38.862668,0 46.067968,38.874114,0 46.001822,38.897472,0 45.791086,38.932095,0 45.768074,38.93913,0 45.716878,38.954781,0 45.627788,38.955504,0 45.570841,38.966382,0 45.543142,38.967132,0 45.535565,38.968453,0 45.530843,38.969276,0 45.510276,38.978655,0 45.494529,38.981917,0 45.482577,38.984392,0 45.45984,38.993125,0 45.438601,39.004235,0 45.427077,39.014881,0 45.425268,39.025629,0 45.428214,39.034104,0 45.432296,39.042476,0 45.434518,39.052785,0 45.429712,39.059477,0 45.405838,39.067875,0 45.396381,39.073327,0 45.391317,39.08175,0 45.383462,39.103247,0 45.379328,39.111154,0 45.369923,39.118957,0 45.360621,39.12322,0 45.351939,39.12831,0 45.345273,39.138439,0 45.353903,39.153193,0 45.348219,39.163916,0 45.334886,39.170427,0 45.320933,39.172597,0 45.311115,39.176292,0 45.311322,39.184844,0 45.313905,39.19425,0 45.311115,39.200528,0 45.30171,39.201381,0 45.292615,39.198616,0 45.28569,39.194921,0 45.283106,39.193061,0 45.178927,39.219829,0 45.152727,39.213525,0 45.146267,39.228666,0 45.135828,39.278482,0 45.128904,39.289283,0 45.120377,39.298894,0 45.11435,39.30935,0 45.096038,39.341114,0 45.087976,39.350726,0 45.078726,39.354757,0 45.068649,39.364213,0 45.060484,39.3746,0 45.057177,39.381732,0 45.051699,39.386848,0 45.015629,39.405968,0 45.012115,39.409482,0 45.009945,39.414029,0 45.006379,39.417957,0 44.998576,39.41961,0 44.987724,39.419352,0 44.982505,39.420179,0 44.957028,39.434493,0 44.953307,39.441625,0 44.961627,39.453769,0 44.940698,39.468083,0 44.928399,39.488237,0 44.898427,39.584355,0 44.886438,39.605956,0 44.865354,39.617583,0 44.869281,39.620528,0 44.872279,39.625076,0 44.849231,39.625593,0 44.827837,39.628797,0 44.823953,39.63054,0 44.809647,39.636962,0 44.806993,39.639902,0 44.795746,39.652361,0 44.784325,39.69024,0 44.774559,39.702797,0 44.802929,39.712409,0 44.849334,39.71892,0 44.893053,39.718404,0 44.927159,39.724708,0 44.953215,39.735965,0 44.959095,39.738506,0 44.995992,39.760468,0 45.033509,39.77039,0 45.067512,39.757213,0 45.074999,39.74982,0 45.141255,39.684401,0 45.151538,39.667709,0 45.155879,39.649209,0 45.154225,39.625851,0 45.144407,39.589833,0 45.148334,39.57526,0 45.16792,39.565545,0 45.204765,39.572314,0 45.233187,39.592727,0 45.259955,39.599703,0 45.266191,39.592918,0 45.291064,39.565855,0 45.302898,39.545081,0 45.312975,39.533815,0 45.327548,39.529268,0 45.374884,39.525857,0 45.39235,39.518778,0 45.423937,39.493827,0 45.42408,39.493714,0 45.434828,39.488857,0 45.446094,39.487513,0 45.457463,39.48927,0 45.468625,39.493663,0 45.47927,39.497177,0 45.559679,39.536813,0 45.586447,39.545391,0 45.709066,39.568422,0 45.714656,39.569472,0 45.737859,39.569782,0 45.765454,39.561566,0 45.788088,39.548957,0 45.79708,39.536348,0 45.797287,39.519398,0 45.794031,39.493973,0 45.794031,39.49387,0 45.803075,39.448188,0 45.79863,39.432426,0 45.764989,39.389483,0 45.758633,39.369484,0 45.764371,39.359142,0 45.767004,39.354395,0 45.823745,39.343078,0 45.844312,39.330055,0 45.863329,39.314036,0 45.887204,39.299669,0 45.901788,39.294124,0 45.958827,39.272436,0 45.97924,39.257295,0 45.985802,39.24944,0 45.988076,39.241895,0 45.986009,39.234686,0 45.97924,39.227943,0 45.955107,39.203241,0 45.949009,39.177791,0 45.958104,39.151513,0 45.97924,39.124435,0 46.005233,39.095444,0 46.02549,39.063767,0 46.07758,38.950492,0 46.135871,38.863701,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              45.209932,40.967991,0 45.186781,40.970834,0 45.17717,40.99383,0 45.18027,40.996413,0 45.183784,40.997912,0 45.187712,40.998377,0 45.191846,40.997809,0 45.220474,40.97905,0 45.209932,40.967991,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              50.618907,40.299994,0 50.600108,40.303697,0 50.587576,40.300605,0 50.572765,40.310045,0 50.562999,40.324856,0 50.565278,40.337836,0 50.578298,40.330024,0 50.587901,40.332343,0 50.59669,40.33747,0 50.606944,40.337836,0 50.621267,40.326077,0 50.625743,40.31037,0 50.618907,40.299994,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs><LinearRing><coordinates>
-              50.388438,40.401679,0 50.373546,40.399075,0 50.353689,40.399888,0 50.358653,40.424221,0 50.32602,40.458075,0 50.326427,40.481879,0 50.338634,40.476874,0 50.353689,40.480658,0 50.360525,40.474433,0 50.362804,40.453559,0 50.372569,40.442572,0 50.38502,40.433987,0 50.395274,40.420396,0 50.396251,40.408515,0 50.388438,40.401679,0
-            </coordinates></LinearRing></outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
-
-      </Placemark>
-
-      <Placemark>
         <name>Indonesia</name>
         <description><![CDATA[<h2>Indonesia</h2>
 <h3 style="color: #ffff00">Risk Level 3: Caution</h3>
@@ -4863,14 +4875,14 @@ Jan 2023: An armed group fired at an aircraft landing at WAJO/Oksibil airport. I
 June 2022: An armed group fired at an aircraft landing at Kenyam airfield.
 Apr 2021: An armed group attacked WABL/Ilaga airport and torched a private helicopter. Click for full briefing</p>
 <p><a href="https://safeairspace.net/indonesia/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>IDN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6208,14 +6220,14 @@ Major events:
 Nov 2022: An unidentified aircraft dropped bombs targeting a militant group 150nm north of the capital Bangui. The group responded with small arms fire. Low flying aircraft in the area may be at increased risk.
 Feb 2021: Deteriorating security situation. A state of emergency was declared due to post election violence. The government suspended use of all airspace by foreign governments and NGOs. For the second time, armed rebels attempted to enter the capital Bangui to overthrow the newly elected president. They got within six miles of the city before being pushed back by local and UN forces. Click for full briefing</p>
 <p><a href="https://safeairspace.net/central-african-republic/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>CAF</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6251,14 +6263,14 @@ Read: North Korea Missile Threat, Oct 2022 (OPSGROUP article)
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Since 2015, North Korea has been test-launching missiles with increasing regularity. The absolute lack of warning, coupled with an emerging picture of a focus area for re-entry, creates a risk to flight operations in the western portion of Japan’s Fukuoka FIR over the Sea of Japan. Consider rerouting to remain over the Japanese landmass or east of it. Check routings carefully for arrivals/departures to Europe from Japan, especially if planning airways which connect with the UHHH/Khabarovsk FIR at waypoints IGROD and AVGOK.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/japan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>JPN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6821,14 +6833,14 @@ Read more here: Taiwan Airspace Closures, Aug 2022 (OPSGROUP article)
 
 Although no new airspace warnings have been issued, risk to overflying aircraft may be escalating - increased military presence and high political tensions on both sides are cause for concern. It is especially important right now that the proper ADIZ procedures are followed, including constant contact with ATC and a discrete squawk code. If hostilities escalate, flights through Taiwan’s RCAA/Taipei FIR as well as surrounding airspace could be impacted. Click for full briefing</p>
 <p><a href="https://safeairspace.net/taiwan/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TWN</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -6894,14 +6906,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Pilots should exercise extreme caution while operating in Albanian airspace (the LAAA/Tirana FIR) due to a heightened risk of degraded ATC services.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/albania/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ALB</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6920,14 +6932,14 @@ Several international associations have published warnings, including IFALPA and
 
  Click for full briefing</p>
 <p><a href="https://safeairspace.net/chad/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>TCD</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs><LinearRing><coordinates>
@@ -6950,14 +6962,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Reports of GPS interference affecting RPLL/Manila Airport.</td></tr>
 </table>
 <p><a href="https://safeairspace.net/philippines/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>PHL</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -7462,14 +7474,14 @@ Several international associations have published warnings, including IFALPA and
 <tr><td colspan="4" style="font-size: 0.9em; padding: 8px;"><strong>Summary:</strong> Airspace Risk Warning for Eritrea</td></tr>
 </table>
 <p><a href="https://safeairspace.net/eritrea/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>ERI</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
@@ -7498,14 +7510,14 @@ Several international associations have published warnings, including IFALPA and
 <h4>Warning Summary:</h4>
 <p>Click for full briefing</p>
 <p><a href="https://safeairspace.net/madagascar/">View Full Details on SafeAirspace.net</a></p>
-<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T10:02:54.124Z</i></p>]]></description>
+<p><i>Data source: SafeAirspace.net | Updated: 2026-03-05T11:48:55.278Z</i></p>]]></description>
         <styleUrl>#level3</styleUrl>
         <ExtendedData>
           <Data name="RiskLevel"><value>3</value></Data>
           <Data name="RiskLabel"><value>Caution</value></Data>
           <Data name="ISO3"><value>MDG</value></Data>
           <Data name="Source"><value>SafeAirspace.net</value></Data>
-          <Data name="LastUpdate"><value>2026-03-05T10:02:54.124Z</value></Data>
+          <Data name="LastUpdate"><value>2026-03-05T11:48:55.278Z</value></Data>
         </ExtendedData>
         <MultiGeometry>
           <Polygon>
