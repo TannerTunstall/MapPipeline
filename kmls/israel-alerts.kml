@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sat, Mar 14, 2026 10:15:10 AM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sat, Mar 14, 2026 10:20:11 AM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -37,41 +37,113 @@
       </BalloonStyle>
     </Style>
     <Folder>
-        <name>Alert Zones (11)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Sat, Mar 14, 2026 10:15:10 AM</description>
+        <name>Alert Zones (15)</name>
+        <description>Polygon boundaries for alerted areas. Last updated: Sat, Mar 14, 2026 10:20:11 AM</description>
 
         <Placemark>
-            <name>Ma&apos;a lot Tarshicha</name>
+            <name>Mi&apos;ilya</name>
             <description><![CDATA[
                 <div style="font-family: Arial, sans-serif; min-width: 280px;">
                     <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
                     <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
                         <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Ma&apos;a lot Tarshicha</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מעלו�� תרשיחא</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Mi&apos;ilya</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מעיליא</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>19 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>2 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>09:55 AM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">02:55 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">07:55 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">03:55 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:17 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:17 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-recent</styleUrl>
-            <TimeStamp><when>2026-03-14T07:55:59.000Z</when></TimeStamp>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:17:37.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
-                        <coordinates>35.2919,33.0152,0 35.2924,33.0152,0 35.2937,33.0141,0 35.2934,33.0098,0 35.295,33.0098,0 35.2978,33.0115,0 35.2989,33.0115,0 35.3021,33.011,0 35.3027,33.01,0 35.3018,33.0079,0 35.2987,33.0079,0 35.2965,33.0067,0 35.2954,33.0055,0 35.2942,33.0039,0 35.2886,33.0024,0 35.2866,33.003,0 35.2852,33.0044,0 35.2844,33.0042,0 35.2817,33.0007,0 35.2809,33.0011,0 35.2805,33.0011,0 35.28,33.0013,0 35.2794,32.9997,0 35.2779,32.9999,0 35.2746,32.9996,0 35.2735,32.9993,0 35.2732,32.9994,0 35.2727,33.0001,0 35.2721,32.9996,0 35.2711,33.0001,0 35.2708,33,0 35.27,33.0004,0 35.2695,33.0004,0 35.2696,33.0005,0 35.2695,33.0007,0 35.2682,33.001,0 35.2673,33.0015,0 35.2642,33.0019,0 35.2617,33.0019,0 35.2605,33.003,0 35.2601,33.0039,0 35.26,33.007,0 35.2634,33.0105,0 35.2644,33.0107,0 35.2657,33.0113,0 35.2661,33.0117,0 35.2662,33.0126,0 35.2658,33.0133,0 35.2657,33.0139,0 35.266,33.0143,0 35.2662,33.0143,0 35.2664,33.0149,0 35.2677,33.0151,0 35.2681,33.0162,0 35.2701,33.0162,0 35.2707,33.0172,0 35.2696,33.0175,0 35.2678,33.0183,0 35.2692,33.0214,0 35.2695,33.0218,0 35.2694,33.022,0 35.2696,33.0225,0 35.27,33.022,0 35.2708,33.0225,0 35.2708,33.0248,0 35.2686,33.0258,0 35.268,33.0277,0 35.2683,33.0285,0 35.2684,33.0292,0 35.2776,33.0293,0 35.2793,33.0282,0 35.2806,33.026,0 35.2833,33.0253,0 35.2847,33.0259,0 35.285,33.0254,0 35.2878,33.0257,0 35.2907,33.0214,0 35.2901,33.0204,0 35.2906,33.017,0 35.2919,33.0152,0</coordinates>
+                        <coordinates>35.2457,33.0292,0 35.2451,33.0299,0 35.2455,33.0311,0 35.2447,33.0312,0 35.2442,33.0316,0 35.2444,33.032,0 35.246,33.0316,0 35.2474,33.0316,0 35.249,33.031,0 35.2504,33.0321,0 35.2513,33.0323,0 35.2526,33.033,0 35.255,33.0333,0 35.2581,33.0333,0 35.2591,33.0339,0 35.2612,33.0331,0 35.2637,33.0314,0 35.2655,33.0298,0 35.2665,33.028,0 35.2666,33.0254,0 35.2675,33.0251,0 35.2681,33.0244,0 35.2674,33.0242,0 35.2672,33.0234,0 35.2673,33.0225,0 35.2671,33.0217,0 35.2651,33.0207,0 35.2634,33.0205,0 35.2598,33.0227,0 35.2569,33.0236,0 35.2558,33.0229,0 35.2541,33.0229,0 35.2532,33.0247,0 35.2515,33.0253,0 35.2497,33.0253,0 35.2492,33.023,0 35.2483,33.0224,0 35.2473,33.0232,0 35.2476,33.0249,0 35.2467,33.0264,0 35.2469,33.0267,0 35.2467,33.0274,0 35.2467,33.0285,0 35.2457,33.0292,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Maona</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Maona</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מעונה</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:17 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:17 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:17:10.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.2559,33.0203,0 35.2571,33.0204,0 35.2578,33.0233,0 35.2598,33.0227,0 35.2633,33.0205,0 35.2658,33.0191,0 35.2665,33.0203,0 35.2674,33.0215,0 35.2678,33.0237,0 35.2693,33.0236,0 35.2696,33.0225,0 35.2694,33.022,0 35.2695,33.0218,0 35.2692,33.0214,0 35.2678,33.0183,0 35.2696,33.0175,0 35.2707,33.0172,0 35.2701,33.0162,0 35.2681,33.0162,0 35.2677,33.0151,0 35.2664,33.0149,0 35.2662,33.0143,0 35.266,33.0143,0 35.2657,33.0139,0 35.2658,33.0133,0 35.2662,33.0126,0 35.2661,33.0117,0 35.2657,33.0113,0 35.2641,33.0106,0 35.2634,33.0105,0 35.259,33.0134,0 35.2568,33.0134,0 35.2545,33.0118,0 35.2524,33.0143,0 35.2525,33.0145,0 35.2538,33.0155,0 35.2525,33.0169,0 35.2531,33.0189,0 35.2523,33.0199,0 35.2526,33.0204,0 35.254,33.0207,0 35.2559,33.0203,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Fassuta</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Fassuta</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">פסוטה</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:17 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:17 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:17:01.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.3136,33.0532,0 35.3142,33.0521,0 35.3156,33.0523,0 35.3166,33.051,0 35.3159,33.0505,0 35.3161,33.0497,0 35.3167,33.0497,0 35.317,33.0494,0 35.3176,33.0469,0 35.3167,33.0451,0 35.3176,33.0436,0 35.3155,33.0422,0 35.3144,33.042,0 35.3141,33.0425,0 35.3131,33.0423,0 35.3104,33.0421,0 35.3086,33.0421,0 35.3082,33.0433,0 35.304,33.045,0 35.3008,33.0467,0 35.302,33.0481,0 35.3014,33.0497,0 35.3016,33.0502,0 35.3045,33.0508,0 35.3054,33.0524,0 35.3078,33.0531,0 35.3076,33.0538,0 35.3083,33.0548,0 35.3119,33.0551,0 35.3136,33.0532,0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
@@ -87,27 +159,135 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">אבירים</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>19 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>09:55 AM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">02:55 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">07:55 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">03:55 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:17 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:17 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:17 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
-            <styleUrl>#poly-recent</styleUrl>
-            <TimeStamp><when>2026-03-14T07:55:59.000Z</when></TimeStamp>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:17:01.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
                         <coordinates>35.2932,33.0411,0 35.2917,33.0389,0 35.2902,33.0387,0 35.287,33.0352,0 35.2841,33.0351,0 35.2832,33.0361,0 35.2833,33.0374,0 35.2848,33.0391,0 35.2837,33.0402,0 35.2846,33.0411,0 35.2862,33.0403,0 35.2879,33.0419,0 35.2877,33.0441,0 35.29,33.0434,0 35.2932,33.0411,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Ma&apos;a lot Tarshicha</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Ma&apos;a lot Tarshicha</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מעלות תרשיחא</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:16 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:16 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:16:55.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.2919,33.0152,0 35.2924,33.0152,0 35.2937,33.0141,0 35.2934,33.0098,0 35.295,33.0098,0 35.2978,33.0115,0 35.2989,33.0115,0 35.3021,33.011,0 35.3027,33.01,0 35.3018,33.0079,0 35.2987,33.0079,0 35.2965,33.0067,0 35.2954,33.0055,0 35.2942,33.0039,0 35.2886,33.0024,0 35.2866,33.003,0 35.2852,33.0044,0 35.2844,33.0042,0 35.2817,33.0007,0 35.2809,33.0011,0 35.2805,33.0011,0 35.28,33.0013,0 35.2794,32.9997,0 35.2779,32.9999,0 35.2746,32.9996,0 35.2735,32.9993,0 35.2732,32.9994,0 35.2727,33.0001,0 35.2721,32.9996,0 35.2711,33.0001,0 35.2708,33,0 35.27,33.0004,0 35.2695,33.0004,0 35.2696,33.0005,0 35.2695,33.0007,0 35.2682,33.001,0 35.2673,33.0015,0 35.2642,33.0019,0 35.2617,33.0019,0 35.2605,33.003,0 35.2601,33.0039,0 35.26,33.007,0 35.2634,33.0105,0 35.2644,33.0107,0 35.2657,33.0113,0 35.2661,33.0117,0 35.2662,33.0126,0 35.2658,33.0133,0 35.2657,33.0139,0 35.266,33.0143,0 35.2662,33.0143,0 35.2664,33.0149,0 35.2677,33.0151,0 35.2681,33.0162,0 35.2701,33.0162,0 35.2707,33.0172,0 35.2696,33.0175,0 35.2678,33.0183,0 35.2692,33.0214,0 35.2695,33.0218,0 35.2694,33.022,0 35.2696,33.0225,0 35.27,33.022,0 35.2708,33.0225,0 35.2708,33.0248,0 35.2686,33.0258,0 35.268,33.0277,0 35.2683,33.0285,0 35.2684,33.0292,0 35.2776,33.0293,0 35.2793,33.0282,0 35.2806,33.026,0 35.2833,33.0253,0 35.2847,33.0259,0 35.285,33.0254,0 35.2878,33.0257,0 35.2907,33.0214,0 35.2901,33.0204,0 35.2906,33.017,0 35.2919,33.0152,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Hossen</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Hossen</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">��וסן</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:16 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:16 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:16:55.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.2971,33.0029,0 35.2999,32.9999,0 35.3003,33.0001,0 35.301,32.9996,0 35.3027,32.9978,0 35.3035,32.998,0 35.3038,32.9982,0 35.3035,32.9986,0 35.3037,32.9991,0 35.3044,32.9986,0 35.3065,32.9981,0 35.3077,32.9985,0 35.3086,33.0005,0 35.3099,33.0003,0 35.3106,33.0006,0 35.3113,32.9999,0 35.3118,32.9998,0 35.311,32.9989,0 35.3116,32.9983,0 35.311,32.9966,0 35.3113,32.9962,0 35.3106,32.9956,0 35.31,32.9953,0 35.3083,32.9947,0 35.3026,32.9958,0 35.3013,32.9939,0 35.2947,32.9954,0 35.2946,32.9954,0 35.294,32.9938,0 35.2939,32.9939,0 35.2917,32.9942,0 35.292,32.9956,0 35.2895,32.9972,0 35.2895,32.9987,0 35.2923,33.0028,0 35.2926,33.0031,0 35.295,33.0042,0 35.2954,33.0048,0 35.2965,33.0042,0 35.2971,33.0029,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Kfar Vradim</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Kfar Vradim</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">כפר ורדים</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3 min ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>10:16 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">08:16 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:16 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-03-14T08:16:55.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.2605,33.003,0 35.2617,33.0019,0 35.2642,33.0019,0 35.2673,33.0015,0 35.2682,33.001,0 35.2695,33.0007,0 35.2696,33.0005,0 35.2695,33.0004,0 35.27,33.0004,0 35.2708,33,0 35.2711,33.0001,0 35.2721,32.9996,0 35.2727,33.0001,0 35.2732,32.9994,0 35.2735,32.9993,0 35.2746,32.9996,0 35.2779,32.9999,0 35.2794,32.9997,0 35.28,33.0013,0 35.2805,33.0011,0 35.2809,33.0011,0 35.2817,33.0007,0 35.282,32.9977,0 35.2819,32.9972,0 35.2835,32.9943,0 35.2831,32.9932,0 35.2797,32.9924,0 35.2785,32.9926,0 35.2785,32.991,0 35.2783,32.99,0 35.277,32.9891,0 35.2748,32.9892,0 35.2742,32.9903,0 35.2741,32.9902,0 35.2729,32.9901,0 35.2697,32.9903,0 35.2696,32.9899,0 35.2659,32.9895,0 35.2632,32.9898,0 35.2619,32.9901,0 35.2603,32.9927,0 35.2566,32.9926,0 35.2517,32.993,0 35.2515,32.9932,0 35.2515,32.9936,0 35.2517,32.9938,0 35.2524,32.9939,0 35.254,32.9951,0 35.255,32.9966,0 35.2549,32.997,0 35.2549,32.9997,0 35.2519,32.9984,0 35.2512,32.9993,0 35.2514,33.0005,0 35.252,33.0015,0 35.2504,33.0016,0 35.2456,33.0051,0 35.2492,33.0083,0 35.2521,33.0079,0 35.2576,33.0069,0 35.259,33.005,0 35.2597,33.0048,0 35.2605,33.003,0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
@@ -123,7 +303,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">גורן</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 27m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 32m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -159,7 +339,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">גורנות הגליל</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 27m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 32m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -195,7 +375,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שומרה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 27m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>1h 32m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -231,7 +411,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">מרגליות</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>2h 19m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>2h 24m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -267,7 +447,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">שתולה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 19m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 24m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -303,7 +483,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">אבן מנחם</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 19m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 24m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -339,7 +519,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">זרעית</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 19m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 24m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -375,7 +555,7 @@
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">נטועה</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
                         <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 19m ago</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 24m ago</strong></td></tr>
                         
                     </table>
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
@@ -396,42 +576,6 @@
                 <outerBoundaryIs>
                     <LinearRing>
                         <coordinates>35.3307,33.0626,0 35.3272,33.0629,0 35.327,33.0614,0 35.3255,33.0614,0 35.3249,33.061,0 35.3234,33.0614,0 35.3201,33.0614,0 35.3195,33.0615,0 35.3187,33.0617,0 35.3174,33.0625,0 35.3179,33.063,0 35.3185,33.0645,0 35.3199,33.0656,0 35.3196,33.0666,0 35.3215,33.0678,0 35.3229,33.0684,0 35.3241,33.0687,0 35.3252,33.0678,0 35.3252,33.0679,0 35.3259,33.0678,0 35.3263,33.0674,0 35.3277,33.0675,0 35.3307,33.0683,0 35.3311,33.0673,0 35.3309,33.0647,0 35.3313,33.064,0 35.3307,33.0626,0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark>
-            <name>Fassuta</name>
-            <description><![CDATA[
-                <div style="font-family: Arial, sans-serif; min-width: 280px;">
-                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Hostile Aircraft Intrusion</h3>
-                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Hostile Aircraft Intrusion</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Fassuta</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">פסוטה</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Sat, Mar 14, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>3h 19m ago</strong></td></tr>
-                        
-                    </table>
-                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
-                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
-                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>06:55 AM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">11:55 PM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">04:55 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">12:55 PM</td></tr>
-                        </table>
-                    </div>
-                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
-                </div>
-            ]]></description>
-            <styleUrl>#poly-old</styleUrl>
-            <TimeStamp><when>2026-03-14T04:55:20.000Z</when></TimeStamp>
-            <Polygon>
-                <outerBoundaryIs>
-                    <LinearRing>
-                        <coordinates>35.3136,33.0532,0 35.3142,33.0521,0 35.3156,33.0523,0 35.3166,33.051,0 35.3159,33.0505,0 35.3161,33.0497,0 35.3167,33.0497,0 35.317,33.0494,0 35.3176,33.0469,0 35.3167,33.0451,0 35.3176,33.0436,0 35.3155,33.0422,0 35.3144,33.042,0 35.3141,33.0425,0 35.3131,33.0423,0 35.3104,33.0421,0 35.3086,33.0421,0 35.3082,33.0433,0 35.304,33.045,0 35.3008,33.0467,0 35.302,33.0481,0 35.3014,33.0497,0 35.3016,33.0502,0 35.3045,33.0508,0 35.3054,33.0524,0 35.3078,33.0531,0 35.3076,33.0538,0 35.3083,33.0548,0 35.3119,33.0551,0 35.3136,33.0532,0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
