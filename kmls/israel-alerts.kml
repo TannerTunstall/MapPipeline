@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sun, Apr 5, 2026 01:10:09 PM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Sun, Apr 5, 2026 01:15:09 PM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -38,7 +38,7 @@
     </Style>
     <Folder>
         <name>Alert Zones (5)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Sun, Apr 5, 2026 01:10:09 PM</description>
+        <description>Polygon boundaries for alerted areas. Last updated: Sun, Apr 5, 2026 01:15:09 PM</description>
 
         <Placemark>
             <name>Meron</name>
@@ -57,17 +57,17 @@
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>02:08 PM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">06:08 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">12:08 PM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">07:08 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>02:11 PM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">06:11 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">12:11 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">07:11 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
             <styleUrl>#poly-critical</styleUrl>
-            <TimeStamp><when>2026-04-05T11:08:00.000Z</when></TimeStamp>
+            <TimeStamp><when>2026-04-05T11:11:45.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
