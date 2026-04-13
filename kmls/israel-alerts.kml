@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Mon, Apr 13, 2026 12:20:14 PM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Mon, Apr 13, 2026 12:25:08 PM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -38,44 +38,8 @@
     </Style>
     <Folder>
         <name>Alert Zones (40)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Mon, Apr 13, 2026 12:20:14 PM</description>
+        <description>Polygon boundaries for alerted areas. Last updated: Mon, Apr 13, 2026 12:25:08 PM</description>
 
-        <Placemark>
-            <name>Lehman</name>
-            <description><![CDATA[
-                <div style="font-family: Arial, sans-serif; min-width: 280px;">
-                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Hostile Aircraft Intrusion</h3>
-                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Hostile Aircraft Intrusion</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Lehman</strong></td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">לימן</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Mon, Apr 13, 2026</td></tr>
-                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>Just now</strong></td></tr>
-                        
-                    </table>
-                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
-                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
-                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:20 PM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:20 PM</td></tr>
-                        </table>
-                    </div>
-                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
-                </div>
-            ]]></description>
-            <styleUrl>#poly-critical</styleUrl>
-            <TimeStamp><when>2026-04-13T10:20:11.000Z</when></TimeStamp>
-            <Polygon>
-                <outerBoundaryIs>
-                    <LinearRing>
-                        <coordinates>35.1215,33.0617,0 35.1209,33.0607,0 35.1199,33.0609,0 35.1183,33.0575,0 35.1198,33.0543,0 35.1168,33.054,0 35.1129,33.0514,0 35.1049,33.0521,0 35.1053,33.0554,0 35.1061,33.0589,0 35.1075,33.0617,0 35.1121,33.0676,0 35.1133,33.0674,0 35.1175,33.0661,0 35.1224,33.0653,0 35.1219,33.0628,0 35.1215,33.0617,0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
         <Placemark>
             <name>Nahariya</name>
             <description><![CDATA[
@@ -93,17 +57,17 @@
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:20 PM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:20 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:23 PM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:23 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
             <styleUrl>#poly-critical</styleUrl>
-            <TimeStamp><when>2026-04-13T10:20:11.000Z</when></TimeStamp>
+            <TimeStamp><when>2026-04-13T10:23:38.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -129,17 +93,17 @@
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:20 PM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:20 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:23 PM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:23 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
             <styleUrl>#poly-critical</styleUrl>
-            <TimeStamp><when>2026-04-13T10:20:11.000Z</when></TimeStamp>
+            <TimeStamp><when>2026-04-13T10:23:38.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -165,21 +129,57 @@
                     <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
                         <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
                         <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:20 PM</strong></td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:20 AM</td></tr>
-                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:20 PM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:23 PM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:23 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:23 PM</td></tr>
                         </table>
                     </div>
                     <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
                 </div>
             ]]></description>
             <styleUrl>#poly-critical</styleUrl>
-            <TimeStamp><when>2026-04-13T10:20:11.000Z</when></TimeStamp>
+            <TimeStamp><when>2026-04-13T10:23:38.000Z</when></TimeStamp>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
                         <coordinates>35.1094,33.0345,0 35.1105,33.0334,0 35.1111,33.0334,0 35.1117,33.0313,0 35.1144,33.0311,0 35.1142,33.0288,0 35.1152,33.0285,0 35.1151,33.0271,0 35.1125,33.0274,0 35.1125,33.0258,0 35.1109,33.0261,0 35.1049,33.0268,0 35.104,33.0271,0 35.1047,33.0334,0 35.1052,33.0351,0 35.1074,33.0355,0 35.108,33.0351,0 35.1094,33.0345,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Lehman</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Hostile Aircraft Intrusion</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Hostile Aircraft Intrusion</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Lehman</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">לימן</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Confrontation Line</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Mon, Apr 13, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>Just now</strong></td></tr>
+                        
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>01:22 PM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">05:22 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">11:22 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">06:22 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-04-13T10:22:05.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.1215,33.0617,0 35.1209,33.0607,0 35.1199,33.0609,0 35.1183,33.0575,0 35.1198,33.0543,0 35.1168,33.054,0 35.1129,33.0514,0 35.1049,33.0521,0 35.1053,33.0554,0 35.1061,33.0589,0 35.1075,33.0617,0 35.1121,33.0676,0 35.1133,33.0674,0 35.1175,33.0661,0 35.1224,33.0653,0 35.1219,33.0628,0 35.1215,33.0617,0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
