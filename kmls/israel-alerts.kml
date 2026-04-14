@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Tue, Apr 14, 2026 10:30:11 AM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Tue, Apr 14, 2026 10:35:09 AM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -37,9 +37,45 @@
       </BalloonStyle>
     </Style>
     <Folder>
-        <name>Alert Zones (0)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Tue, Apr 14, 2026 10:30:11 AM</description>
+        <name>Alert Zones (1)</name>
+        <description>Polygon boundaries for alerted areas. Last updated: Tue, Apr 14, 2026 10:35:09 AM</description>
 
+        <Placemark>
+            <name>Kidmat Zvi</name>
+            <description><![CDATA[
+                <div style="font-family: Arial, sans-serif; min-width: 280px;">
+                    <h3 style="margin: 0 0 10px 0; color: #d32f2f;">🚨 Rocket Fire</h3>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Type:</td><td style="padding: 4px 0;"><strong>Rocket Fire</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666; white-space: nowrap;">Location:</td><td style="padding: 4px 0;"><strong>Kidmat Zvi</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Hebrew:</td><td style="padding: 4px 0;">קדמת צבי</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Region:</td><td style="padding: 4px 0;">Southern Golan</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Date:</td><td style="padding: 4px 0;">Tue, Apr 14, 2026</td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Elapsed:</td><td style="padding: 4px 0;"><strong>Just now</strong></td></tr>
+                        <tr><td style="padding: 4px 8px 4px 0; color: #666;">Shelter:</td><td style="padding: 4px 0;">15 sec</td></tr>
+                    </table>
+                    <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                        <div style="font-size: 11px; color: #666; margin-bottom: 4px;">Alert Time:</div>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇮🇱 Israel:</td><td style="padding: 2px 0;"><strong>11:33 AM</strong></td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇺🇸 Central:</td><td style="padding: 2px 0;">03:33 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇬🇧 London:</td><td style="padding: 2px 0;">09:33 AM</td></tr>
+                            <tr><td style="padding: 2px 8px 2px 0; color: #888;">🇸🇬 Singapore:</td><td style="padding: 2px 0;">04:33 PM</td></tr>
+                        </table>
+                    </div>
+                    <p style="margin: 10px 0 0 0; font-size: 10px; color: #999;">Source: rocketalert.live</p>
+                </div>
+            ]]></description>
+            <styleUrl>#poly-critical</styleUrl>
+            <TimeStamp><when>2026-04-14T08:33:25.000Z</when></TimeStamp>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>35.6966,33.0245,0 35.6977,33.0241,0 35.6981,33.0244,0 35.6986,33.0245,0 35.6997,33.0234,0 35.6994,33.0233,0 35.6992,33.0234,0 35.6989,33.0231,0 35.7019,33.0214,0 35.7011,33.0205,0 35.6987,33.0218,0 35.6986,33.022,0 35.6992,33.0227,0 35.6973,33.0239,0 35.6964,33.0239,0 35.6965,33.0259,0 35.6973,33.0276,0 35.6924,33.0283,0 35.6921,33.0287,0 35.6918,33.0297,0 35.6919,33.0306,0 35.6927,33.0317,0 35.6937,33.0321,0 35.6953,33.0323,0 35.6961,33.0319,0 35.6973,33.0319,0 35.6989,33.0325,0 35.7,33.0337,0 35.7007,33.0336,0 35.7035,33.0323,0 35.7036,33.032,0 35.7047,33.0319,0 35.7051,33.0306,0 35.7057,33.0305,0 35.7056,33.0294,0 35.705,33.0295,0 35.7051,33.0289,0 35.7045,33.029,0 35.7045,33.0284,0 35.704,33.0283,0 35.7014,33.0286,0 35.7008,33.0278,0 35.6977,33.0279,0 35.6972,33.0266,0 35.6992,33.0264,0 35.6991,33.0255,0 35.6976,33.0254,0 35.6976,33.0256,0 35.6966,33.0256,0 35.6966,33.0245,0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
     </Folder>
 </Document>
 </kml>
