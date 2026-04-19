@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Israel Rocket Alerts</name>
-    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Mon, Apr 20, 2026 12:25:09 AM (Israel Time)</description>
+    <description>Real-time rocket and missile alerts in Israel. Updated every 5 minutes. Last updated: Mon, Apr 20, 2026 12:30:12 AM (Israel Time)</description>
 
     <Style id="poly-critical">
       <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
@@ -38,7 +38,7 @@
     </Style>
     <Folder>
         <name>Alert Zones (0)</name>
-        <description>Polygon boundaries for alerted areas. Last updated: Mon, Apr 20, 2026 12:25:09 AM</description>
+        <description>Polygon boundaries for alerted areas. Last updated: Mon, Apr 20, 2026 12:30:12 AM</description>
 
     </Folder>
 </Document>
