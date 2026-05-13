@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2026-05-13T06:40:11.480Z",
+  "lastUpdate": "2026-05-13T06:45:15.588Z",
   "files": [
     {
       "name": "israel-alerts.kml",
       "url": "https://raw.githubusercontent.com/TannerTunstall/MapPipeline/main/kmls/israel-alerts.kml",
-      "size": 5234,
-      "updated": "2026-05-13T06:40:11.434Z"
+      "size": 1710,
+      "updated": "2026-05-13T06:45:15.536Z"
     },
     {
       "name": "mobilize-events.kml",
       "url": "https://raw.githubusercontent.com/TannerTunstall/MapPipeline/main/kmls/mobilize-events.kml",
       "size": 1502992,
-      "updated": "2026-05-13T06:40:10.047Z"
+      "updated": "2026-05-13T06:45:14.343Z"
     },
     {
       "name": "safeairspace-warnings.kml",
       "url": "https://raw.githubusercontent.com/TannerTunstall/MapPipeline/main/kmls/safeairspace-warnings.kml",
       "size": 3582089,
-      "updated": "2026-05-13T06:40:10.063Z"
+      "updated": "2026-05-13T06:45:14.359Z"
     }
   ]
 }
